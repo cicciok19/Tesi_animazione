@@ -13,6 +13,8 @@ public class eventTrigger : MonoBehaviour
     [SerializeField]
     private MxMEventDefinition m_greetingsDefinition;
 
+    [SerializeField]
+    private MxMEventDefinition m_pickDefinition;
 
     void Start()
     {
@@ -32,9 +34,10 @@ public class eventTrigger : MonoBehaviour
             m_animator.BeginEvent(m_greetingsDefinition);
         }
 
-        if (m_animator.IsEventComplete)
+        if (Input.GetKeyDown(KeyCode.Y))
         {
-            m_animator.ForceExitEvent();
+            m_animator.BeginEvent(m_pickDefinition);
         }
+
     }
 }
