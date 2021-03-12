@@ -9,12 +9,12 @@ public class eventTrigger : MonoBehaviour
 
     [SerializeField]
     private MxMEventDefinition m_attackDefinition;
-
     [SerializeField]
     private MxMEventDefinition m_greetingsDefinition;
-
     [SerializeField]
     private MxMEventDefinition m_pickDefinition;
+    [SerializeField]
+    private Transform objectToPick;
 
     void Start()
     {
@@ -36,6 +36,8 @@ public class eventTrigger : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Y))
         {
+            m_pickDefinition.ClearContacts();
+            m_pickDefinition.AddEventContact(objectToPick);
             m_animator.BeginEvent(m_pickDefinition);
         }
 
