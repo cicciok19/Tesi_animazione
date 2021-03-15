@@ -874,7 +874,7 @@ MonoBehaviour:
   - EventId: 3
     EventName: StandUp
     EventTime: 1.6588895
-    Windup: 0.45875427
+    Windup: 0.4587542
     Actions:
     - 0.30013514
     FollowThrough: 0.2
@@ -3558,7 +3558,7 @@ MonoBehaviour:
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
   FlattenTrajectory: 1
-  RuntimeSplicing: 0
+  RuntimeSplicing: 1
   GlobalTags: 1073741824
   GlobalFavourTags: 0
   TagTracks: []
@@ -3573,7 +3573,7 @@ MonoBehaviour:
     FollowThrough: 0.2
     Recovery: 0.32760352
     Contacts:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.049635552, y: 0.56148624, z: -0.46694636}
       RotationY: 0
   LeftFootStepTrack:
     m_trackId: 0

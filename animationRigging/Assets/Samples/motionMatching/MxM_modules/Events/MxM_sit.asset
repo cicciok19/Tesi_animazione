@@ -27,12 +27,12 @@ MonoBehaviour:
   TimingWarpType: 0
   MatchPosition: 1
   PositionWeight: 0
-  MotionWarpType: 0
+  MotionWarpType: 2
   WarpTimeScaling: 0
   ContactCountToTimeScale: 1
   MinWarpTimeScale: 0.9
   MaxWarpTimeScale: 1.2
   MatchRotation: 1
   RotationWeight: 0
-  RotationWarpType: 0
+  RotationWarpType: 2
   m_targetAnimData: {fileID: 11400000, guid: e9afb99017f2d904083c53519010e2d9, type: 2}

@@ -21,6 +21,9 @@ public class eventTrigger : MonoBehaviour
     [SerializeField]
     private MxMEventDefinition m_standUpDefinition;
 
+    [SerializeField]
+    private Transform sitPoint;
+
     void Start()
     {
         m_animator = GetComponent<MxMAnimator>();
@@ -44,6 +47,8 @@ public class eventTrigger : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K) && !sit)
         {
+            m_sitDefinition.ClearContacts();
+            m_sitDefinition.AddEventContact(sitPoint);
             m_animator.BeginEvent(m_sitDefinition);
             sit = true;
             m_animator.RemoveRequiredTag("Locomotion");
