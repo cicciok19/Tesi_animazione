@@ -874,7 +874,7 @@ MonoBehaviour:
   - EventId: 3
     EventName: StandUp
     EventTime: 1.6588895
-    Windup: 0.4587542
+    Windup: 0.45875427
     Actions:
     - 0.30013514
     FollowThrough: 0.2
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 1
   FlattenTrajectory: 1
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks: []
   FavourTagTracks: []
@@ -3269,7 +3269,7 @@ MonoBehaviour:
   PrimaryClip: {fileID: 7400000, guid: f5589feb81050bc4ca0def6972ffb4a7, type: 2}
   SecondaryClips: []
   TransitionClips: []
-  Tags: 0
+  Tags: 1
   FavourTags: 0
   MinLoops: 1
   MaxLoops: 1
@@ -3444,7 +3444,7 @@ MonoBehaviour:
     Extrapolate_default: 1
     FlattenTrajectory_default: 0
     RuntimeSplicing_default: 0
-    RequireTags_default: 0
+    RequireTags_default: 1
     FavourTags_default: 0
   - CatagoryName: Walk
     Composites:
@@ -3461,7 +3461,7 @@ MonoBehaviour:
     Extrapolate_default: 1
     FlattenTrajectory_default: 1
     RuntimeSplicing_default: 0
-    RequireTags_default: 0
+    RequireTags_default: 1
     FavourTags_default: 0
   - CatagoryName: Attack
     Composites:
@@ -3515,6 +3515,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bf3814f55a95eae4f9353461459a869d, type: 2}
   m_animIdleSets:
   - {fileID: -1310743172788298181}
+  - {fileID: 4823044037327658836}
   m_blendSpaces:
   - {fileID: -8099762531708719266}
   - {fileID: 3576462909046042807}
@@ -4264,7 +4265,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 1
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks: []
   FavourTagTracks: []
@@ -4660,6 +4661,28 @@ MonoBehaviour:
   m_targetAnimModule: {fileID: 0}
   m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
     type: 3}
+--- !u!114 &4823044037327658836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65aaaabfda1387c43aa9a38099837301, type: 3}
+  m_Name: sittingIdle
+  m_EditorClassIdentifier: 
+  PrimaryClip: {fileID: -203655887218126122, guid: 3c8e2c3c2d376874e80097cd5da87130,
+    type: 3}
+  SecondaryClips: []
+  TransitionClips: []
+  Tags: 4
+  FavourTags: 0
+  MinLoops: 1
+  MaxLoops: 2
+  m_targetPreProcessData: {fileID: 11400000}
+  m_targetAnimModule: {fileID: 0}
 --- !u!114 &6401952941906539121
 MonoBehaviour:
   m_ObjectHideFlags: 1

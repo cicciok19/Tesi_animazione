@@ -24,7 +24,8 @@ public class eventTrigger : MonoBehaviour
     void Start()
     {
         m_animator = GetComponent<MxMAnimator>();
-
+        m_animator.SetRequiredTag("Locomotion");
+        
         sit = false;
     }
 
@@ -45,6 +46,7 @@ public class eventTrigger : MonoBehaviour
         {
             m_animator.BeginEvent(m_sitDefinition);
             sit = true;
+            m_animator.RemoveRequiredTag("Locomotion");
             m_animator.SetRequiredTag("Sitting");
         }
 
@@ -53,13 +55,11 @@ public class eventTrigger : MonoBehaviour
             m_animator.BeginEvent(m_standUpDefinition);
             sit = false;
             m_animator.SetRequiredTag("Locomotion");
-
         }
 
         if (m_animator.IsEventComplete)
         {
             m_animator.ForceExitEvent();
-            print("HI");
         }
     }
 }
