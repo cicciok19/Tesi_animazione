@@ -24,9 +24,9 @@ namespace MxM
         //Here are the custom tags that you can use for your game. Change the names to suite tags
         //that you want to use for your gameplay but do not change their values.
         None = 0,
-        Tag1 = 1 << 0,
-        Tag2 = 1 << 1,
-        Tag3 = 1 << 2,
+        Locomotion = 1 << 0,
+        Attack = 1 << 1,
+        Sitting = 1 << 2,
         Tag4 = 1 << 3,
         Tag5 = 1 << 4,
         Tag6 = 1 << 5,

@@ -7,16 +7,25 @@ public class eventTrigger : MonoBehaviour
 {
     private MxMAnimator m_animator;
 
+    public bool sit;
+
     [SerializeField]
     private MxMEventDefinition m_attackDefinition;
 
     [SerializeField]
     private MxMEventDefinition m_greetingsDefinition;
 
+    [SerializeField]
+    private MxMEventDefinition m_sitDefinition;
+
+    [SerializeField]
+    private MxMEventDefinition m_standUpDefinition;
 
     void Start()
     {
         m_animator = GetComponent<MxMAnimator>();
+
+        sit = false;
     }
 
     // Update is called once per frame
@@ -32,9 +41,25 @@ public class eventTrigger : MonoBehaviour
             m_animator.BeginEvent(m_greetingsDefinition);
         }
 
+        if (Input.GetKeyDown(KeyCode.K) && !sit)
+        {
+            m_animator.BeginEvent(m_sitDefinition);
+            sit = true;
+            m_animator.SetRequiredTag("Sitting");
+        }
+
+        else if(Input.GetKeyDown(KeyCode.K) && sit)
+        {
+            m_animator.BeginEvent(m_standUpDefinition);
+            sit = false;
+            m_animator.SetRequiredTag("Locomotion");
+
+        }
+
         if (m_animator.IsEventComplete)
         {
             m_animator.ForceExitEvent();
+            print("HI");
         }
     }
 }
