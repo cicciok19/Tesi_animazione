@@ -15,10 +15,8 @@ MonoBehaviour:
   m_hideSubAssets: 1
   m_overrideConfigModule: {fileID: 11400000, guid: 32c1ff2fef3daf043a403372854e968a,
     type: 2}
-  m_overrideTagModule: {fileID: 11400000, guid: 2b67067ad076dfd46b4437eb0b01c3cf,
-    type: 2}
-  m_overrideEventModule: {fileID: 11400000, guid: dff37175932592d4b8abd867c5bef32d,
-    type: 2}
+  m_overrideTagModule: {fileID: 0}
+  m_overrideEventModule: {fileID: 0}
   m_compositeCategories:
   - CatagoryName: Composite Category
     Composites:

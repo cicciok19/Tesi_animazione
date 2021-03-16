@@ -17,8 +17,7 @@ MonoBehaviour:
     type: 2}
   m_overrideTagModule: {fileID: 11400000, guid: 6b7014982c117a4419587441e184f2a2,
     type: 2}
-  m_overrideEventModule: {fileID: 11400000, guid: dff37175932592d4b8abd867c5bef32d,
-    type: 2}
+  m_overrideEventModule: {fileID: 0}
   m_compositeCategories:
   - CatagoryName: Run
     Composites:
@@ -53,7 +52,7 @@ MonoBehaviour:
   m_blendSpaces: []
   m_moduleFoldout: 1
   m_compositeFoldout: 1
-  m_idleSetFoldout: 0
+  m_idleSetFoldout: 1
   m_blendSpaceFoldout: 0
 --- !u!114 &114036156823800670
 MonoBehaviour:
