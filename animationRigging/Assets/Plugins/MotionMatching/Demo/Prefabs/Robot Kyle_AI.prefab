@@ -146,7 +146,7 @@ MonoBehaviour:
   m_autoCreateAnimatorController: 0
   m_generalFoldout: 0
   m_animDataFoldout: 0
-  m_optionsFoldout: 0
+  m_optionsFoldout: 1
   m_warpingFoldout: 1
   m_debugFoldout: 0
   m_callbackFoldout: 0
@@ -229,6 +229,7 @@ MonoBehaviour:
   m_stoppingDist: 1
   m_trajectoryMode: 0
   m_applyRootSpeedToNavAgent: 1
+  m_faceDirectionOnIdle: 0
 --- !u!114 &547909025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1436,6 +1437,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1447,6 +1449,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0

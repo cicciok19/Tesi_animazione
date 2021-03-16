@@ -874,7 +874,7 @@ MonoBehaviour:
   - EventId: 3
     EventName: StandUp
     EventTime: 1.6588895
-    Windup: 0.4587542
+    Windup: 0.45875427
     Actions:
     - 0.30013514
     FollowThrough: 0.2
@@ -4680,8 +4680,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PrimaryClip: {fileID: -203655887218126122, guid: 3c8e2c3c2d376874e80097cd5da87130,
     type: 3}
-  SecondaryClips: []
-  TransitionClips: []
+  SecondaryClips:
+  - {fileID: -203655887218126122, guid: 9830431002807e648a9717aafa1c972a, type: 3}
+  TransitionClips:
+  - {fileID: -203655887218126122, guid: e56d025b003679b4495f67215795f1d5, type: 3}
   Tags: 4
   FavourTags: 0
   MinLoops: 1
