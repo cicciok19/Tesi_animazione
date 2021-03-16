@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 265035072}
   - component: {fileID: 265035071}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Contact 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_trajectoryMode: 0
   m_customInput: 0
   m_resetDirectionOnOnInput: 1
-  m_camTransform: {fileID: 0}
+  m_camTransform: {fileID: 1353688919}
   m_mxmInputProfile: {fileID: 0}
 --- !u!114 &572883977
 MonoBehaviour:
@@ -817,7 +817,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.0223463, y: 1}
+    m_SensorSize: {x: 3.2146118, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

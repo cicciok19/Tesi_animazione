@@ -65005,28 +65005,28 @@ MonoBehaviour:
     NextPoseId: 2030
     LastPoseId: 2029
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.03570825, y: 0, z: -0.007817745}
     JointsData:
-    - Position: {x: -0.1850125, y: 0.13039303, z: 0.06431113}
-      Velocity: {x: -0.0116196275, y: 0.015282631, z: 0.016548323}
-    - Position: {x: 0.11409547, y: 0.1297555, z: -0.02291463}
-      Velocity: {x: -0.0032259524, y: -0.0007736683, z: -0.0018985328}
-    - Position: {x: 0.007470914, y: 0.9824323, z: 0.011115484}
-      Velocity: {x: 0.03668204, y: 0.011078119, z: 0.012970442}
+    - Position: {x: -0.19391388, y: 0.13039297, z: 0.048961252}
+      Velocity: {x: -0.047329366, y: 0.015288591, z: 0.02446711}
+    - Position: {x: 0.10519414, y: 0.12975556, z: -0.038264602}
+      Velocity: {x: -0.038933158, y: -0.00077724457, z: 0.0060227513}
+    - Position: {x: -0.0014303885, y: 0.9824323, z: -0.004234314}
+      Velocity: {x: 0.0009737909, y: 0.011078119, z: 0.020887852}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.021899074, y: 0, z: 0.0034012496}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.010949537, y: 0, z: 0.0017006397}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.023979403, y: 0, z: 0.0032704175}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.01484878, y: 0, z: -0.02546522}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.035173953, y: 0, z: -0.111983955}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2030
@@ -65037,28 +65037,28 @@ MonoBehaviour:
     NextPoseId: 2031
     LastPoseId: 2029
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.039379444, y: 0, z: 0.006111562}
     JointsData:
-    - Position: {x: -0.18570583, y: 0.1331417, z: 0.06635811}
-      Velocity: {x: -0.010752379, y: 0.056061145, z: 0.037363525}
-    - Position: {x: 0.11430509, y: 0.12980443, z: -0.022728577}
-      Velocity: {x: 0.0021081415, y: 0.00059187406, z: 0.0025172955}
-    - Position: {x: 0.0111290645, y: 0.9837235, z: 0.012086649}
-      Velocity: {x: 0.035734016, y: 0.014051794, z: -0.0026985854}
+    - Position: {x: -0.19792512, y: 0.1331417, z: 0.051523626}
+      Velocity: {x: -0.050131228, y: 0.056059357, z: 0.03135174}
+    - Position: {x: 0.102085754, y: 0.12980443, z: -0.03756304}
+      Velocity: {x: -0.03727108, y: 0.00059306616, z: -0.0034955142}
+    - Position: {x: -0.0010902807, y: 0.9837235, z: -0.002747804}
+      Velocity: {x: -0.00364542, y: 0.014051794, z: -0.008710324}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.021899074, y: 0, z: 0.0034012496}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.010949537, y: 0, z: 0.0017006397}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.027473815, y: 0, z: 0.003714949}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.008461194, y: 0, z: -0.04721053}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.028922014, y: 0, z: -0.13612792}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2031
@@ -65069,28 +65069,28 @@ MonoBehaviour:
     NextPoseId: 2032
     LastPoseId: 2030
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.08625497, y: 0, z: 0.018780531}
     JointsData:
-    - Position: {x: -0.18797216, y: 0.14169759, z: 0.07248617}
-      Velocity: {x: -0.024839194, y: 0.10657192, z: 0.08409604}
-    - Position: {x: 0.1139201, y: 0.12972909, z: -0.022659332}
-      Velocity: {x: -0.00054389244, y: -0.00047266486, z: -0.0017664342}
-    - Position: {x: 0.014934666, y: 0.9848848, z: 0.009862087}
-      Velocity: {x: 0.05289434, y: 0.006163717, z: -0.04760323}
+    - Position: {x: -0.20588064, y: 0.14169759, z: 0.055907995}
+      Velocity: {x: -0.11109401, y: 0.106572516, z: 0.06541551}
+    - Position: {x: 0.09601158, y: 0.12972915, z: -0.039237514}
+      Velocity: {x: -0.086798415, y: -0.00047206882, z: -0.020447077}
+    - Position: {x: -0.0029738843, y: 0.9848848, z: -0.0067160726}
+      Velocity: {x: -0.03336065, y: 0.006163717, z: -0.06628365}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.02427024, y: 0, z: 0.0011422336}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.013320703, y: 0, z: -0.0005583763}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.020666566, y: 0, z: -0.0029412508}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.034814835, y: 0, z: -0.07594794}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.018642876, y: 0, z: -0.16965945}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2032
@@ -65101,28 +65101,28 @@ MonoBehaviour:
     NextPoseId: 2033
     LastPoseId: 2031
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.118006885, y: 0, z: 0.014198121}
     JointsData:
-    - Position: {x: -0.19348104, y: 0.15272325, z: 0.082978435}
-      Velocity: {x: -0.06890266, y: 0.09080706, z: 0.051790524}
-    - Position: {x: 0.114456356, y: 0.1299746, z: -0.022966228}
-      Velocity: {x: 0.0005674361, y: 0.010461208, z: 0.003087283}
-    - Position: {x: 0.022731433, y: 0.98455715, z: 0.001816473}
-      Velocity: {x: 0.09825671, y: -0.014097091, z: -0.11461206}
+    - Position: {x: -0.22310655, y: 0.15272325, z: 0.06472975}
+      Velocity: {x: -0.18690895, y: 0.090805866, z: 0.03769248}
+    - Position: {x: 0.084830865, y: 0.1299746, z: -0.0412149}
+      Velocity: {x: -0.11744109, y: 0.010461804, z: -0.011010614}
+    - Position: {x: -0.006894063, y: 0.98455715, z: -0.016432196}
+      Velocity: {x: -0.019750215, y: -0.014097091, z: -0.12871039}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.03266914, y: 0, z: -0.0010436177}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.021719601, y: 0, z: -0.0027442276}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0008803904, y: 0, z: -0.021648824}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.05571744, y: 0, z: -0.10492098}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.015066754, y: 0, z: -0.21237905}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2033
@@ -65133,28 +65133,28 @@ MonoBehaviour:
     NextPoseId: 2034
     LastPoseId: 2032
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.051429447, y: 0, z: -0.0059011565}
     JointsData:
-    - Position: {x: -0.1920819, y: 0.1599688, z: 0.07206091}
-      Velocity: {x: 0.12363416, y: 0.05379795, z: -0.2728113}
-    - Position: {x: 0.11396415, y: 0.13165206, z: -0.023179717}
-      Velocity: {x: 0.0020999457, y: 0.016918775, z: -0.004502845}
-    - Position: {x: 0.033226006, y: 0.98234975, z: -0.011134952}
-      Velocity: {x: 0.09764894, y: -0.029165141, z: -0.1281578}
+    - Position: {x: -0.23102409, y: 0.15996885, z: 0.053104013}
+      Velocity: {x: 0.07220441, y: 0.05379914, z: -0.2668106}
+    - Position: {x: 0.075021915, y: 0.13165206, z: -0.04213649}
+      Velocity: {x: -0.049329873, y: 0.01691639, z: 0.0014972682}
+    - Position: {x: -0.005716216, y: 0.98234975, z: -0.030091777}
+      Velocity: {x: 0.04621948, y: -0.029165141, z: -0.12215671}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.03866782, y: 0, z: -0.0022670925}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.027642448, y: 0, z: -0.004047632}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.02877577, y: 0, z: -0.04457511}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.060620144, y: 0, z: -0.13024247}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.01488477, y: 0, z: -0.2519946}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2034
@@ -65165,28 +65165,28 @@ MonoBehaviour:
     NextPoseId: 2035
     LastPoseId: 2033
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: -0.023112142, y: 0, z: -0.065681025}
     JointsData:
-    - Position: {x: -0.17627317, y: 0.1589979, z: 0.0357311}
-      Velocity: {x: 0.13896358, y: -0.083135344, z: -0.3742649}
-    - Position: {x: 0.11418028, y: 0.13256997, z: -0.022868305}
-      Velocity: {x: 0.0030301504, y: -0.0039058914, z: 0.004616962}
-    - Position: {x: 0.041311678, y: 0.97873497, z: -0.02383618}
-      Velocity: {x: 0.06163521, y: -0.036149018, z: -0.13895898}
+    - Position: {x: -0.21588711, y: 0.15899777, z: 0.019203484}
+      Velocity: {x: 0.16207618, y: -0.083136536, z: -0.30848318}
+    - Position: {x: 0.074566364, y: 0.13256997, z: -0.03939596}
+      Velocity: {x: 0.026143635, y: -0.0039046993, z: 0.070400074}
+    - Position: {x: 0.0016977638, y: 0.97873497, z: -0.040363833}
+      Velocity: {x: 0.08474735, y: -0.036149018, z: -0.07317795}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.036021486, y: 0, z: -0.00035327673}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.023675703, y: 0, z: -0.0005543232}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.05078715, y: 0, z: -0.06734085}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.04661394, y: 0, z: -0.1558783}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0099878125, y: 0, z: -0.28480253}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2035
@@ -65197,28 +65197,28 @@ MonoBehaviour:
     NextPoseId: 2036
     LastPoseId: 2034
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: -0.123202994, y: 0, z: -0.19553433}
     JointsData:
-    - Position: {x: -0.16526105, y: 0.14680946, z: -0.002737064}
-      Velocity: {x: 0.08656753, y: -0.14051911, z: -0.3905985}
-    - Position: {x: 0.114610106, y: 0.13084126, z: -0.022708617}
-      Velocity: {x: -0.0062008933, y: -0.018020865, z: -0.0019011401}
-    - Position: {x: 0.044143323, y: 0.9747199, z: -0.042432956}
-      Velocity: {x: -0.023361327, y: -0.06480871, z: -0.2767468}
+    - Position: {x: -0.19878045, y: 0.14680946, z: -0.006002128}
+      Velocity: {x: 0.20977068, y: -0.14051911, z: -0.19496436}
+    - Position: {x: 0.08109069, y: 0.13084126, z: -0.025973737}
+      Velocity: {x: 0.117002025, y: -0.01802146, z: 0.19373263}
+    - Position: {x: 0.010623988, y: 0.9747199, z: -0.045698106}
+      Velocity: {x: 0.099841855, y: -0.06480871, z: -0.08111237}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.02660885, y: 0, z: 0.012393892}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0077190287, y: 0, z: 0.014503211}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.058478802, y: 0, z: -0.082129}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.02511594, y: 0, z: -0.18054086}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0031414367, y: 0, z: -0.29337376}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2036
@@ -65229,28 +65229,28 @@ MonoBehaviour:
     NextPoseId: 2037
     LastPoseId: 2035
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: -0.1961908, y: 0, z: -0.22052044}
     JointsData:
-    - Position: {x: -0.15535688, y: 0.13541037, z: -0.04015758}
-      Velocity: {x: 0.083021946, y: -0.07747172, z: -0.21914046}
-    - Position: {x: 0.11407733, y: 0.13046902, z: -0.023162972}
-      Velocity: {x: 0.0051359073, y: 0.02394318, z: -0.012961823}
-    - Position: {x: 0.038520116, y: 0.9649046, z: -0.07813285}
-      Velocity: {x: -0.067919254, y: -0.12820777, z: -0.4066784}
+    - Position: {x: -0.17185825, y: 0.13541025, z: -0.020955369}
+      Velocity: {x: 0.2792126, y: -0.07747172, z: 0.0014804304}
+    - Position: {x: 0.0975761, y: 0.13046896, z: -0.0039608926}
+      Velocity: {x: 0.20132604, y: 0.023943776, z: 0.20765805}
+    - Position: {x: 0.022018827, y: 0.9649046, z: -0.05893071}
+      Velocity: {x: 0.12827182, y: -0.12820777, z: -0.18605766}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.006171692, y: 0, z: 0.034239247}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.020106077, y: 0, z: 0.038105622}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.04076343, y: 0, z: -0.08472176}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0045726188, y: 0, z: -0.1986105}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.014471985, y: 0, z: -0.2877834}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2037
@@ -65261,28 +65261,28 @@ MonoBehaviour:
     NextPoseId: 2038
     LastPoseId: 2036
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: -0.2124391, y: 0, z: -0.26594767}
     JointsData:
-    - Position: {x: -0.15212595, y: 0.1303935, z: -0.041113876}
-      Velocity: {x: -0.003477185, y: -0.017236467, z: 0.025194567}
-    - Position: {x: 0.114521585, y: 0.13320857, z: -0.02313371}
-      Velocity: {x: -0.0062388913, y: 0.00029385084, z: 0.012444763}
-    - Position: {x: 0.03148848, y: 0.9492972, z: -0.1252202}
-      Velocity: {x: -0.052887768, y: -0.17961617, z: -0.5414273}
+    - Position: {x: -0.14714402, y: 0.1303935, z: 0.0011833906}
+      Velocity: {x: 0.20896192, y: -0.017235871, z: 0.29124075}
+    - Position: {x: 0.11950361, y: 0.13320857, z: 0.019163504}
+      Velocity: {x: 0.20620103, y: 0.00029385084, z: 0.27849326}
+    - Position: {x: 0.03647048, y: 0.9492972, z: -0.082922965}
+      Velocity: {x: 0.15955128, y: -0.17961617, z: -0.27537975}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.01912557, y: 0, z: 0.05772017}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.04494381, y: 0, z: 0.059874967}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.006838956, y: 0, z: -0.08777098}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.032473277, y: 0, z: -0.21250086}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.036840003, y: 0, z: -0.27632767}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2038
@@ -65293,28 +65293,28 @@ MonoBehaviour:
     NextPoseId: 2039
     LastPoseId: 2037
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: -0.107460454, y: 0, z: -0.2769133}
     JointsData:
-    - Position: {x: -0.15449844, y: 0.12816262, z: -0.04016453}
-      Velocity: {x: -0.0028762214, y: -0.018816587, z: 0.018500669}
-    - Position: {x: 0.113329336, y: 0.12986827, z: -0.022760212}
-      Velocity: {x: 0.010786873, y: -0.035237066, z: 0.011483415}
-    - Position: {x: 0.028521221, y: 0.92721564, z: -0.1839231}
-      Velocity: {x: -0.005950945, y: -0.29122585, z: -0.6166752}
+    - Position: {x: -0.13116987, y: 0.12816262, z: 0.030722365}
+      Velocity: {x: 0.10458498, y: -0.018817779, z: 0.29551634}
+    - Position: {x: 0.1366579, y: 0.12986827, z: 0.048126683}
+      Velocity: {x: 0.118247256, y: -0.035237066, z: 0.2884976}
+    - Position: {x: 0.05184978, y: 0.92721564, z: -0.11303624}
+      Velocity: {x: 0.10150953, y: -0.29122585, z: -0.33966184}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.045510367, y: 0, z: 0.08816101}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.059465785, y: 0, z: 0.0792187}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.027153526, y: 0, z: -0.094182916}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.053503647, y: 0, z: -0.21137571}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.056805387, y: 0, z: -0.2531676}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2039
@@ -65325,28 +65325,28 @@ MonoBehaviour:
     NextPoseId: 2040
     LastPoseId: 2038
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.031250253, y: 0, z: -0.24601886}
     JointsData:
-    - Position: {x: -0.15369111, y: 0.12808311, z: -0.038922057}
-      Velocity: {x: -0.0052401475, y: 0.014413013, z: -0.006222297}
-    - Position: {x: 0.1141862, y: 0.12870938, z: -0.022694662}
-      Velocity: {x: -0.006873167, y: 0.005730396, z: -0.016689328}
-    - Position: {x: 0.029569443, y: 0.8907041, z: -0.24573414}
-      Velocity: {x: 0.018084066, y: -0.4407273, z: -0.59683263}
+    - Position: {x: -0.1274183, y: 0.12808305, z: 0.057712078}
+      Velocity: {x: -0.0364904, y: 0.014413609, z: 0.23989478}
+    - Position: {x: 0.1404589, y: 0.12870938, z: 0.07393944}
+      Velocity: {x: -0.038123123, y: 0.0057327803, z: 0.22942908}
+    - Position: {x: 0.055842116, y: 0.8907041, z: -0.14910002}
+      Velocity: {x: -0.013166299, y: -0.4407273, z: -0.35071394}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.060238436, y: 0, z: 0.11537823}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.048210535, y: 0, z: 0.08424704}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.044293, y: 0, z: -0.109421864}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.056968242, y: 0, z: -0.20394765}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.061369933, y: 0, z: -0.23094015}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2040
@@ -65357,28 +65357,28 @@ MonoBehaviour:
     NextPoseId: 2041
     LastPoseId: 2039
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.14355311, y: 0, z: -0.27134296}
     JointsData:
-    - Position: {x: -0.15428022, y: 0.13117594, z: -0.03897977}
-      Velocity: {x: -0.0044027013, y: 0.02178969, z: 0.016187431}
-    - Position: {x: 0.11407833, y: 0.13066179, z: -0.022921145}
-      Velocity: {x: -0.0060387757, y: 0.007834442, z: 0.012219398}
-    - Position: {x: 0.032425106, y: 0.83875763, z: -0.3039938}
-      Velocity: {x: 0.04588139, y: -0.5927723, z: -0.56679857}
+    - Position: {x: -0.13757755, y: 0.131176, z: 0.082313806}
+      Velocity: {x: -0.14795685, y: 0.02178969, z: 0.28763247}
+    - Position: {x: 0.13078097, y: 0.13066179, z: 0.0983724}
+      Velocity: {x: -0.1495921, y: 0.007834442, z: 0.28366295}
+    - Position: {x: 0.049127758, y: 0.83875763, z: -0.18270022}
+      Velocity: {x: -0.09767213, y: -0.5927723, z: -0.2953541}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.056646146, y: 0, z: 0.13970706}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.018275807, y: 0, z: 0.086437106}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.042500213, y: 0, z: -0.122778974}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.048172183, y: 0, z: -0.1932618}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.05352726, y: 0, z: -0.2082028}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2041
@@ -65389,28 +65389,28 @@ MonoBehaviour:
     NextPoseId: 2042
     LastPoseId: 2040
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.15430996, y: 0, z: -0.37144056}
     JointsData:
-    - Position: {x: -0.15423188, y: 0.12902248, z: -0.037752092}
-      Velocity: {x: 0.0007571287, y: -0.031288296, z: 0.004055044}
-    - Position: {x: 0.11345851, y: 0.12915576, z: -0.020936042}
-      Velocity: {x: -0.004138354, y: -0.022826813, z: 0.017437194}
-    - Position: {x: 0.038273714, y: 0.77307963, z: -0.35833544}
-      Velocity: {x: 0.059116464, y: -0.7170535, z: -0.52404946}
+    - Position: {x: -0.15349756, y: 0.12902248, z: 0.115329385}
+      Velocity: {x: -0.15355372, y: -0.031289488, z: 0.37559456}
+    - Position: {x: 0.1141928, y: 0.12915576, z: 0.13214538}
+      Velocity: {x: -0.1584486, y: -0.022829197, z: 0.3889788}
+    - Position: {x: 0.039008025, y: 0.77307963, z: -0.20525402}
+      Velocity: {x: -0.09519349, y: -0.7170535, z: -0.15250906}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.03896318, y: 0, z: 0.16575462}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.017777493, y: 0, z: 0.09083226}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.030659433, y: 0, z: -0.12240927}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.033559714, y: 0, z: -0.16909}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.039378773, y: 0, z: -0.1766695}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2042
@@ -65421,28 +65421,28 @@ MonoBehaviour:
     NextPoseId: 2043
     LastPoseId: 2041
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.13463543, y: 0, z: -0.40944332}
     JointsData:
-    - Position: {x: -0.15445265, y: 0.12888318, z: -0.036970854}
-      Velocity: {x: -0.000443459, y: 0.005375152, z: 0.013337284}
-    - Position: {x: 0.11336772, y: 0.12846535, z: -0.019099593}
-      Velocity: {x: 0.005383273, y: 0.0040495433, z: 0.0176926}
-    - Position: {x: 0.043895308, y: 0.69610566, z: -0.40826625}
-      Velocity: {x: 0.047613278, y: -0.7667382, z: -0.4293534}
+    - Position: {x: -0.16901132, y: 0.12888318, z: 0.15715969}
+      Velocity: {x: -0.135078, y: 0.005375152, z: 0.4228797}
+    - Position: {x: 0.098808944, y: 0.1284653, z: 0.17503092}
+      Velocity: {x: -0.12925224, y: 0.0040507354, z: 0.42723355}
+    - Position: {x: 0.029336546, y: 0.69610566, z: -0.2141357}
+      Velocity: {x: -0.08702223, y: -0.7667382, z: -0.019809783}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.012594972, y: 0, z: 0.18850851}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.04069587, y: 0, z: 0.104967706}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.015968103, y: 0, z: -0.10130149}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.01988414, y: 0, z: -0.13217455}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.024085704, y: 0, z: -0.13562036}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2043
@@ -65453,28 +65453,28 @@ MonoBehaviour:
     NextPoseId: 2044
     LastPoseId: 2042
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.066295475, y: 0, z: -0.37422544}
     JointsData:
-    - Position: {x: -0.15505657, y: 0.12925935, z: -0.03687316}
-      Velocity: {x: -0.0081499, y: 0.008880504, z: -0.00766175}
-    - Position: {x: 0.113591045, y: 0.12880555, z: -0.019590676}
-      Velocity: {x: -0.0020845255, y: -0.0017517821, z: -0.026516208}
-    - Position: {x: 0.047453895, y: 0.6266926, z: -0.44201636}
-      Velocity: {x: 0.026091063, y: -0.6174606, z: -0.2698542}
+    - Position: {x: -0.17911412, y: 0.12925929, z: 0.19616486}
+      Velocity: {x: -0.07444627, y: 0.0088813985, z: 0.36666653}
+    - Position: {x: 0.08953364, y: 0.12880561, z: 0.21344729}
+      Velocity: {x: -0.068380445, y: -0.0017523782, z: 0.34781265}
+    - Position: {x: 0.023396429, y: 0.6266926, z: -0.20897846}
+      Velocity: {x: -0.040204413, y: -0.6174606, z: 0.104471385}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.016002558, y: 0, z: 0.20528081}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0444916, y: 0, z: 0.11925024}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0071553104, y: 0, z: -0.07787913}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.012063447, y: 0, z: -0.095835134}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.014587011, y: 0, z: -0.09671301}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2044
@@ -65485,28 +65485,28 @@ MonoBehaviour:
     NextPoseId: 2045
     LastPoseId: 2043
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.031668387, y: 0, z: -0.28872228}
     JointsData:
-    - Position: {x: -0.1541559, y: 0.13019288, z: -0.037007153}
-      Velocity: {x: 0.016148105, y: -0.0017312185, z: -0.012635465}
-    - Position: {x: 0.114394814, y: 0.12855512, z: -0.022445202}
-      Velocity: {x: 0.009618038, y: -0.0052779964, z: -0.017310858}
-    - Position: {x: 0.049572974, y: 0.57143474, z: -0.46363914}
-      Velocity: {x: 0.010175789, y: -0.38708246, z: -0.13511539}
+    - Position: {x: -0.18378209, y: 0.13019282, z: 0.23126772}
+      Velocity: {x: -0.015519239, y: -0.0017312185, z: 0.27618727}
+    - Position: {x: 0.08476868, y: 0.12855512, z: 0.24582982}
+      Velocity: {x: -0.022050126, y: -0.0052776984, z: 0.27151096}
+    - Position: {x: 0.019946832, y: 0.57143474, z: -0.19536412}
+      Velocity: {x: -0.021492673, y: -0.38708246, z: 0.15370645}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.042863, y: 0, z: 0.21462314}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.03505978, y: 0, z: 0.12549172}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0027146079, y: 0, z: -0.05219535}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.008297998, y: 0, z: -0.061524104}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.009018343, y: 0, z: -0.06147589}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2045
@@ -65517,28 +65517,28 @@ MonoBehaviour:
     NextPoseId: 2046
     LastPoseId: 2044
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.0050172256, y: 0, z: -0.18679826}
     JointsData:
-    - Position: {x: -0.15361741, y: 0.12811786, z: -0.038367003}
-      Velocity: {x: -0.00545383, y: -0.027953412, z: -0.0017793624}
-    - Position: {x: 0.11436445, y: 0.12723574, z: -0.023035437}
-      Velocity: {x: -0.0071213464, y: 0.009446749, z: 0.0027497008}
-    - Position: {x: 0.049545445, y: 0.5542854, z: -0.46884388}
-      Velocity: {x: -0.00024631643, y: -0.037198104, z: -0.016705275}
+    - Position: {x: -0.18399554, y: 0.12811795, z: 0.2517418}
+      Velocity: {x: -0.010470161, y: -0.027953412, z: 0.1851177}
+    - Position: {x: 0.08398663, y: 0.12723559, z: 0.2670733}
+      Velocity: {x: -0.012138795, y: 0.009445557, z: 0.18964677}
+    - Position: {x: 0.01916752, y: 0.5542854, z: -0.1787351}
+      Velocity: {x: -0.005263542, y: -0.037198104, z: 0.17019328}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.055880986, y: 0, z: 0.20858586}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.020435754, y: 0, z: 0.108619444}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.003580425, y: 0, z: -0.03510575}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.008266561, y: 0, z: -0.039642178}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.008266561, y: 0, z: -0.039642178}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2046
@@ -65549,28 +65549,28 @@ MonoBehaviour:
     NextPoseId: 2047
     LastPoseId: 2045
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.0074622105, y: 0, z: -0.14557037}
     JointsData:
-    - Position: {x: -0.15435094, y: 0.12869161, z: -0.03760597}
-      Velocity: {x: 0.002030732, y: 0.01945706, z: 0.0046308255}
-    - Position: {x: 0.113669164, y: 0.13072866, z: -0.022582084}
-      Velocity: {x: -0.0010494898, y: 0.020077247, z: -0.005426574}
-    - Position: {x: 0.049622424, y: 0.556862, z: -0.46965638}
-      Velocity: {x: 0.0002621862, y: 0.031479627, z: -0.006566514}
+    - Position: {x: -0.18532416, y: 0.12869176, z: 0.26937985}
+      Velocity: {x: -0.0054326705, y: 0.019457359, z: 0.15030089}
+    - Position: {x: 0.082695626, y: 0.13072866, z: 0.28440365}
+      Velocity: {x: -0.008511999, y: 0.020078141, z: 0.1402432}
+    - Position: {x: 0.018649079, y: 0.556862, z: -0.16267067}
+      Velocity: {x: -0.007200024, y: 0.031479627, z: 0.13910356}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.054565277, y: 0, z: 0.20063189}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.009153545, y: 0, z: 0.085366905}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0046325736, y: 0, z: -0.02127438}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.00767114, y: 0, z: -0.022765212}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.00767114, y: 0, z: -0.022765212}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2047
@@ -65581,28 +65581,28 @@ MonoBehaviour:
     NextPoseId: 2048
     LastPoseId: 2046
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.012901363, y: 0, z: -0.08162677}
     JointsData:
-    - Position: {x: -0.1543338, y: 0.12958276, z: -0.037740707}
-      Velocity: {x: -0.0008440026, y: -0.0023898506, z: -0.009094945}
-    - Position: {x: 0.113481954, y: 0.13117895, z: -0.022262245}
-      Velocity: {x: 0.0047977315, y: 0.0023916387, z: -0.0013844813}
-    - Position: {x: 0.04965428, y: 0.55839896, z: -0.4701411}
-      Velocity: {x: 0.00044547065, y: 0.011165152, z: -0.004704463}
+    - Position: {x: -0.18619187, y: 0.12958276, z: 0.2808844}
+      Velocity: {x: -0.013746111, y: -0.0023898506, z: 0.07263287}
+    - Position: {x: 0.08162387, y: 0.13117895, z: 0.29636285}
+      Velocity: {x: -0.0081040785, y: 0.0023913407, z: 0.080344826}
+    - Position: {x: 0.017796203, y: 0.55839896, z: -0.15151602}
+      Velocity: {x: -0.012456042, y: 0.011165152, z: 0.0770232}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.04205183, y: 0, z: 0.18563196}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.003833063, y: 0, z: 0.060457867}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0055182055, y: 0, z: -0.011060245}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.006786421, y: 0, z: -0.011125907}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.006786421, y: 0, z: -0.011125907}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2048
@@ -65613,28 +65613,28 @@ MonoBehaviour:
     NextPoseId: 2049
     LastPoseId: 2047
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.016167775, y: 0, z: -0.042871278}
     JointsData:
-    - Position: {x: -0.15386915, y: 0.12902653, z: -0.03832996}
-      Velocity: {x: 0.0017914193, y: 0.009394595, z: 0.009631362}
-    - Position: {x: 0.114516854, y: 0.13151765, z: -0.023072451}
-      Velocity: {x: 0.002135264, y: 0.008994349, z: 0.011602787}
-    - Position: {x: 0.049643606, y: 0.5591858, z: -0.47018874}
-      Velocity: {x: -0.0006515539, y: -0.00067770545, z: 0.0068239802}
+    - Position: {x: -0.18734603, y: 0.1290265, z: 0.28572452}
+      Velocity: {x: -0.014376951, y: 0.009394595, z: 0.052604727}
+    - Position: {x: 0.081039816, y: 0.13151765, z: 0.30098218}
+      Velocity: {x: -0.014032437, y: 0.008994647, z: 0.05457168}
+    - Position: {x: 0.01616669, y: 0.5591858, z: -0.1461341}
+      Velocity: {x: -0.016819328, y: -0.00067770545, z: 0.04979526}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.028132219, y: 0, z: 0.15498887}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0032510534, y: 0, z: 0.03983056}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.005167585, y: 0, z: -0.0056963265}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.005167585, y: 0, z: -0.0056963265}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.005167585, y: 0, z: -0.0056963265}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2049
@@ -65645,28 +65645,28 @@ MonoBehaviour:
     NextPoseId: 2050
     LastPoseId: 2048
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.016656775, y: 0, z: -0.027294377}
     JointsData:
-    - Position: {x: -0.15373409, y: 0.12997794, z: -0.0370318}
-      Velocity: {x: 0.0016917285, y: 0.0013318654, z: 0.0055317436}
-    - Position: {x: 0.11440076, y: 0.132379, z: -0.021508962}
-      Velocity: {x: -0.0013277676, y: 0.0011476872, z: 0.008086696}
-    - Position: {x: 0.049538996, y: 0.55861956, z: -0.46927157}
-      Velocity: {x: -0.00062927586, y: -0.00698149, z: 0.0053791557}
+    - Position: {x: -0.18883151, y: 0.12997782, z: 0.29054284}
+      Velocity: {x: -0.014963705, y: 0.0013318654, z: 0.032923885}
+    - Position: {x: 0.07930345, y: 0.13237897, z: 0.30606544}
+      Velocity: {x: -0.017983127, y: 0.001145303, z: 0.035482712}
+    - Position: {x: 0.014441669, y: 0.55861956, z: -0.14169706}
+      Velocity: {x: -0.017285977, y: -0.00698149, z: 0.032773532}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.01592318, y: 0, z: 0.11754349}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0043322667, y: 0, z: 0.025391709}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0035471693, y: 0, z: -0.0021764934}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0035471693, y: 0, z: -0.0021764934}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0035471693, y: 0, z: -0.0021764934}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2050
@@ -65677,28 +65677,28 @@ MonoBehaviour:
     NextPoseId: 2051
     LastPoseId: 2049
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.017990598, y: 0, z: -0.010939698}
     JointsData:
-    - Position: {x: -0.15379202, y: 0.13013682, z: -0.037768602}
-      Velocity: {x: -0.003030154, y: -0.00039845743, z: -0.015056309}
-    - Position: {x: 0.114233166, y: 0.13119054, z: -0.021447122}
-      Velocity: {x: -0.0017964112, y: -0.020478386, z: -0.011793548}
-    - Position: {x: 0.049555723, y: 0.55807567, z: -0.46950632}
-      Velocity: {x: 0.0009492794, y: -0.0024503493, z: -0.010326378}
+    - Position: {x: -0.19061665, y: 0.13013649, z: 0.29172796}
+      Velocity: {x: -0.021020155, y: -0.00039786138, z: -0.004017506}
+    - Position: {x: 0.07740836, y: 0.1311906, z: 0.30804926}
+      Velocity: {x: -0.019786935, y: -0.020477194, z: -0.0007541487}
+    - Position: {x: 0.01273109, y: 0.55807567, z: -0.14000987}
+      Velocity: {x: -0.017041318, y: -0.0024503493, z: 0.0007133195}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.01044707, y: 0, z: 0.08174597}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0052579567, y: 0, z: 0.013923671}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0018198639, y: 0, z: -0.00025454164}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0018198639, y: 0, z: -0.00025454164}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: 0.0018198639, y: 0, z: -0.00025454164}
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2051
@@ -65709,18 +65709,18 @@ MonoBehaviour:
     NextPoseId: 2052
     LastPoseId: 2050
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.009004259, y: 0, z: 0.00060267805}
     JointsData:
-    - Position: {x: -0.15407115, y: 0.12972277, z: -0.038858414}
-      Velocity: {x: -0.14463378, y: -0.0014954819, z: 3.558493}
-    - Position: {x: 0.114112906, y: 0.12974614, z: -0.02291879}
-      Velocity: {x: 0.13872913, y: -0.0038450994, z: 3.2723112}
-    - Position: {x: 0.049668595, y: 0.55801994, z: -0.47054636}
-      Velocity: {x: -0.3981375, y: 0.00069975917, z: 3.4472458}
+    - Position: {x: -0.19271564, y: 0.12972277, z: 0.2908926}
+      Velocity: {x: 0.23280694, y: -0.00149578, z: 0.26047736}
+    - Position: {x: 0.07546842, y: 0.12974614, z: 0.30683225}
+      Velocity: {x: 0.51616937, y: -0.0038450994, z: -0.025705645}
+    - Position: {x: 0.011024103, y: 0.55801994, z: -0.14079534}
+      Velocity: {x: -0.020696465, y: 0.00069975917, z: 0.14922999}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.008619692, y: 0, z: 0.051855236}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0056562126, y: 0, z: 0.007108733}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65730,7 +65730,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 1073741824
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2052
@@ -65743,16 +65743,16 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16843343, y: 0.1296539, z: 0.31727824}
-      Velocity: {x: -0.00011757027, y: -0.0013765706, z: -0.0012473904}
-    - Position: {x: 0.12807705, y: 0.1296927, z: 0.30480295}
-      Velocity: {x: 0.00075906585, y: -0.0010797392, z: -0.000695451}
-    - Position: {x: 0.009846121, y: 0.55814254, z: -0.12541038}
-      Velocity: {x: 0.00083679415, y: 0.00087320886, z: 0.0006683046}
+    - Position: {x: -0.16843343, y: 0.1296539, z: 0.31727827}
+      Velocity: {x: -0.000117868294, y: -0.0013762725, z: -0.0012473904}
+    - Position: {x: 0.12807709, y: 0.12969258, z: 0.304803}
+      Velocity: {x: 0.00075921486, y: -0.0010791431, z: -0.0006942589}
+    - Position: {x: 0.009846121, y: 0.55814254, z: -0.1254104}
+      Velocity: {x: 0.0008367755, y: 0.00087320886, z: 0.00066845363}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.008067951, y: 0, z: 0.032544598}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0040379837, y: 0, z: 0.0031285137}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65776,15 +65776,15 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.1684824, y: 0.12943587, z: 0.3170932}
-      Velocity: {x: -0.00082567416, y: -0.002916458, z: -0.0026591278}
-    - Position: {x: 0.12812488, y: 0.12949541, z: 0.30467057}
-      Velocity: {x: 0.00021606704, y: -0.0027930762, z: -0.0021697732}
-    - Position: {x: 0.009933132, y: 0.5582391, z: -0.12535095}
-      Velocity: {x: 0.00087297603, y: 0.001026989, z: 0.0002865365}
+      Velocity: {x: -0.00082567416, y: -0.002917054, z: -0.0026588298}
+    - Position: {x: 0.1281249, y: 0.12949532, z: 0.3046708}
+      Velocity: {x: 0.00021785518, y: -0.0027924802, z: -0.0021730515}
+    - Position: {x: 0.009933129, y: 0.5582391, z: -0.12535095}
+      Velocity: {x: 0.00087298534, y: 0.001026989, z: 0.00028623847}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.007351894, y: 0, z: 0.017523546}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0023476556, y: 0, z: 0.00072205067}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65807,16 +65807,16 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16859467, y: 0.12907496, z: 0.3167644}
-      Velocity: {x: -0.001381786, y: -0.004244153, z: -0.0041259993}
+    - Position: {x: -0.16859469, y: 0.12907496, z: 0.3167644}
+      Velocity: {x: -0.001381935, y: -0.004244153, z: -0.0041257013}
     - Position: {x: 0.12812266, y: 0.12914053, z: 0.30438554}
-      Velocity: {x: -0.0002445283, y: -0.0042483252, z: -0.003762709}
-    - Position: {x: 0.010017463, y: 0.55834395, z: -0.12533636}
-      Velocity: {x: 0.0007838298, y: 0.00091731636, z: -0.00030340103}
+      Velocity: {x: -0.00024557137, y: -0.004247133, z: -0.0037603248}
+    - Position: {x: 0.010017462, y: 0.55834395, z: -0.12533636}
+      Velocity: {x: 0.00078380184, y: 0.00091731636, z: -0.00030325202}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0061428547, y: 0, z: 0.008665472}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.00054027885, y: 0, z: -0.00003616512}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65839,14 +65839,14 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16875497, y: 0.12859365, z: 0.31628674}
-      Velocity: {x: -0.0017860549, y: -0.0053286604, z: -0.0056408527}
-    - Position: {x: 0.12807775, y: 0.1286526, z: 0.30393606}
-      Velocity: {x: -0.00063851534, y: -0.005438035, z: -0.005453098}
-    - Position: {x: 0.010086664, y: 0.55840886, z: -0.1254016}
-      Velocity: {x: 0.00057066843, y: 0.00056743674, z: -0.0010971866}
+    - Position: {x: -0.16875502, y: 0.12859362, z: 0.3162868}
+      Velocity: {x: -0.0017853099, y: -0.0053280643, z: -0.0056402567}
+    - Position: {x: 0.12807773, y: 0.1286526, z: 0.30393606}
+      Velocity: {x: -0.0006368762, y: -0.005441015, z: -0.005452502}
+    - Position: {x: 0.010086663, y: 0.55840886, z: -0.1254016}
+      Velocity: {x: 0.0005706405, y: 0.00056743674, z: -0.0010971866}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.004525669, y: 0, z: 0.004149832}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65872,13 +65872,13 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16894132, y: 0.12803906, z: 0.3157016}
-      Velocity: {x: -0.0016333178, y: -0.0047308253, z: -0.0044082277}
+      Velocity: {x: -0.0016334668, y: -0.004729633, z: -0.0044076317}
     - Position: {x: 0.12800404, y: 0.12808552, z: 0.30335867}
-      Velocity: {x: -0.0005440419, y: -0.0047472166, z: -0.0044296854}
-    - Position: {x: 0.010131334, y: 0.5584846, z: -0.12550306}
-      Velocity: {x: 0.00036308577, y: 0.00078916625, z: -0.00057713565}
+      Velocity: {x: -0.00054583006, y: -0.0047463225, z: -0.0044320696}
+    - Position: {x: 0.010131329, y: 0.5584846, z: -0.12550305}
+      Velocity: {x: 0.00036314165, y: 0.00078916625, z: -0.00057713565}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0028690472, y: 0, z: 0.0012622923}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65903,14 +65903,14 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16906129, y: 0.1277208, z: 0.31555367}
-      Velocity: {x: -0.0006107992, y: -0.0017580406, z: 0.000989574}
-    - Position: {x: 0.12798756, y: 0.12778449, z: 0.30319846}
-      Velocity: {x: 0.0003384057, y: -0.0014114394, z: 0.0005884343}
-    - Position: {x: 0.010158999, y: 0.5585375, z: -0.12546964}
-      Velocity: {x: 0.0001611469, y: 0.00026762512, z: 0.00095500326}
+    - Position: {x: -0.16906124, y: 0.12772083, z: 0.31555372}
+      Velocity: {x: -0.0006110972, y: -0.0017598288, z: 0.0009883819}
+    - Position: {x: 0.12798762, y: 0.12778461, z: 0.30319858}
+      Velocity: {x: 0.00033780964, y: -0.0014111414, z: 0.00059081847}
+    - Position: {x: 0.010158993, y: 0.5585375, z: -0.12546964}
+      Velocity: {x: 0.00016115622, y: 0.00026762512, z: 0.00095500326}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0010843426, y: 0, z: 0.0000027045608}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65935,12 +65935,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16904145, y: 0.1276685, z: 0.3158865}
-      Velocity: {x: 0.0008787223, y: 0.00054299884, z: 0.0049652075}
-    - Position: {x: 0.12809063, y: 0.12778282, z: 0.30343884}
-      Velocity: {x: 0.0015808657, y: 0.0011608016, z: 0.003552576}
+    - Position: {x: -0.16904141, y: 0.12766856, z: 0.31588638}
+      Velocity: {x: 0.0008785733, y: 0.00054299884, z: 0.0049652075}
+    - Position: {x: 0.12809062, y: 0.12778285, z: 0.30343866}
+      Velocity: {x: 0.0015799716, y: 0.0011610996, z: 0.003553172}
     - Position: {x: 0.010162652, y: 0.5585425, z: -0.12530278}
-      Velocity: {x: -0.00011432927, y: -0.00022232554, z: 0.0019754358}
+      Velocity: {x: -0.00011436652, y: -0.00022232554, z: 0.0019754358}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65967,12 +65967,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16892101, y: 0.12781286, z: 0.31650424}
-      Velocity: {x: 0.0012446952, y: 0.002179744, z: 0.006575727}
+    - Position: {x: -0.16892102, y: 0.12781304, z: 0.31650412}
+      Velocity: {x: 0.0012445461, y: 0.002179744, z: 0.006575727}
     - Position: {x: 0.12826705, y: 0.1279943, z: 0.3038903}
-      Velocity: {x: 0.0016583519, y: 0.0028440384, z: 0.004904411}
-    - Position: {x: 0.010132799, y: 0.5584833, z: -0.12507983}
-      Velocity: {x: -0.0004702159, y: -0.0009846697, z: 0.0020834692}
+      Velocity: {x: 0.0016592459, y: 0.0028434424, z: 0.0049038148}
+    - Position: {x: 0.010132797, y: 0.5584833, z: -0.12507983}
+      Velocity: {x: -0.00047020658, y: -0.0009846697, z: 0.0020834692}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -65999,12 +65999,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16882013, y: 0.1280883, z: 0.31715983}
-      Velocity: {x: 0.00044837638, y: 0.0031602413, z: 0.005718015}
-    - Position: {x: 0.12839416, y: 0.12832913, z: 0.3044023}
-      Velocity: {x: 0.00054583006, y: 0.003625456, z: 0.0047482466}
-    - Position: {x: 0.0100796865, y: 0.55835557, z: -0.12487371}
-      Velocity: {x: -0.00053828635, y: -0.0014716401, z: 0.0017319506}
+    - Position: {x: -0.16882014, y: 0.12808833, z: 0.31715995}
+      Velocity: {x: 0.00044822737, y: 0.0031602413, z: 0.005717717}
+    - Position: {x: 0.12839416, y: 0.12832916, z: 0.30440235}
+      Velocity: {x: 0.00054597907, y: 0.003625754, z: 0.0047482466}
+    - Position: {x: 0.010079689, y: 0.55835557, z: -0.12487371}
+      Velocity: {x: -0.00053823047, y: -0.0014716401, z: 0.0017319506}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66031,12 +66031,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1688591, y: 0.12842634, z: 0.31760535}
-      Velocity: {x: -0.0010345886, y: 0.0033879313, z: 0.0028343394}
-    - Position: {x: 0.12835024, y: 0.12869805, z: 0.30482247}
-      Velocity: {x: -0.0012150418, y: 0.0035589968, z: 0.0031803446}
-    - Position: {x: 0.010027397, y: 0.5581933, z: -0.12473813}
-      Velocity: {x: -0.00046948015, y: -0.0017559545, z: 0.00078661996}
+    - Position: {x: -0.16885911, y: 0.12842622, z: 0.31760532}
+      Velocity: {x: -0.0010347376, y: 0.0033882293, z: 0.0028352335}
+    - Position: {x: 0.12835005, y: 0.12869796, z: 0.3048223}
+      Velocity: {x: -0.0012144458, y: 0.0035592949, z: 0.0031806426}
+    - Position: {x: 0.010027394, y: 0.5581933, z: -0.12473813}
+      Velocity: {x: -0.00046953603, y: -0.0017559545, z: 0.00078661996}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66063,12 +66063,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16895604, y: 0.128743, z: 0.31778288}
-      Velocity: {x: -0.0004972522, y: 0.0027358558, z: 0.0005479031}
-    - Position: {x: 0.12821943, y: 0.12902355, z: 0.30503985}
-      Velocity: {x: -0.0010122368, y: 0.0027826454, z: 0.0007207567}
-    - Position: {x: 0.009973931, y: 0.55800873, z: -0.12466087}
-      Velocity: {x: -0.00061228, y: -0.0018614548, z: 0.0007165099}
+    - Position: {x: -0.16895598, y: 0.12874267, z: 0.3177827}
+      Velocity: {x: -0.00049516605, y: 0.0027373459, z: 0.0005479031}
+    - Position: {x: 0.12821943, y: 0.12902355, z: 0.30503988}
+      Velocity: {x: -0.001014323, y: 0.0027811553, z: 0.00072016066}
+    - Position: {x: 0.009973928, y: 0.55800873, z: -0.124660864}
+      Velocity: {x: -0.0006122148, y: -0.0018614548, z: 0.0007164354}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66095,12 +66095,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16895686, y: 0.1289703, z: 0.31777096}
-      Velocity: {x: 0.0004957621, y: 0.0016394273, z: 0.0006337339}
-    - Position: {x: 0.12814805, y: 0.12925088, z: 0.30502492}
-      Velocity: {x: -0.00040426888, y: 0.0015956179, z: 0.00039948738}
-    - Position: {x: 0.009924708, y: 0.55781424, z: -0.124575555}
-      Velocity: {x: -0.00031199335, y: -0.0020724554, z: 0.0008617964}
+    - Position: {x: -0.16895686, y: 0.12897032, z: 0.3177709}
+      Velocity: {x: 0.00049412297, y: 0.0016376391, z: 0.0006331378}
+    - Position: {x: 0.12814805, y: 0.129251, z: 0.3050249}
+      Velocity: {x: -0.0004030768, y: 0.0015959159, z: 0.00040067948}
+    - Position: {x: 0.00992471, y: 0.55781424, z: -0.124575555}
+      Velocity: {x: -0.0003120306, y: -0.0020724554, z: 0.0008618709}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66127,12 +66127,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1688551, y: 0.12903482, z: 0.31802708}
-      Velocity: {x: 0.0015659645, y: -0.0005918747, z: 0.003954908}
-    - Position: {x: 0.128143, y: 0.12930831, z: 0.30523372}
-      Velocity: {x: 0.00042542856, y: -0.0006884343, z: 0.0031135874}
-    - Position: {x: 0.009899719, y: 0.5576105, z: -0.12446231}
-      Velocity: {x: -0.00027919214, y: -0.0017195956, z: 0.001300785}
+    - Position: {x: -0.16885513, y: 0.12903476, z: 0.3180269}
+      Velocity: {x: 0.0015665606, y: -0.00059515296, z: 0.003953716}
+    - Position: {x: 0.12814298, y: 0.12930831, z: 0.30523372}
+      Velocity: {x: 0.0004285578, y: -0.0006857521, z: 0.0031132894}
+    - Position: {x: 0.009899713, y: 0.5576105, z: -0.12446231}
+      Velocity: {x: -0.00027917352, y: -0.0017195956, z: 0.0013008595}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66159,12 +66159,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16863696, y: 0.12882847, z: 0.31854188}
-      Velocity: {x: 0.0026215638, y: -0.0035700237, z: 0.005794309}
+    - Position: {x: -0.16863683, y: 0.12882838, z: 0.31854206}
+      Velocity: {x: 0.0026202227, y: -0.0035664474, z: 0.005795501}
     - Position: {x: 0.12824821, y: 0.12909126, z: 0.3056141}
-      Velocity: {x: 0.0014999523, y: -0.0038337745, z: 0.0038890445}
-    - Position: {x: 0.009872803, y: 0.55747885, z: -0.124311}
-      Velocity: {x: -0.00022626504, y: -0.0009781132, z: 0.00125027}
+      Velocity: {x: 0.001496972, y: -0.0038358606, z: 0.0038887465}
+    - Position: {x: 0.009872809, y: 0.55747885, z: -0.124311}
+      Velocity: {x: -0.00022627435, y: -0.0009781132, z: 0.0012501955}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66191,12 +66191,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16839486, y: 0.12846714, z: 0.31916872}
-      Velocity: {x: 0.0016416624, y: -0.0020498056, z: 0.006007992}
-    - Position: {x: 0.12838954, y: 0.1286608, z: 0.30601916}
-      Velocity: {x: 0.0009267041, y: -0.0032240183, z: 0.0040109362}
-    - Position: {x: 0.009866841, y: 0.55741644, z: -0.124193154}
-      Velocity: {x: 0.00024356903, y: -0.00039994754, z: 0.0008825835}
+    - Position: {x: -0.1683949, y: 0.12846711, z: 0.31916875}
+      Velocity: {x: 0.0016415134, y: -0.0020509977, z: 0.006007098}
+    - Position: {x: 0.12838948, y: 0.12866086, z: 0.30601913}
+      Velocity: {x: 0.0009267041, y: -0.0032237202, z: 0.004010638}
+    - Position: {x: 0.009866841, y: 0.55741644, z: -0.12419315}
+      Velocity: {x: 0.0002434852, y: -0.00039994754, z: 0.0008825835}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66223,12 +66223,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16834201, y: 0.12842083, z: 0.31969446}
-      Velocity: {x: -0.00083714805, y: 0.00070899795, z: 0.003591617}
-    - Position: {x: 0.12841643, y: 0.12845606, z: 0.3064065}
-      Velocity: {x: -0.0005941099, y: -0.001242758, z: 0.0031553106}
-    - Position: {x: 0.009906354, y: 0.55737245, z: -0.1241212}
-      Velocity: {x: 0.00048304955, y: -0.0005602842, z: 0.00030248074}
+    - Position: {x: -0.168342, y: 0.12842074, z: 0.3196947}
+      Velocity: {x: -0.000836254, y: 0.00071048806, z: 0.0035931072}
+    - Position: {x: 0.12841648, y: 0.12845603, z: 0.30640644}
+      Velocity: {x: -0.0005933648, y: -0.001242162, z: 0.0031553106}
+    - Position: {x: 0.009906352, y: 0.55737245, z: -0.124121204}
+      Velocity: {x: 0.0004830961, y: -0.0005602842, z: 0.00030248074}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66256,11 +66256,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16857475, y: 0.12856764, z: 0.3198427}
-      Velocity: {x: -0.0033369693, y: 0.0018864888, z: -0.00091360416}
+      Velocity: {x: -0.0033369693, y: 0.0018858927, z: -0.0009142002}
     - Position: {x: 0.12825164, y: 0.1283758, z: 0.30663553}
-      Velocity: {x: -0.0022399446, y: -0.0006073719, z: 0.00082744914}
-    - Position: {x: 0.009984877, y: 0.557326, z: -0.12412524}
-      Velocity: {x: 0.0010870594, y: -0.00013470663, z: -0.0006579}
+      Velocity: {x: -0.0022406897, y: -0.000608862, z: 0.00082864123}
+    - Position: {x: 0.009984873, y: 0.557326, z: -0.12412524}
+      Velocity: {x: 0.0010870408, y: -0.00013470663, z: -0.0006579}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66288,11 +66288,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16890003, y: 0.12878555, z: 0.31959948}
-      Velocity: {x: -0.0020937643, y: 0.0024420046, z: -0.0032790168}
-    - Position: {x: 0.1280806, y: 0.12833229, z: 0.30657142}
-      Velocity: {x: -0.00008419164, y: -0.00018656271, z: -0.0023453091}
-    - Position: {x: 0.010099932, y: 0.5573452, z: -0.12423152}
-      Velocity: {x: 0.0011448014, y: 0.00029325514, z: -0.0017152128}
+      Velocity: {x: -0.0020936152, y: 0.0024420046, z: -0.0032793148}
+    - Position: {x: 0.12808046, y: 0.12833232, z: 0.30657148}
+      Velocity: {x: -0.00008404263, y: -0.00018566864, z: -0.0023465012}
+    - Position: {x: 0.010099933, y: 0.5573452, z: -0.12423152}
+      Velocity: {x: 0.0011448573, y: 0.00029325514, z: -0.0017152873}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66319,12 +66319,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16897702, y: 0.12904447, z: 0.3192403}
-      Velocity: {x: 0.00018834996, y: 0.0024706032, z: -0.004136113}
-    - Position: {x: 0.12820712, y: 0.12834507, z: 0.30621067}
-      Velocity: {x: 0.0017413431, y: 0.00062018394, z: -0.0045655626}
-    - Position: {x: 0.010209906, y: 0.5573831, z: -0.1244475}
-      Velocity: {x: 0.00082303456, y: 0.0007194253, z: -0.002669025}
+    - Position: {x: -0.16897702, y: 0.12904459, z: 0.31924027}
+      Velocity: {x: 0.00018969105, y: 0.0024703052, z: -0.004136411}
+    - Position: {x: 0.12820715, y: 0.12834507, z: 0.3062107}
+      Velocity: {x: 0.0017413431, y: 0.00062048197, z: -0.0045655626}
+    - Position: {x: 0.010209911, y: 0.5573831, z: -0.12444751}
+      Velocity: {x: 0.000822988, y: 0.0007194253, z: -0.0026689505}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66351,12 +66351,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16887648, y: 0.12926361, z: 0.3188094}
-      Velocity: {x: 0.0015237869, y: 0.0020015163, z: -0.004417148}
-    - Position: {x: 0.12841305, y: 0.12846649, z: 0.30571425}
-      Velocity: {x: 0.0022090888, y: 0.0017157132, z: -0.005265319}
-    - Position: {x: 0.010253384, y: 0.55749726, z: -0.124738455}
-      Velocity: {x: 0.00012572807, y: 0.001389975, z: -0.0032322123}
+    - Position: {x: -0.1688763, y: 0.12926379, z: 0.31880942}
+      Velocity: {x: 0.0015219988, y: 0.0020024104, z: -0.004415956}
+    - Position: {x: 0.12841295, y: 0.12846637, z: 0.30571443}
+      Velocity: {x: 0.0022081947, y: 0.0017160112, z: -0.005265319}
+    - Position: {x: 0.010253385, y: 0.55749726, z: -0.124738455}
+      Velocity: {x: 0.00012576532, y: 0.001389975, z: -0.0032322123}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66383,12 +66383,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16875543, y: 0.12945828, z: 0.31837982}
-      Velocity: {x: 0.00035822255, y: 0.0019743964, z: -0.004298833}
-    - Position: {x: 0.12858166, y: 0.12867594, z: 0.30522484}
-      Velocity: {x: 0.0007788807, y: 0.0023811965, z: -0.004293767}
-    - Position: {x: 0.010241016, y: 0.5576444, z: -0.12505011}
-      Velocity: {x: -0.00037984777, y: 0.0015288533, z: -0.0029820227}
+    - Position: {x: -0.16875541, y: 0.12945825, z: 0.3183797}
+      Velocity: {x: 0.00035852057, y: 0.0019738004, z: -0.0042994292}
+    - Position: {x: 0.12858166, y: 0.12867591, z: 0.30522472}
+      Velocity: {x: 0.00078066887, y: 0.0023806004, z: -0.004293767}
+    - Position: {x: 0.010241017, y: 0.5576444, z: -0.12505011}
+      Velocity: {x: -0.00037982914, y: 0.0015288533, z: -0.0029820227}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66415,12 +66415,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16876659, y: 0.1296604, z: 0.3180138}
-      Velocity: {x: -0.00020831743, y: 0.0020491998, z: -0.0033549974}
-    - Position: {x: 0.12861943, y: 0.12893903, z: 0.3048947}
-      Velocity: {x: 0.00034242737, y: 0.0027477636, z: -0.0029204811}
-    - Position: {x: 0.010193019, y: 0.55779886, z: -0.12530704}
-      Velocity: {x: -0.00043654648, y: 0.0015258731, z: -0.0025220255}
+    - Position: {x: -0.16876657, y: 0.12966022, z: 0.31801373}
+      Velocity: {x: -0.00020801941, y: 0.0020456235, z: -0.0033561895}
+    - Position: {x: 0.12861928, y: 0.12893909, z: 0.3048945}
+      Velocity: {x: 0.000337361, y: 0.0027489557, z: -0.0029240574}
+    - Position: {x: 0.01019302, y: 0.55779886, z: -0.12530704}
+      Velocity: {x: -0.00043660236, y: 0.0015258731, z: -0.0025220255}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66445,18 +66445,18 @@ MonoBehaviour:
     NextPoseId: 2075
     LastPoseId: 2074
     Favour: 1
-    LocalVelocity: {x: 0, y: 0, z: 0.0001}
+    LocalVelocity: {x: 0.0017797574, y: 0, z: 0.00030837953}
     JointsData:
     - Position: {x: -0.16844063, y: 0.12970588, z: 0.31732178}
-      Velocity: {x: -0.14372617, y: -0.0008878112, z: 3.5608375}
-    - Position: {x: 0.12802118, y: 0.12972385, z: 0.30481324}
-      Velocity: {x: 0.13951868, y: -0.0008368492, z: 3.2765405}
+      Velocity: {x: 0.24093959, y: -0.00088721514, z: 0.2631188}
+    - Position: {x: 0.12802118, y: 0.12972385, z: 0.3048132}
+      Velocity: {x: 0.5241843, y: -0.0008368492, z: -0.021177456}
     - Position: {x: 0.0097977985, y: 0.558094, z: -0.12546197}
-      Velocity: {x: -0.39822575, y: 0.0011795759, z: 3.450711}
+      Velocity: {x: -0.01356069, y: 0.0011795759, z: 0.15299238}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.008365477, y: 0, z: 0.04353951}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.005006566, y: 0, z: 0.005336717}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66466,7 +66466,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2075
@@ -66479,16 +66479,16 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16844463, y: 0.12958506, z: 0.3172211}
-      Velocity: {x: -0.00041902068, y: -0.0020229819, z: -0.001806183}
+    - Position: {x: -0.16844465, y: 0.12958533, z: 0.31722087}
+      Velocity: {x: -0.0004191697, y: -0.0020229819, z: -0.0018067791}
     - Position: {x: 0.12810273, y: 0.12963456, z: 0.30476803}
       Velocity: {x: 0.0005328656, y: -0.0017997624, z: -0.0012765958}
     - Position: {x: 0.009880437, y: 0.5581793, z: -0.12538208}
-      Velocity: {x: 0.00086577615, y: 0.0009500981, z: 0.0005316603}
+      Velocity: {x: 0.0008657948, y: 0.0009500981, z: 0.0005316603}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.007812597, y: 0, z: 0.025947884}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0033757733, y: 0, z: 0.0019763112}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66498,7 +66498,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2076
@@ -66511,16 +66511,16 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16852066, y: 0.12930751, z: 0.3169793}
-      Velocity: {x: -0.0010664762, y: -0.003473759, z: -0.0032444433}
-    - Position: {x: 0.1281296, y: 0.12937081, z: 0.30457574}
-      Velocity: {x: 0.000026971104, y: -0.0034037235, z: -0.0027929381}
-    - Position: {x: 0.009967887, y: 0.55828077, z: -0.12533902}
-      Velocity: {x: 0.0008518808, y: 0.0010454656, z: 0.00009654633}
+    - Position: {x: -0.16852066, y: 0.12930745, z: 0.3169793}
+      Velocity: {x: -0.0010663272, y: -0.003473759, z: -0.0032438473}
+    - Position: {x: 0.12812951, y: 0.12937081, z: 0.30457574}
+      Velocity: {x: 0.000026822092, y: -0.0034037235, z: -0.0027929381}
+    - Position: {x: 0.009967888, y: 0.55828077, z: -0.12533902}
+      Velocity: {x: 0.0008518622, y: 0.0010454656, z: 0.00009654633}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.006984164, y: 0, z: 0.013129424}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0016323933, y: 0, z: 0.00022137165}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66530,7 +66530,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2077
@@ -66543,16 +66543,16 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16865389, y: 0.12889558, z: 0.31659138}
-      Velocity: {x: -0.0015625354, y: -0.0047042957, z: -0.004722041}
-    - Position: {x: 0.12810928, y: 0.12895936, z: 0.30422598}
-      Velocity: {x: -0.00041216603, y: -0.0047564497, z: -0.0044219317}
-    - Position: {x: 0.010047718, y: 0.55837685, z: -0.12535112}
-      Velocity: {x: 0.00071300176, y: 0.0007045267, z: -0.00066043256}
+    - Position: {x: -0.16865388, y: 0.12889558, z: 0.31659138}
+      Velocity: {x: -0.0015623864, y: -0.0047042957, z: -0.004722041}
+    - Position: {x: 0.12810938, y: 0.12895945, z: 0.30422598}
+      Velocity: {x: -0.00041201702, y: -0.0047564497, z: -0.0044219317}
+    - Position: {x: 0.010047717, y: 0.55837685, z: -0.12535112}
+      Velocity: {x: 0.0007130204, y: 0.0007045267, z: -0.00066043256}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.005491676, y: 0, z: 0.0066314563}
       FacingAngle: 0
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.00010678545, y: 0, z: -0.000018503517}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66562,7 +66562,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2078
@@ -66575,14 +66575,14 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16882893, y: 0.12837273, z: 0.3160528}
-      Velocity: {x: -0.0018703933, y: -0.0055795894, z: -0.0060285744}
-    - Position: {x: 0.12804954, y: 0.1284262, z: 0.30370778}
-      Velocity: {x: -0.00073954446, y: -0.0057119117, z: -0.005932611}
-    - Position: {x: 0.010107365, y: 0.5584319, z: -0.12544571}
-      Velocity: {x: 0.00046676944, y: 0.00071883184, z: -0.0011602173}
+    - Position: {x: -0.16882919, y: 0.12837273, z: 0.31605285}
+      Velocity: {x: -0.0018711383, y: -0.0055801854, z: -0.0060285744}
+    - Position: {x: 0.12804951, y: 0.1284262, z: 0.30370787}
+      Velocity: {x: -0.00073969347, y: -0.0057116137, z: -0.005932015}
+    - Position: {x: 0.010107366, y: 0.5584319, z: -0.12544572}
+      Velocity: {x: 0.00046676013, y: 0.00071883184, z: -0.0011602173}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0038747224, y: 0, z: 0.0028041936}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66594,7 +66594,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2079
@@ -66607,14 +66607,14 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16899975, y: 0.12787524, z: 0.31557655}
-      Velocity: {x: -0.0012855233, y: -0.0034895542, z: -0.002135499}
+    - Position: {x: -0.16899978, y: 0.12787524, z: 0.31557655}
+      Velocity: {x: -0.0012849272, y: -0.003488958, z: -0.002135499}
     - Position: {x: 0.12798877, y: 0.12792441, z: 0.30323154}
-      Velocity: {x: -0.00023752452, y: -0.0033527615, z: -0.0022344426}
-    - Position: {x: 0.010145291, y: 0.5585134, z: -0.12550767}
-      Velocity: {x: 0.00030060302, y: 0.00058889395, z: 0.00007941}
+      Velocity: {x: -0.00023737551, y: -0.0033530595, z: -0.0022350387}
+    - Position: {x: 0.01014529, y: 0.5585134, z: -0.12550767}
+      Velocity: {x: 0.00030061233, y: 0.00058889395, z: 0.00007941}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.0021723919, y: 0, z: 0.0005589165}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66626,7 +66626,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2080
@@ -66639,14 +66639,14 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1690747, y: 0.12767196, z: 0.3156364}
-      Velocity: {x: 0.000026524061, y: -0.0007578729, z: 0.0028125802}
-    - Position: {x: 0.12801038, y: 0.12775254, z: 0.3032595}
+    - Position: {x: -0.16907468, y: 0.12767193, z: 0.3156364}
+      Velocity: {x: 0.000026673073, y: -0.0007578729, z: 0.0028131763}
+    - Position: {x: 0.12801039, y: 0.12775254, z: 0.3032595}
       Velocity: {x: 0.0008860228, y: -0.00028282398, z: 0.0020025533}
-    - Position: {x: 0.010163684, y: 0.55854475, z: -0.12541597}
-      Velocity: {x: 0.000060508013, y: 0.00009417532, z: 0.0014576181}
+    - Position: {x: 0.010163685, y: 0.55854475, z: -0.12541597}
+      Velocity: {x: 0.0000604987, y: 0.00009417532, z: 0.0014576181}
     Trajectory:
-    - Position: {x: 0, y: 0, z: 0}
+    - Position: {x: -0.00035932288, y: 0, z: -0.000031612813}
       FacingAngle: 0
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66658,7 +66658,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2081
@@ -66672,10 +66672,10 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16899744, y: 0.12770659, z: 0.31611323}
-      Velocity: {x: 0.0011616943, y: 0.001274347, z: 0.0059051667}
-    - Position: {x: 0.12816069, y: 0.12784654, z: 0.30360246}
-      Velocity: {x: 0.0017504389, y: 0.001944005, z: 0.0042761723}
-    - Position: {x: 0.010155656, y: 0.55852896, z: -0.12521447}
+      Velocity: {x: 0.0011613963, y: 0.0012734529, z: 0.005905763}
+    - Position: {x: 0.1281607, y: 0.12784654, z: 0.3036024}
+      Velocity: {x: 0.0017502899, y: 0.001944005, z: 0.0042761723}
+    - Position: {x: 0.010155657, y: 0.55852896, z: -0.12521447}
       Velocity: {x: -0.00026267016, y: -0.00051140774, z: 0.0021175903}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
@@ -66690,7 +66690,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2082
@@ -66704,11 +66704,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16887163, y: 0.12791091, z: 0.31677577}
-      Velocity: {x: 0.0010824201, y: 0.002652108, z: 0.006527141}
-    - Position: {x: 0.12833084, y: 0.1281184, z: 0.30409664}
-      Velocity: {x: 0.0013731417, y: 0.0032627576, z: 0.005023614}
-    - Position: {x: 0.01011142, y: 0.5584376, z: -0.124994345}
-      Velocity: {x: -0.0005253403, y: -0.0012254711, z: 0.0019904089}
+      Velocity: {x: 0.0010824201, y: 0.002653002, z: 0.006525949}
+    - Position: {x: 0.12833089, y: 0.12811825, z: 0.30409643}
+      Velocity: {x: 0.0013731417, y: 0.0032627576, z: 0.005023316}
+    - Position: {x: 0.0101114195, y: 0.5584376, z: -0.12499434}
+      Velocity: {x: -0.0005253403, y: -0.0012254711, z: 0.0019904834}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66722,7 +66722,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2083
@@ -66737,10 +66737,10 @@ MonoBehaviour:
     JointsData:
     - Position: {x: -0.16881332, y: 0.12822014, z: 0.317377}
       Velocity: {x: -0.00020220871, y: 0.0033548467, z: 0.00468059}
-    - Position: {x: 0.12840207, y: 0.12847719, z: 0.30458972}
-      Velocity: {x: -0.00022307032, y: 0.0036928048, z: 0.004261271}
-    - Position: {x: 0.010057878, y: 0.5582941, z: -0.12480477}
-      Velocity: {x: -0.0005348119, y: -0.0016021725, z: 0.001373054}
+    - Position: {x: 0.12840211, y: 0.1284771, z: 0.3045898}
+      Velocity: {x: -0.00022321934, y: 0.0036931029, z: 0.004261569}
+    - Position: {x: 0.010057878, y: 0.5582941, z: -0.124804765}
+      Velocity: {x: -0.00053480256, y: -0.0016021725, z: 0.0013729795}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66754,7 +66754,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2084
@@ -66767,12 +66767,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16890904, y: 0.12856102, z: 0.31769872}
-      Velocity: {x: -0.0010457638, y: 0.0032269966, z: 0.0018720204}
+    - Position: {x: -0.16890904, y: 0.12856102, z: 0.31769875}
+      Velocity: {x: -0.0010447208, y: 0.0032272947, z: 0.0018720204}
     - Position: {x: 0.128291, y: 0.12883723, z: 0.30493775}
-      Velocity: {x: -0.0013504927, y: 0.0033319008, z: 0.0023107107}
-    - Position: {x: 0.010010244, y: 0.55812085, z: -0.12470942}
-      Velocity: {x: -0.00050826016, y: -0.0018280752, z: 0.00066457887}
+      Velocity: {x: -0.0013503437, y: 0.0033316028, z: 0.0023107107}
+    - Position: {x: 0.010010244, y: 0.55812085, z: -0.12470943}
+      Velocity: {x: -0.0005082788, y: -0.0018280752, z: 0.00066457887}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66786,7 +66786,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2085
@@ -66800,11 +66800,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16896825, y: 0.12884346, z: 0.31778726}
-      Velocity: {x: -0.000106692416, y: 0.0023767375, z: -0.00018910904}
+      Velocity: {x: -0.000107437474, y: 0.0023764395, z: -0.00018910904}
     - Position: {x: 0.12818366, y: 0.1291253, z: 0.30504784}
-      Velocity: {x: -0.0007717319, y: 0.0023874664, z: -0.00017569796}
-    - Position: {x: 0.009949178, y: 0.55793494, z: -0.124628305}
-      Velocity: {x: -0.0005290849, y: -0.0019210596, z: 0.0007406498}
+      Velocity: {x: -0.00077232794, y: 0.0023877644, z: -0.00017420785}
+    - Position: {x: 0.009949179, y: 0.55793494, z: -0.124628305}
+      Velocity: {x: -0.00052906625, y: -0.0019210596, z: 0.0007405753}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66818,7 +66818,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2086
@@ -66831,12 +66831,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16892885, y: 0.12902266, z: 0.3178315}
-      Velocity: {x: 0.0009138891, y: 0.0008663543, z: 0.0021098442}
-    - Position: {x: 0.12813711, y: 0.12930101, z: 0.3050724}
-      Velocity: {x: -0.0001317264, y: 0.000798405, z: 0.0016958897}
-    - Position: {x: 0.0099148955, y: 0.55772954, z: -0.12453475}
-      Velocity: {x: -0.000247136, y: -0.002066495, z: 0.0009941189}
+    - Position: {x: -0.16892882, y: 0.12902245, z: 0.31783146}
+      Velocity: {x: 0.0009137401, y: 0.00086665235, z: 0.0021101423}
+    - Position: {x: 0.12813713, y: 0.12930089, z: 0.30507252}
+      Velocity: {x: -0.00013113035, y: 0.00079810695, z: 0.0016943996}
+    - Position: {x: 0.0099148955, y: 0.55772954, z: -0.124534756}
+      Velocity: {x: -0.000247136, y: -0.002066495, z: 0.0009941934}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66850,7 +66850,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2087
@@ -66864,11 +66864,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16878352, y: 0.12899, z: 0.31821036}
-      Velocity: {x: 0.002041461, y: -0.0017508881, z: 0.0048603034}
-    - Position: {x: 0.12816921, y: 0.12925938, z: 0.30537587}
-      Velocity: {x: 0.000912399, y: -0.0018584746, z: 0.0036232076}
-    - Position: {x: 0.009887596, y: 0.5575498, z: -0.12439995}
-      Velocity: {x: -0.00027515952, y: -0.0013929618, z: 0.001414481}
+      Velocity: {x: 0.002041461, y: -0.0017511861, z: 0.0048600053}
+    - Position: {x: 0.12816918, y: 0.12925929, z: 0.30537587}
+      Velocity: {x: 0.0009118029, y: -0.0018563884, z: 0.0036208234}
+    - Position: {x: 0.009887597, y: 0.5575498, z: -0.124399945}
+      Velocity: {x: -0.00027516883, y: -0.0013929618, z: 0.0014145555}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66882,7 +66882,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2088
@@ -66895,12 +66895,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16852598, y: 0.12865663, z: 0.31878778}
-      Velocity: {x: 0.0025275373, y: -0.003752414, z: 0.0061307778}
+    - Position: {x: -0.168526, y: 0.12865663, z: 0.3187878}
+      Velocity: {x: 0.0025278353, y: -0.0037521159, z: 0.0061286916}
     - Position: {x: 0.12831445, y: 0.12890482, z: 0.3057733}
-      Velocity: {x: 0.001484157, y: -0.004335646, z: 0.0039361324}
-    - Position: {x: 0.009863556, y: 0.55744517, z: -0.124260746}
-      Velocity: {x: -0.000109458444, y: -0.0006937987, z: 0.0011079638}
+      Velocity: {x: 0.0014849021, y: -0.0043395204, z: 0.0039406028}
+    - Position: {x: 0.009863557, y: 0.55744517, z: -0.12426075}
+      Velocity: {x: -0.00010946776, y: -0.0006937987, z: 0.0011078893}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66914,7 +66914,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2089
@@ -66928,11 +66928,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16834328, y: 0.12841478, z: 0.31940693}
-      Velocity: {x: 0.00077620224, y: -0.000748337, z: 0.005386315}
+      Velocity: {x: 0.0007759042, y: -0.00074863504, z: 0.005388699}
     - Position: {x: 0.1284176, y: 0.12855464, z: 0.3061843}
-      Velocity: {x: 0.00041395467, y: -0.00225723, z: 0.0038497054}
-    - Position: {x: 0.009881989, y: 0.55740297, z: -0.12415798}
-      Velocity: {x: 0.0003807809, y: -0.00041604083, z: 0.00067374355}
+      Velocity: {x: 0.00041589182, y: -0.0022533557, z: 0.0038464272}
+    - Position: {x: 0.00988199, y: 0.55740297, z: -0.12415798}
+      Velocity: {x: 0.00038079952, y: -0.00041604083, z: 0.00067381805}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66946,7 +66946,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2090
@@ -66959,12 +66959,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16839817, y: 0.12846562, z: 0.31981337}
-      Velocity: {x: -0.0020468254, y: 0.0013518346, z: 0.0018603987}
-    - Position: {x: 0.12837747, y: 0.12841716, z: 0.30652496}
-      Velocity: {x: -0.0014434769, y: -0.00085920177, z: 0.0024221728}
-    - Position: {x: 0.009927179, y: 0.55734843, z: -0.12411065}
-      Velocity: {x: 0.00071314233, y: -0.00050544785, z: -0.000038309132}
+    - Position: {x: -0.16839816, y: 0.12846562, z: 0.31981337}
+      Velocity: {x: -0.0020466764, y: 0.0013518346, z: 0.0018595046}
+    - Position: {x: 0.12837772, y: 0.12841704, z: 0.30652493}
+      Velocity: {x: -0.001445563, y: -0.00086128793, z: 0.002423365}
+    - Position: {x: 0.009927178, y: 0.55734843, z: -0.124110654}
+      Velocity: {x: 0.000713133, y: -0.00050544785, z: -0.000038458144}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -66978,7 +66978,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2091
@@ -66991,12 +66991,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16871883, y: 0.12864757, z: 0.3197741}
-      Velocity: {x: -0.003360066, y: 0.0021216294, z: -0.0022845124}
-    - Position: {x: 0.12815829, y: 0.12835291, z: 0.3066472}
+    - Position: {x: -0.16871884, y: 0.12864757, z: 0.3197741}
+      Velocity: {x: -0.003359619, y: 0.0021225235, z: -0.0022842144}
+    - Position: {x: 0.12815824, y: 0.12835267, z: 0.30664748}
       Velocity: {x: -0.0019165892, y: -0.0004804139, z: -0.00042365355}
-    - Position: {x: 0.010031849, y: 0.5573275, z: -0.12415599}
-      Velocity: {x: 0.0011513393, y: 0.00014781966, z: -0.0010561339}
+    - Position: {x: 0.010031849, y: 0.5573275, z: -0.124156}
+      Velocity: {x: 0.0011513393, y: 0.00014781966, z: -0.0010560594}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67010,7 +67010,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2092
@@ -67023,12 +67023,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1689566, y: 0.12888664, z: 0.31946626}
-      Velocity: {x: -0.0010216245, y: 0.0025823738, z: -0.003613399}
-    - Position: {x: 0.12811375, y: 0.12832934, z: 0.30645436}
+    - Position: {x: -0.1689566, y: 0.12888664, z: 0.3194663}
+      Velocity: {x: -0.0010228166, y: 0.0025820758, z: -0.003612803}
+    - Position: {x: 0.12811375, y: 0.12832928, z: 0.30645448}
       Velocity: {x: 0.0010585795, y: 0.000051856092, z: -0.0034724341}
-    - Position: {x: 0.010147394, y: 0.55735564, z: -0.12430587}
-      Velocity: {x: 0.0011226452, y: 0.0003397468, z: -0.0021688791}
+    - Position: {x: 0.010147395, y: 0.55735564, z: -0.12430586}
+      Velocity: {x: 0.0011226545, y: 0.0003397468, z: -0.0021688791}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67042,7 +67042,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2093
@@ -67055,12 +67055,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16895413, y: 0.12913853, z: 0.31907126}
-      Velocity: {x: 0.00086128793, y: 0.002243223, z: -0.0043766373}
-    - Position: {x: 0.1282826, y: 0.12838012, z: 0.3060214}
-      Velocity: {x: 0.0020004828, y: 0.0010994087, z: -0.0049872873}
-    - Position: {x: 0.01023586, y: 0.55741954, z: -0.124555446}
-      Velocity: {x: 0.00050644437, y: 0.0010627519, z: -0.002942772}
+    - Position: {x: -0.16895412, y: 0.12913856, z: 0.31907117}
+      Velocity: {x: 0.000861884, y: 0.0022426269, z: -0.0043769353}
+    - Position: {x: 0.1282828, y: 0.12838015, z: 0.30602127}
+      Velocity: {x: 0.0020001847, y: 0.0011014949, z: -0.004984605}
+    - Position: {x: 0.010235859, y: 0.55741954, z: -0.12455545}
+      Velocity: {x: 0.00050643506, y: 0.0010627519, z: -0.0029428464}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67074,7 +67074,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2094
@@ -67087,12 +67087,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16880675, y: 0.12934127, z: 0.31863913}
+    - Position: {x: -0.16880675, y: 0.1293413, z: 0.31863907}
       Velocity: {x: 0.0013364864, y: 0.0019475836, z: -0.004401075}
-    - Position: {x: 0.12850502, y: 0.12854248, z: 0.30550542}
-      Velocity: {x: 0.0018453615, y: 0.002028944, z: -0.0050895093}
-    - Position: {x: 0.010254065, y: 0.55755514, z: -0.12486593}
-      Velocity: {x: -0.00007190748, y: 0.0014621033, z: -0.0032440736}
+    - Position: {x: 0.12850504, y: 0.12854248, z: 0.3055054}
+      Velocity: {x: 0.0018458086, y: 0.0020268578, z: -0.0050921915}
+    - Position: {x: 0.010254065, y: 0.55755514, z: -0.12486592}
+      Velocity: {x: -0.000071916795, y: 0.0014621033, z: -0.003243999}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67106,7 +67106,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2095
@@ -67119,12 +67119,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16875467, y: 0.12953782, z: 0.3182146}
-      Velocity: {x: -0.00006020075, y: 0.0020089764, z: -0.0039135087}
-    - Position: {x: 0.12859929, y: 0.12877572, z: 0.30506992}
-      Velocity: {x: 0.0004018847, y: 0.002584162, z: -0.0035883652}
-    - Position: {x: 0.010219774, y: 0.55770683, z: -0.12516004}
-      Velocity: {x: -0.00047804834, y: 0.0015497223, z: -0.0027257362}
+    - Position: {x: -0.16875464, y: 0.12953773, z: 0.31821474}
+      Velocity: {x: -0.000060051738, y: 0.0020089764, z: -0.0039135087}
+    - Position: {x: 0.1285993, y: 0.12877572, z: 0.30506992}
+      Velocity: {x: 0.00040173568, y: 0.002584162, z: -0.0035883652}
+    - Position: {x: 0.010219773, y: 0.55770683, z: -0.12516004}
+      Velocity: {x: -0.00047802972, y: 0.0015497223, z: -0.0027257362}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67138,7 +67138,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2096
@@ -67151,10 +67151,10 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16877142, y: 0.12974465, z: 0.31791687}
-      Velocity: {x: -0.00034228, y: 0.002142789, z: -0.0023226594}
-    - Position: {x: 0.12864463, y: 0.12905708, z: 0.30480653}
-      Velocity: {x: 0.0005720561, y: 0.0030124215, z: -0.002039835}
+    - Position: {x: -0.16877145, y: 0.12974447, z: 0.3179169}
+      Velocity: {x: -0.000342429, y: 0.002142789, z: -0.0023226594}
+    - Position: {x: 0.12864494, y: 0.12905708, z: 0.30480647}
+      Velocity: {x: 0.000570417, y: 0.0030124215, z: -0.002038643}
     - Position: {x: 0.010172693, y: 0.55785763, z: -0.12540409}
       Velocity: {x: -0.00052504294, y: 0.0014752164, z: -0.0026035465}
     Trajectory:
@@ -67170,7 +67170,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2097
@@ -67185,10 +67185,10 @@ MonoBehaviour:
     JointsData:
     - Position: {x: -0.16885784, y: 0.12996978, z: 0.31775206}
       Velocity: {x: -0.0012473774, y: 0.002485218, z: -0.0016002503}
-    - Position: {x: 0.12867858, y: 0.12937313, z: 0.3046899}
-      Velocity: {x: -0.000089556066, y: 0.003359619, z: -0.000822409}
-    - Position: {x: 0.0101168705, y: 0.55800486, z: -0.12567094}
-      Velocity: {x: -0.00056180224, y: 0.0014740243, z: -0.0028740028}
+    - Position: {x: 0.12867844, y: 0.12937301, z: 0.3046899}
+      Velocity: {x: -0.00008806595, y: 0.003359321, z: -0.00082419714}
+    - Position: {x: 0.01011687, y: 0.55800486, z: -0.12567094}
+      Velocity: {x: -0.00056181155, y: 0.0014740243, z: -0.0028740028}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67202,7 +67202,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2098
@@ -67215,11 +67215,11 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16899168, y: 0.13025534, z: 0.31755048}
+    - Position: {x: -0.16899167, y: 0.13025534, z: 0.31755048}
       Velocity: {x: -0.0012609374, y: 0.0028198985, z: -0.0033627613}
-    - Position: {x: 0.1286325, y: 0.12974095, z: 0.30458754}
-      Velocity: {x: -0.00061929284, y: 0.0036704575, z: -0.0022177552}
-    - Position: {x: 0.010058833, y: 0.55814946, z: -0.12595452}
+    - Position: {x: 0.12863249, y: 0.12974092, z: 0.3045875}
+      Velocity: {x: -0.0006197399, y: 0.0036707555, z: -0.0022171591}
+    - Position: {x: 0.010058833, y: 0.55814946, z: -0.12595451}
       Velocity: {x: -0.00059079437, y: 0.0015050187, z: -0.0031079513}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
@@ -67234,7 +67234,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2099
@@ -67247,12 +67247,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16909692, y: 0.13047168, z: 0.31703484}
-      Velocity: {x: -0.0008521982, y: 0.0014436259, z: -0.0069181817}
-    - Position: {x: 0.12857321, y: 0.13005346, z: 0.30419767}
-      Velocity: {x: -0.0005187099, y: 0.0025028014, z: -0.005593765}
-    - Position: {x: 0.00999745, y: 0.5583228, z: -0.12628661}
-      Velocity: {x: -0.000670199, y: 0.0019472856, z: -0.0036807526}
+    - Position: {x: -0.16909689, y: 0.13047162, z: 0.31703478}
+      Velocity: {x: -0.0008519002, y: 0.00144452, z: -0.0069166915}
+    - Position: {x: 0.12857325, y: 0.13005358, z: 0.30419773}
+      Velocity: {x: -0.00051841186, y: 0.0025001192, z: -0.005593169}
+    - Position: {x: 0.00999745, y: 0.5583228, z: -0.12628663}
+      Velocity: {x: -0.000670199, y: 0.0019472856, z: -0.0036806036}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67266,7 +67266,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2100
@@ -67279,12 +67279,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16916399, y: 0.13056594, z: 0.3162572}
-      Velocity: {x: -0.000507534, y: 0.00064432685, z: -0.008133521}
-    - Position: {x: 0.12853211, y: 0.13025832, z: 0.30355504}
-      Velocity: {x: -0.00027090337, y: 0.0017604248, z: -0.0068031447}
-    - Position: {x: 0.009924156, y: 0.5585243, z: -0.12665665}
-      Velocity: {x: -0.00078098924, y: 0.0019085426, z: -0.0037835706}
+    - Position: {x: -0.16916397, y: 0.13056594, z: 0.3162572}
+      Velocity: {x: -0.00050783204, y: 0.0006434328, z: -0.008135011}
+    - Position: {x: 0.12853219, y: 0.13025832, z: 0.30355516}
+      Velocity: {x: -0.00027045634, y: 0.001763107, z: -0.0068037407}
+    - Position: {x: 0.009924157, y: 0.5585243, z: -0.12665665}
+      Velocity: {x: -0.00078098924, y: 0.0019085426, z: -0.0037837196}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67298,7 +67298,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2101
@@ -67311,10 +67311,10 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16920029, y: 0.13062066, z: 0.3154977}
-      Velocity: {x: -0.00023886585, y: 0.00065982406, z: -0.006555785}
+    - Position: {x: -0.16920035, y: 0.13062066, z: 0.3154977}
+      Velocity: {x: -0.00023782277, y: 0.00065982406, z: -0.006554593}
     - Position: {x: 0.12852253, y: 0.13042244, z: 0.30292207}
-      Velocity: {x: 0.00011876237, y: 0.0016945617, z: -0.0053934935}
+      Velocity: {x: 0.000119060394, y: 0.0016945617, z: -0.0053934935}
     - Position: {x: 0.009840788, y: 0.5586885, z: -0.12700972}
       Velocity: {x: -0.000901726, y: 0.0012093794, z: -0.0033430918}
     Trajectory:
@@ -67330,7 +67330,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2102
@@ -67343,11 +67343,11 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16921356, y: 0.1307179, z: 0.31503698}
-      Velocity: {x: -0.00004172329, y: 0.0014513745, z: -0.0022320603}
-    - Position: {x: 0.12855907, y: 0.1306139, z: 0.30256176}
-      Velocity: {x: 0.00044316097, y: 0.00225723, z: -0.0014148797}
-    - Position: {x: 0.0097418735, y: 0.55874956, z: -0.12729123}
+    - Position: {x: -0.16921353, y: 0.13071787, z: 0.3150368}
+      Velocity: {x: -0.000042766373, y: 0.0014513745, z: -0.0022332524}
+    - Position: {x: 0.128559, y: 0.13061383, z: 0.3025618}
+      Velocity: {x: 0.00044271394, y: 0.00225723, z: -0.0014148797}
+    - Position: {x: 0.009741874, y: 0.55874956, z: -0.12729123}
       Velocity: {x: -0.0010205628, y: 0.00032663377, z: -0.0020548853}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
@@ -67362,7 +67362,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2103
@@ -67375,11 +67375,11 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16921009, y: 0.13089421, z: 0.31506968}
-      Velocity: {x: 0.00010535131, y: 0.0015905515, z: 0.0021253414}
-    - Position: {x: 0.12858495, y: 0.13085431, z: 0.3026594}
-      Velocity: {x: -0.000013858094, y: 0.0020530839, z: 0.0026161862}
-    - Position: {x: 0.009656615, y: 0.5588251, z: -0.12734966}
+    - Position: {x: -0.1692101, y: 0.13089415, z: 0.31506976}
+      Velocity: {x: 0.00010490428, y: 0.0015890613, z: 0.0021250434}
+    - Position: {x: 0.12858498, y: 0.13085425, z: 0.30265942}
+      Velocity: {x: -0.000014603152, y: 0.0020515937, z: 0.00261559}
+    - Position: {x: 0.009656614, y: 0.5588251, z: -0.12734964}
       Velocity: {x: -0.00058881997, y: 0.0012457382, z: 0.0005556517}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
@@ -67394,7 +67394,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2104
@@ -67408,10 +67408,10 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.16919439, y: 0.13099009, z: 0.31543574}
-      Velocity: {x: 0.00017717498, y: 0.00005781656, z: 0.0046159243}
+      Velocity: {x: 0.00017672795, y: 0.00005930668, z: 0.0046168184}
     - Position: {x: 0.12855634, y: 0.13097847, z: 0.30305493}
-      Velocity: {x: -0.0005632644, y: 0.00014990583, z: 0.0046579456}
-    - Position: {x: 0.009614841, y: 0.5589509, z: -0.12721238}
+      Velocity: {x: -0.00056222134, y: 0.00014901176, z: 0.0046591377}
+    - Position: {x: 0.009614842, y: 0.5589509, z: -0.12721238}
       Velocity: {x: -0.0003250319, y: 0.0010246048, z: 0.0016130392}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
@@ -67426,7 +67426,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2105
@@ -67439,12 +67439,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1691842, y: 0.13098714, z: 0.3159802}
-      Velocity: {x: -0.00006854541, y: 0.0008192666, z: 0.005740367}
-    - Position: {x: 0.12847283, y: 0.13096684, z: 0.30358505}
-      Velocity: {x: -0.0010605167, y: 0.00059008657, z: 0.005492411}
-    - Position: {x: 0.009590768, y: 0.5590248, z: -0.127032}
-      Velocity: {x: -0.00014620848, y: 0.00041484874, z: 0.0015607361}
+    - Position: {x: -0.1691842, y: 0.13098711, z: 0.31598014}
+      Velocity: {x: -0.00006765134, y: 0.0008192666, z: 0.005739771}
+    - Position: {x: 0.12847285, y: 0.1309669, z: 0.30358493}
+      Velocity: {x: -0.0010608147, y: 0.00059247075, z: 0.005491815}
+    - Position: {x: 0.009590769, y: 0.5590248, z: -0.12703201}
+      Velocity: {x: -0.00014621779, y: 0.00041484874, z: 0.0015607361}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67458,7 +67458,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2106
@@ -67471,12 +67471,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16921325, y: 0.1311439, z: 0.31655377}
-      Velocity: {x: -0.00047460245, y: 0.002017023, z: 0.0049032187}
+    - Position: {x: -0.16921318, y: 0.13114417, z: 0.31655365}
+      Velocity: {x: -0.00047430443, y: 0.002015533, z: 0.004904709}
     - Position: {x: 0.12835808, y: 0.13108993, z: 0.3041214}
-      Velocity: {x: -0.0011041771, y: 0.0016006842, z: 0.0044701905}
+      Velocity: {x: -0.0011041771, y: 0.0016015783, z: 0.0044710846}
     - Position: {x: 0.00958248, y: 0.55903214, z: -0.12690282}
-      Velocity: {x: -0.000053737363, y: -0.00031113654, z: 0.0006148094}
+      Velocity: {x: -0.000053718737, y: -0.00031113654, z: 0.0006148094}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67490,7 +67490,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2107
@@ -67503,12 +67503,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16926162, y: 0.13135996, z: 0.31693745}
-      Velocity: {x: -0.00037759577, y: 0.0020185132, z: 0.0025997949}
+    - Position: {x: -0.16926154, y: 0.13136005, z: 0.3169375}
+      Velocity: {x: -0.00037834083, y: 0.0020208973, z: 0.0025959206}
     - Position: {x: 0.12824897, y: 0.13126037, z: 0.3044616}
-      Velocity: {x: -0.0011335324, y: 0.001558663, z: 0.0021298118}
+      Velocity: {x: -0.0011335324, y: 0.0015577689, z: 0.0021289177}
     - Position: {x: 0.009577559, y: 0.55896133, z: -0.12688957}
-      Velocity: {x: -0.00007777482, y: -0.0009572515, z: -0.00010596047}
+      Velocity: {x: -0.000077784134, y: -0.0009572515, z: -0.00010596047}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67522,7 +67522,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2108
@@ -67535,12 +67535,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16928679, y: 0.1315411, z: 0.3171224}
-      Velocity: {x: -0.00011071574, y: 0.0016143933, z: 0.0010333834}
-    - Position: {x: 0.12813261, y: 0.13139671, z: 0.30459392}
-      Velocity: {x: -0.0011566292, y: 0.0012078893, z: 0.0004164747}
+    - Position: {x: -0.16928694, y: 0.13154104, z: 0.3171224}
+      Velocity: {x: -0.000110268695, y: 0.0016123072, z: 0.0010357676}
+    - Position: {x: 0.1281326, y: 0.13139677, z: 0.30459386}
+      Velocity: {x: -0.0011552881, y: 0.0012078893, z: 0.00041558064}
     - Position: {x: 0.009566138, y: 0.5588513, z: -0.12686686}
-      Velocity: {x: -0.00013050636, y: -0.001255275, z: 0.0003668538}
+      Velocity: {x: -0.00013049705, y: -0.001255275, z: 0.00036700282}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67554,7 +67554,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2109
@@ -67567,12 +67567,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16927929, y: 0.13167262, z: 0.31715465}
-      Velocity: {x: 0.00030785828, y: 0.0008648642, z: -0.0006421048}
-    - Position: {x: 0.12802479, y: 0.13148928, z: 0.30458093}
-      Velocity: {x: -0.0009216377, y: 0.0004071001, z: -0.00023291848}
-    - Position: {x: 0.009554631, y: 0.5587124, z: -0.12680116}
-      Velocity: {x: -0.00006484805, y: -0.0014877333, z: 0.0006848449}
+    - Position: {x: -0.16927929, y: 0.13167262, z: 0.31715468}
+      Velocity: {x: 0.0003081563, y: 0.00086397014, z: -0.0006421048}
+    - Position: {x: 0.1280248, y: 0.13148928, z: 0.30458093}
+      Velocity: {x: -0.0009229788, y: 0.0004071001, z: -0.00023202441}
+    - Position: {x: 0.00955463, y: 0.5587124, z: -0.12680116}
+      Velocity: {x: -0.00006485737, y: -0.0014877333, z: 0.0006846959}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67586,7 +67586,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2110
@@ -67599,12 +67599,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16920412, y: 0.13168538, z: 0.31707707}
-      Velocity: {x: 0.0016279534, y: -0.0009241709, z: -0.0005467372}
-    - Position: {x: 0.12797199, y: 0.13146377, z: 0.30459362}
-      Velocity: {x: 0.0003108385, y: -0.0009334096, z: -0.000098807905}
+    - Position: {x: -0.16920412, y: 0.1316854, z: 0.3170771}
+      Velocity: {x: 0.0016276554, y: -0.0009220847, z: -0.0005467372}
+    - Position: {x: 0.1279721, y: 0.13146377, z: 0.30459347}
+      Velocity: {x: 0.00031113654, y: -0.0009334096, z: -0.000098807905}
     - Position: {x: 0.009559004, y: 0.55856436, z: -0.12671024}
-      Velocity: {x: 0.0002474247, y: -0.0012379896, z: 0.0010302542}
+      Velocity: {x: 0.000247434, y: -0.0012379896, z: 0.0010302542}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67618,7 +67618,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2111
@@ -67631,12 +67631,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16895488, y: 0.13147503, z: 0.31703702}
-      Velocity: {x: 0.0028584925, y: -0.0032970342, z: -0.0009553275}
-    - Position: {x: 0.12808886, y: 0.13129419, z: 0.3045465}
-      Velocity: {x: 0.0015638784, y: -0.002610984, z: -0.0013195121}
+    - Position: {x: -0.16895488, y: 0.13147509, z: 0.317037}
+      Velocity: {x: 0.0028584925, y: -0.0032970342, z: -0.00095502945}
+    - Position: {x: 0.12808874, y: 0.13129425, z: 0.30454648}
+      Velocity: {x: 0.0015635804, y: -0.002610984, z: -0.0013195121}
     - Position: {x: 0.009608842, y: 0.55847716, z: -0.12657478}
-      Velocity: {x: 0.00061485043, y: -0.00049412297, z: 0.0013150157}
+      Velocity: {x: 0.0006148411, y: -0.00049412297, z: 0.0013151647}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67650,7 +67650,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2112
@@ -67663,12 +67663,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16868399, y: 0.13105068, z: 0.31689665}
-      Velocity: {x: 0.0020253677, y: -0.0044322056, z: -0.0012521588}
-    - Position: {x: 0.1282362, y: 0.13094836, z: 0.30436182}
-      Velocity: {x: 0.00089153735, y: -0.003741089, z: -0.0015466061}
-    - Position: {x: 0.009663037, y: 0.55846155, z: -0.12643588}
-      Velocity: {x: 0.00042709563, y: -0.0001090766, z: 0.0014041247}
+    - Position: {x: -0.1686839, y: 0.13105062, z: 0.31689668}
+      Velocity: {x: 0.0020255167, y: -0.0044322056, z: -0.0012524568}
+    - Position: {x: 0.12823619, y: 0.13094836, z: 0.30436176}
+      Velocity: {x: 0.0008925804, y: -0.0037390029, z: -0.0015489903}
+    - Position: {x: 0.009663036, y: 0.55846155, z: -0.12643588}
+      Velocity: {x: 0.0004270863, y: -0.0001090766, z: 0.0014039756}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67682,7 +67682,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2113
@@ -67695,11 +67695,11 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16858052, y: 0.13064283, z: 0.31686246}
-      Velocity: {x: 0.00044077676, y: -0.0037366187, z: 0.0002755096}
-    - Position: {x: 0.12823908, y: 0.13058901, z: 0.30432647}
-      Velocity: {x: -0.00052511744, y: -0.0034010443, z: 0.00040008343}
-    - Position: {x: 0.009697464, y: 0.5584331, z: -0.12626345}
+    - Position: {x: -0.1685805, y: 0.13064283, z: 0.31686246}
+      Velocity: {x: 0.00044032972, y: -0.0037354266, z: 0.00027491356}
+    - Position: {x: 0.12823907, y: 0.13058901, z: 0.30432647}
+      Velocity: {x: -0.0005261605, y: -0.0034031305, z: 0.00040246762}
+    - Position: {x: 0.009697465, y: 0.5584331, z: -0.12626345}
       Velocity: {x: 0.00026427236, y: -0.00047683762, z: 0.0017772501}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
@@ -67714,7 +67714,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2114
@@ -67727,11 +67727,11 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16854493, y: 0.13029951, z: 0.3169614}
-      Velocity: {x: 0.00034302342, y: -0.0031214834, z: 0.0013173932}
-    - Position: {x: 0.12816961, y: 0.13027334, z: 0.30443585}
+    - Position: {x: -0.16854492, y: 0.13029951, z: 0.3169614}
+      Velocity: {x: 0.00034332144, y: -0.0031226755, z: 0.0013179892}
+    - Position: {x: 0.12816963, y: 0.13027334, z: 0.3044358}
       Velocity: {x: -0.000796017, y: -0.002899159, z: 0.0013895144}
-    - Position: {x: 0.009715985, y: 0.5583623, z: -0.126069}
+    - Position: {x: 0.009715984, y: 0.5583623, z: -0.126069}
       Velocity: {x: 0.00014621709, y: -0.00090896734, z: 0.0018885523}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
@@ -67746,7 +67746,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2115
@@ -67759,12 +67759,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.16851151, y: 0.13001865, z: 0.3171252}
+    - Position: {x: -0.16851147, y: 0.13001877, z: 0.3171252}
       Velocity: {x: 0.00032305595, y: -0.0024878883, z: 0.0015593871}
-    - Position: {x: 0.12808482, y: 0.13000974, z: 0.30460382}
+    - Position: {x: 0.12808482, y: 0.13000974, z: 0.30460387}
       Velocity: {x: -0.0008414654, y: -0.0023600368, z: 0.0015701158}
     - Position: {x: 0.009731004, y: 0.5582599, z: -0.12586232}
-      Velocity: {x: 0.0001682521, y: -0.0011128145, z: 0.0020521665}
+      Velocity: {x: 0.00016827072, y: -0.0011128145, z: 0.0020521665}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67778,7 +67778,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2116
@@ -67792,11 +67792,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.1684807, y: 0.12980276, z: 0.3172745}
-      Velocity: {x: 0.00029995924, y: -0.0018259813, z: 0.0010238413}
-    - Position: {x: 0.12800649, y: 0.12980166, z: 0.30474955}
+      Velocity: {x: 0.00029995924, y: -0.0018262793, z: 0.0010235433}
+    - Position: {x: 0.12800662, y: 0.12980175, z: 0.30474967}
       Velocity: {x: -0.00067025167, y: -0.0017893246, z: 0.00093830895}
-    - Position: {x: 0.0097508365, y: 0.55814177, z: -0.12563992}
-      Velocity: {x: 0.00025553533, y: -0.0012189103, z: 0.0021818061}
+    - Position: {x: 0.009750837, y: 0.55814177, z: -0.12563992}
+      Velocity: {x: 0.0002555167, y: -0.0012189103, z: 0.0021818061}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67810,7 +67810,7 @@ MonoBehaviour:
       FacingAngle: 0
     Tags: 4
     FavourTags: 0
-    GenericTags: 0
+    GenericTags: 192
     UserTags: 0
     AnimType: 0
   - PoseId: 2117
@@ -67824,11 +67824,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.18483192, y: 0.1295942, z: 0.27517015}
-      Velocity: {x: -0.16406384, y: -0.005259196, z: -0.42209062}
-    - Position: {x: 0.16374025, y: 0.12997133, z: 0.2722292}
-      Velocity: {x: 0.35767537, y: -0.0013503381, z: -0.3258858}
+      Velocity: {x: -0.16406265, y: -0.005258898, z: -0.42209002}
+    - Position: {x: 0.16374044, y: 0.1299715, z: 0.27222908}
+      Velocity: {x: 0.35767597, y: -0.0013503381, z: -0.3258852}
     - Position: {x: -0.0026837238, y: 0.7557721, z: -0.060794353}
-      Velocity: {x: -0.124195516, y: 1.9760462, z: 0.64532703}
+      Velocity: {x: -0.12419551, y: 1.9760462, z: 0.64532703}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67855,12 +67855,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18493849, y: 0.12860554, z: 0.275085}
-      Velocity: {x: -0.0014178401, y: -0.012603354, z: -0.00008211867}
+    - Position: {x: -0.18493849, y: 0.12860554, z: 0.27508503}
+      Velocity: {x: -0.0014196282, y: -0.012602758, z: -0.000083608786}
     - Position: {x: 0.16372217, y: 0.12901235, z: 0.27223372}
-      Velocity: {x: -0.0005480626, y: -0.012263609, z: 0.0012649412}
-    - Position: {x: -0.0026474844, y: 0.7555668, z: -0.06118403}
-      Velocity: {x: -0.00024479022, y: -0.0026756423, z: -0.0044542514}
+      Velocity: {x: -0.00054865866, y: -0.012263609, z: 0.0012643451}
+    - Position: {x: -0.0026474847, y: 0.7555668, z: -0.061184034}
+      Velocity: {x: -0.0002447972, y: -0.0026756423, z: -0.0044542514}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67888,11 +67888,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.1850594, y: 0.12728006, z: 0.27528244}
-      Velocity: {x: -0.00027447834, y: -0.0124221565, z: 0.0035662677}
-    - Position: {x: 0.16368444, y: 0.1277358, z: 0.27258664}
+      Velocity: {x: -0.00027418032, y: -0.012424541, z: 0.0035680558}
+    - Position: {x: 0.16368452, y: 0.1277358, z: 0.27258658}
       Velocity: {x: 0.00048562698, y: -0.011585907, z: 0.005278405}
-    - Position: {x: -0.0027461627, y: 0.7552404, z: -0.06169422}
-      Velocity: {x: -0.0015693494, y: -0.0037336207, z: -0.006382976}
+    - Position: {x: -0.002746163, y: 0.7552404, z: -0.06169422}
+      Velocity: {x: -0.0015693471, y: -0.0037336207, z: -0.006382976}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67919,12 +67919,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18502906, y: 0.12606597, z: 0.27536222}
-      Velocity: {x: -0.00077813567, y: -0.012172414, z: -0.0042642625}
+    - Position: {x: -0.18502906, y: 0.12606591, z: 0.2753622}
+      Velocity: {x: -0.00077664555, y: -0.012171818, z: -0.0042627724}
     - Position: {x: 0.1637818, y: 0.12661159, z: 0.27279228}
-      Velocity: {x: -0.0002118937, y: -0.012019827, z: -0.0047098054}
-    - Position: {x: -0.002915819, y: 0.7548661, z: -0.062488724}
-      Velocity: {x: -0.0014102871, y: -0.0033926833, z: -0.00887526}
+      Velocity: {x: -0.0002118937, y: -0.012019827, z: -0.0047095073}
+    - Position: {x: -0.0029158192, y: 0.7548661, z: -0.06248872}
+      Velocity: {x: -0.0014102778, y: -0.0033926833, z: -0.008875186}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67951,12 +67951,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18517853, y: 0.1252743, z: 0.2752157}
-      Velocity: {x: 0.0005047004, y: -0.0018364121, z: 0.0025082892}
+    - Position: {x: -0.18517862, y: 0.1252743, z: 0.27521586}
+      Velocity: {x: 0.00050410436, y: -0.0018328358, z: 0.002506799}
     - Position: {x: 0.16367663, y: 0.1258173, z: 0.272574}
-      Velocity: {x: 0.0008083849, y: -0.0002253047, z: 0.0038785946}
-    - Position: {x: -0.0029848916, y: 0.7545255, z: -0.06320591}
-      Velocity: {x: 0.0006727639, y: -0.0036257368, z: -0.004318055}
+      Velocity: {x: 0.000809875, y: -0.00022292053, z: 0.0038777005}
+    - Position: {x: -0.002984892, y: 0.7545255, z: -0.06320591}
+      Velocity: {x: 0.0006727569, y: -0.0036257368, z: -0.0043181297}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -67983,12 +67983,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18487489, y: 0.12528014, z: 0.2753327}
-      Velocity: {x: 0.0016848679, y: 0.0017744235, z: 0.0012059328}
-    - Position: {x: 0.16399421, y: 0.12611943, z: 0.2726778}
-      Velocity: {x: 0.00163182, y: 0.0032049294, z: -0.0030569753}
-    - Position: {x: -0.0027500002, y: 0.7542328, z: -0.063072294}
-      Velocity: {x: 0.003533762, y: -0.0012588453, z: 0.00929943}
+    - Position: {x: -0.18487479, y: 0.12527996, z: 0.2753327}
+      Velocity: {x: 0.0016842718, y: 0.0017720393, z: 0.0012053368}
+    - Position: {x: 0.16399422, y: 0.12611979, z: 0.27267763}
+      Velocity: {x: 0.0016303299, y: 0.0032025455, z: -0.0030563793}
+    - Position: {x: -0.0027500005, y: 0.7542328, z: -0.063072294}
+      Velocity: {x: 0.0035337643, y: -0.0012588453, z: 0.009299394}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68016,11 +68016,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.18499081, y: 0.12576503, z: 0.27510983}
-      Velocity: {x: -0.0012856673, y: 0.011511997, z: -0.0025875904}
-    - Position: {x: 0.16385157, y: 0.12653273, z: 0.27221662}
+      Velocity: {x: -0.0012852203, y: 0.011511997, z: -0.0025869943}
+    - Position: {x: 0.16385154, y: 0.12653273, z: 0.27221662}
       Velocity: {x: -0.001956217, y: 0.010243019, z: -0.0001891086}
     - Position: {x: -0.0024432354, y: 0.75435394, z: -0.061485812}
-      Velocity: {x: 0.0015510047, y: 0.0039750184, z: 0.020964313}
+      Velocity: {x: 0.0015510047, y: 0.0039750184, z: 0.02096435}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68047,12 +68047,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18514772, y: 0.12748408, z: 0.2753303}
-      Velocity: {x: -0.0038173648, y: 0.0062763453, z: -0.004528012}
-    - Position: {x: 0.16341032, y: 0.12807256, z: 0.27279568}
-      Velocity: {x: -0.0049842703, y: 0.0066715223, z: -0.006030043}
-    - Position: {x: -0.0023532007, y: 0.75502384, z: -0.0588071}
-      Velocity: {x: 0.0017996297, y: 0.011647299, z: 0.032682277}
+    - Position: {x: -0.1851478, y: 0.12748396, z: 0.2753305}
+      Velocity: {x: -0.0038181099, y: 0.0062781335, z: -0.00452831}
+    - Position: {x: 0.16341045, y: 0.12807244, z: 0.27279574}
+      Velocity: {x: -0.0049839723, y: 0.0066739065, z: -0.006030639}
+    - Position: {x: -0.0023532012, y: 0.75502384, z: -0.058807105}
+      Velocity: {x: 0.001799625, y: 0.011647299, z: 0.032682277}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68079,12 +68079,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18582034, y: 0.12759626, z: 0.2760085}
-      Velocity: {x: -0.0006434297, y: 0.001807802, z: 0.0009222158}
-    - Position: {x: 0.16308433, y: 0.12868685, z: 0.2721368}
-      Velocity: {x: -0.001268829, y: 0.010585149, z: -0.01422118}
-    - Position: {x: -0.0021334584, y: 0.7569094, z: -0.054718964}
-      Velocity: {x: 0.0010013961, y: 0.030451898, z: 0.053000867}
+    - Position: {x: -0.18582025, y: 0.12759614, z: 0.2760085}
+      Velocity: {x: -0.0006431317, y: 0.0018060139, z: 0.0009219178}
+    - Position: {x: 0.16308433, y: 0.12868702, z: 0.2721369}
+      Velocity: {x: -0.001269574, y: 0.010584553, z: -0.014222074}
+    - Position: {x: -0.0021334589, y: 0.7569094, z: -0.054718964}
+      Velocity: {x: 0.0010014008, y: 0.030451898, z: 0.05300083}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68111,12 +68111,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18555234, y: 0.12807679, z: 0.27478418}
-      Velocity: {x: -0.0019736513, y: 0.018625785, z: 0.0062976405}
-    - Position: {x: 0.16329253, y: 0.13000768, z: 0.26996586}
-      Velocity: {x: 0.0048297457, y: 0.022993, z: -0.0004901109}
-    - Position: {x: -0.0021374081, y: 0.76126784, z: -0.04711168}
-      Velocity: {x: -0.0019894394, y: 0.055597212, z: 0.11256728}
+    - Position: {x: -0.18555234, y: 0.12807679, z: 0.27478415}
+      Velocity: {x: -0.0019742474, y: 0.018625785, z: 0.0062976405}
+    - Position: {x: 0.16329254, y: 0.13000745, z: 0.269966}
+      Velocity: {x: 0.004830193, y: 0.022991212, z: -0.0004886208}
+    - Position: {x: -0.0021374077, y: 0.76126784, z: -0.047111675}
+      Velocity: {x: -0.001989437, y: 0.055597212, z: 0.11256732}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68143,12 +68143,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18573934, y: 0.130319, z: 0.27604496}
-      Velocity: {x: -0.002915997, y: 0.010462959, z: -0.002135491}
+    - Position: {x: -0.18573928, y: 0.13031906, z: 0.276045}
+      Velocity: {x: -0.002914507, y: 0.010461171, z: -0.002135193}
     - Position: {x: 0.16356319, y: 0.13216406, z: 0.27099967}
-      Velocity: {x: -0.004467947, y: 0.00629065, z: -0.0030614454}
-    - Position: {x: -0.002687888, y: 0.7684428, z: -0.03162337}
-      Velocity: {x: -0.0062109316, y: 0.09033884, z: 0.19367462}
+      Velocity: {x: -0.004467947, y: 0.006290054, z: -0.0030608494}
+    - Position: {x: -0.0026878882, y: 0.7684428, z: -0.03162337}
+      Velocity: {x: -0.006210934, y: 0.09033884, z: 0.19367462}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68175,12 +68175,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18606675, y: 0.12936813, z: 0.27554867}
-      Velocity: {x: 0.0038823336, y: -0.022365365, z: 0.024378045}
-    - Position: {x: 0.16238993, y: 0.13112795, z: 0.2704213}
-      Velocity: {x: -0.0009274447, y: -0.020884791, z: 0.029020036}
-    - Position: {x: -0.0026192537, y: 0.78038514, z: -0.008096002}
-      Velocity: {x: 0.012691599, y: 0.17736308, z: 0.28895298}
+    - Position: {x: -0.18606675, y: 0.12936813, z: 0.27554864}
+      Velocity: {x: 0.0038826317, y: -0.022362981, z: 0.024377747}
+    - Position: {x: 0.16238993, y: 0.13112795, z: 0.27042136}
+      Velocity: {x: -0.0009256566, y: -0.020885983, z: 0.029020036}
+    - Position: {x: -0.002619254, y: 0.78038514, z: -0.008096002}
+      Velocity: {x: 0.0126915965, y: 0.17736308, z: 0.28895298}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68208,11 +68208,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.18522176, y: 0.12751824, z: 0.27771246}
-      Velocity: {x: 0.005331317, y: 0.0072782952, z: -0.0133423135}
-    - Position: {x: 0.16348377, y: 0.12871677, z: 0.27391884}
-      Velocity: {x: 0.008887317, y: -0.0049131922, z: 0.0060312087}
-    - Position: {x: -0.0005772705, y: 0.8042167, z: 0.024383754}
-      Velocity: {x: 0.021949848, y: 0.28075588, z: 0.33269635}
+      Velocity: {x: 0.005330423, y: 0.0072788913, z: -0.013343506}
+    - Position: {x: 0.16348375, y: 0.12871677, z: 0.27391884}
+      Velocity: {x: 0.008885678, y: -0.004911404, z: 0.0060306126}
+    - Position: {x: -0.000577271, y: 0.8042167, z: 0.024383754}
+      Velocity: {x: 0.021949854, y: 0.28075588, z: 0.33269635}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68239,12 +68239,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18560252, y: 0.12994123, z: 0.27529788}
-      Velocity: {x: -0.0079592755, y: 0.021348514, z: 0.009241801}
-    - Position: {x: 0.16410565, y: 0.133178, z: 0.2750215}
+    - Position: {x: -0.18560264, y: 0.12994117, z: 0.2752977}
+      Velocity: {x: -0.007957189, y: 0.021346726, z: 0.009243589}
+    - Position: {x: 0.16410568, y: 0.133178, z: 0.27502155}
       Velocity: {x: -0.0009417498, y: 0.046986163, z: 0.025203565}
-    - Position: {x: 0.0015623341, y: 0.8353158, z: 0.058047652}
-      Velocity: {x: 0.019577026, y: 0.30671778, z: 0.376854}
+    - Position: {x: 0.0015623346, y: 0.8353158, z: 0.058047652}
+      Velocity: {x: 0.019577034, y: 0.30671778, z: 0.376854}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68271,12 +68271,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18582499, y: 0.13187933, z: 0.27644613}
-      Velocity: {x: 0.0032147642, y: 0.012619447, z: -0.014660167}
-    - Position: {x: 0.16387567, y: 0.13060945, z: 0.2743746}
-      Velocity: {x: 0.0037419654, y: -0.049774457, z: -0.030575441}
-    - Position: {x: 0.0025652344, y: 0.86399555, z: 0.099478066}
-      Velocity: {x: -0.0064491387, y: 0.27992857, z: 0.4123359}
+    - Position: {x: -0.18582498, y: 0.13187933, z: 0.27644613}
+      Velocity: {x: 0.003212529, y: 0.012620639, z: -0.014660167}
+    - Position: {x: 0.16387576, y: 0.13060975, z: 0.27437454}
+      Velocity: {x: 0.0037421144, y: -0.049772073, z: -0.03057574}
+    - Position: {x: 0.002565234, y: 0.86399555, z: 0.099478066}
+      Velocity: {x: -0.006449142, y: 0.27992857, z: 0.4123359}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68303,12 +68303,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18497147, y: 0.132088, z: 0.27490503}
-      Velocity: {x: 0.009530001, y: -0.009427034, z: -0.017124511}
-    - Position: {x: 0.16447988, y: 0.1294083, z: 0.2726616}
-      Velocity: {x: 0.0033447018, y: 0.010214409, z: -0.008460414}
+    - Position: {x: -0.1849714, y: 0.13208789, z: 0.27490515}
+      Velocity: {x: 0.009528362, y: -0.009426438, z: -0.017126001}
+    - Position: {x: 0.16447993, y: 0.12940812, z: 0.27266163}
+      Velocity: {x: 0.0033441058, y: 0.010212025, z: -0.008460116}
     - Position: {x: 0.00005496759, y: 0.8914415, z: 0.1404901}
-      Velocity: {x: -0.051674888, y: 0.2659865, z: 0.40905663}
+      Velocity: {x: -0.05167489, y: 0.2659865, z: 0.40905663}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68335,10 +68335,10 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18398732, y: 0.12988257, z: 0.27400374}
-      Velocity: {x: 0.0054868846, y: -0.026575226, z: 0.001478027}
-    - Position: {x: 0.1649647, y: 0.13053584, z: 0.2725623}
-      Velocity: {x: 0.0033803156, y: 0.0029212125, z: 0.0047991853}
+    - Position: {x: -0.18398723, y: 0.12988251, z: 0.27400368}
+      Velocity: {x: 0.005488971, y: -0.026576418, z: 0.001477729}
+    - Position: {x: 0.16496474, y: 0.13053584, z: 0.2725623}
+      Velocity: {x: 0.0033806136, y: 0.0029194243, z: 0.0047985893}
     - Position: {x: -0.007545851, y: 0.9169987, z: 0.1815952}
       Velocity: {x: -0.09965048, y: 0.23923485, z: 0.4005773}
     Trajectory:
@@ -68367,12 +68367,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18426146, y: 0.12859869, z: 0.2748728}
-      Velocity: {x: -0.0076271305, y: 0.0043690037, z: 0.0077957977}
-    - Position: {x: 0.16491537, y: 0.129942, z: 0.27255386}
-      Velocity: {x: -0.0030124073, y: -0.010625083, z: -0.0005199131}
+    - Position: {x: -0.18426143, y: 0.12859869, z: 0.2748728}
+      Velocity: {x: -0.0076256404, y: 0.0043678116, z: 0.0077966917}
+    - Position: {x: 0.1649154, y: 0.129942, z: 0.27255386}
+      Velocity: {x: -0.0030119603, y: -0.010622103, z: -0.0005196151}
     - Position: {x: -0.02006917, y: 0.93879974, z: 0.2199541}
-      Velocity: {x: -0.14618382, y: 0.19201921, z: 0.36651158}
+      Velocity: {x: -0.1461838, y: 0.19201921, z: 0.36651158}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68399,10 +68399,10 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18489629, y: 0.12821311, z: 0.27534893}
-      Velocity: {x: -0.00019922777, y: -0.030525805, z: 0.012298315}
-    - Position: {x: 0.1641972, y: 0.12916636, z: 0.2736183}
-      Velocity: {x: -0.0032770508, y: -0.012746405, z: 0.018954638}
+    - Position: {x: -0.18489638, y: 0.12821323, z: 0.27534893}
+      Velocity: {x: -0.0002010159, y: -0.030525805, z: 0.012298911}
+    - Position: {x: 0.1641972, y: 0.12916636, z: 0.27361828}
+      Velocity: {x: -0.0032777959, y: -0.012747597, z: 0.018955234}
     - Position: {x: -0.035757728, y: 0.9542695, z: 0.25320894}
       Velocity: {x: -0.14693338, y: 0.107685514, z: 0.2805051}
     Trajectory:
@@ -68432,11 +68432,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.1850966, y: 0.124890745, z: 0.276841}
-      Velocity: {x: -0.005505958, y: -0.0117826015, z: 0.0034807352}
-    - Position: {x: 0.16432731, y: 0.12738663, z: 0.27505374}
-      Velocity: {x: 0.00061690575, y: -0.00787136, z: 0.0034408004}
-    - Position: {x: -0.049286067, y: 0.9617458, z: 0.27750406}
-      Velocity: {x: -0.12726523, y: 0.063067436, z: 0.22635059}
+      Velocity: {x: -0.005505958, y: -0.011781409, z: 0.0034798412}
+    - Position: {x: 0.16432734, y: 0.12738651, z: 0.2750537}
+      Velocity: {x: 0.0006163097, y: -0.007870764, z: 0.0034402043}
+    - Position: {x: -0.049286067, y: 0.9617458, z: 0.27750403}
+      Velocity: {x: -0.12726526, y: 0.063067436, z: 0.2263503}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68464,11 +68464,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.18564808, y: 0.12554008, z: 0.2761278}
-      Velocity: {x: -0.0005765237, y: 0.019832773, z: -0.009859627}
+      Velocity: {x: -0.0005772688, y: 0.019831581, z: -0.009859925}
     - Position: {x: 0.16378598, y: 0.12763673, z: 0.2749752}
-      Velocity: {x: -0.011029649, y: 0.009647571, z: 0.0068540475}
+      Velocity: {x: -0.01102786, y: 0.0096469745, z: 0.0068543456}
     - Position: {x: -0.06012909, y: 0.967185, z: 0.2980774}
-      Velocity: {x: -0.06984561, y: 0.04389329, z: 0.17154045}
+      Velocity: {x: -0.06984565, y: 0.04389329, z: 0.17154075}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68496,11 +68496,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.18513343, y: 0.12850106, z: 0.27561873}
-      Velocity: {x: 0.0029568262, y: 0.03449725, z: -0.0031541304}
-    - Position: {x: 0.16289747, y: 0.12928212, z: 0.27674165}
-      Velocity: {x: -0.00306322, y: 0.023581296, z: 0.018535024}
+      Velocity: {x: 0.0029569753, y: 0.034496058, z: -0.0031523423}
+    - Position: {x: 0.16289756, y: 0.12928218, z: 0.2767418}
+      Velocity: {x: -0.003062624, y: 0.023583084, z: 0.018534726}
     - Position: {x: -0.062051676, y: 0.9705031, z: 0.31148672}
-      Velocity: {x: 0.026675621, y: 0.024784112, z: 0.10866077}
+      Velocity: {x: 0.026675658, y: 0.024784112, z: 0.10866077}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68527,12 +68527,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18493791, y: 0.13181311, z: 0.27557096}
-      Velocity: {x: 0.002818246, y: 0.025771758, z: 0.00089211547}
+    - Position: {x: -0.18493803, y: 0.13181317, z: 0.275571}
+      Velocity: {x: 0.002818693, y: 0.025774738, z: 0.00089181756}
     - Position: {x: 0.16286302, y: 0.13207537, z: 0.2780442}
-      Velocity: {x: -0.004423542, y: 0.02701451, z: 0.00029487925}
+      Velocity: {x: -0.004425926, y: 0.027012127, z: 0.0002954753}
     - Position: {x: -0.05483444, y: 0.9723325, z: 0.32117546}
-      Velocity: {x: 0.11568461, y: 0.012488318, z: 0.09048501}
+      Velocity: {x: 0.11568465, y: 0.012488318, z: 0.09048501}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68560,11 +68560,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.18462777, y: 0.1333465, z: 0.27528334}
-      Velocity: {x: 0.0040413286, y: 0.009577834, z: -0.0063155484}
-    - Position: {x: 0.16235198, y: 0.13417947, z: 0.27636477}
-      Velocity: {x: -0.0010320505, y: 0.011709288, z: -0.02631581}
-    - Position: {x: -0.039403725, y: 0.97298557, z: 0.32915175}
-      Velocity: {x: 0.18523625, y: 0.000836846, z: 0.06707537}
+      Velocity: {x: 0.0040425207, y: 0.009576642, z: -0.0063167405}
+    - Position: {x: 0.162352, y: 0.13417947, z: 0.27636477}
+      Velocity: {x: -0.0010307094, y: 0.011709884, z: -0.026316108}
+    - Position: {x: -0.03940373, y: 0.97298557, z: 0.32915175}
+      Velocity: {x: 0.18523623, y: 0.000836846, z: 0.06707537}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68591,10 +68591,10 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18427029, y: 0.13416135, z: 0.27479523}
-      Velocity: {x: 0.001944147, y: 0.006747816, z: 0.00024332144}
-    - Position: {x: 0.16261901, y: 0.13426721, z: 0.2742161}
-      Velocity: {x: 0.0040000523, y: -0.0070911376, z: -0.011548518}
+    - Position: {x: -0.18427029, y: 0.13416135, z: 0.2747952}
+      Velocity: {x: 0.001943253, y: 0.006747816, z: 0.0002442155}
+    - Position: {x: 0.16261901, y: 0.13426709, z: 0.27421618}
+      Velocity: {x: 0.0039999033, y: -0.007095906, z: -0.011549114}
     - Position: {x: -0.019752147, y: 0.9725843, z: 0.33479157}
       Velocity: {x: 0.1876581, y: -0.0083046835, z: 0.044996403}
     Trajectory:
@@ -68624,10 +68624,10 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.18409191, y: 0.13485134, z: 0.27526295}
-      Velocity: {x: 0.0043761563, y: 0.007461877, z: 0.0070680273}
+      Velocity: {x: 0.004375709, y: 0.007462473, z: 0.0070677293}
     - Position: {x: 0.16307113, y: 0.13325667, z: 0.27371454}
-      Velocity: {x: 0.006478553, y: -0.011174636, z: -0.0010879432}
-    - Position: {x: -0.0024620935, y: 0.9713614, z: 0.33806768}
+      Velocity: {x: 0.006477659, y: -0.011170464, z: -0.0010879432}
+    - Position: {x: -0.0024620937, y: 0.9713614, z: 0.33806768}
       Velocity: {x: 0.1626175, y: -0.015168728, z: 0.02355461}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
@@ -68656,11 +68656,11 @@ MonoBehaviour:
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
     - Position: {x: -0.18357156, y: 0.13535184, z: 0.27599955}
-      Velocity: {x: 0.010217836, y: -0.005577185, z: 0.0043032765}
+      Velocity: {x: 0.010219028, y: -0.005576589, z: 0.0043032765}
     - Position: {x: 0.16366173, y: 0.13204503, z: 0.27382714}
-      Velocity: {x: 0.008589593, y: -0.010299047, z: -0.000055296685}
+      Velocity: {x: 0.008590189, y: -0.010298451, z: -0.00005470064}
     - Position: {x: 0.012367314, y: 0.9697016, z: 0.34024304}
-      Velocity: {x: 0.11030213, y: -0.016078291, z: 0.029559754}
+      Velocity: {x: 0.11030211, y: -0.016078291, z: 0.029559754}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68687,12 +68687,12 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.18320829, y: 0.13342291, z: 0.27623916}
-      Velocity: {x: -0.011532263, y: -0.025080347, z: -0.0010685718}
+    - Position: {x: -0.18320826, y: 0.13342291, z: 0.2762392}
+      Velocity: {x: -0.011533306, y: -0.025080943, z: -0.0010685718}
     - Position: {x: 0.16374262, y: 0.13122964, z: 0.27374563}
-      Velocity: {x: -0.012998532, y: -0.008963312, z: -0.003906934}
+      Velocity: {x: -0.012998383, y: -0.008963312, z: -0.003906934}
     - Position: {x: 0.01722783, y: 0.9682854, z: 0.34405202}
-      Velocity: {x: 0.0039824317, y: -0.012482357, z: 0.040611006}
+      Velocity: {x: 0.0039824503, y: -0.012482357, z: 0.040611006}
     Trajectory:
     - Position: {x: 0, y: 0, z: 0}
       FacingAngle: 0
@@ -68719,10 +68719,10 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1843222, y: 0.13106185, z: 0.27585799}
+    - Position: {x: -0.18432222, y: 0.13106191, z: 0.27585796}
       Velocity: {x: -0.005358884, y: -0.019162225, z: -0.0015573279}
-    - Position: {x: 0.16275711, y: 0.13028437, z: 0.27312937}
-      Velocity: {x: -0.0033439568, y: -0.008273689, z: -0.0031416134}
+    - Position: {x: 0.16275722, y: 0.13028413, z: 0.27312937}
+      Velocity: {x: -0.0033445528, y: -0.008273093, z: -0.0031416134}
     - Position: {x: 0.016378378, y: 0.96715534, z: 0.3482764}
       Velocity: {x: -0.011989447, y: -0.009974799, z: 0.042894155}
     Trajectory:
@@ -68753,8 +68753,8 @@ MonoBehaviour:
     JointsData:
     - Position: {x: -0.1845189, y: 0.1297738, z: 0.27593783}
       Velocity: {x: -0.000782606, y: -0.005320886, z: 0.00017984273}
-    - Position: {x: 0.16265504, y: 0.12972009, z: 0.27310064}
-      Velocity: {x: -0.00008344618, y: -0.002145759, z: -0.0002782172}
+    - Position: {x: 0.16265514, y: 0.12972009, z: 0.27310067}
+      Velocity: {x: -0.00008299915, y: -0.002146355, z: -0.0002782172}
     - Position: {x: 0.015024122, y: 0.9663276, z: 0.35261294}
       Velocity: {x: -0.009895693, y: -0.0051468415, z: 0.033369966}
     Trajectory:
@@ -68783,7 +68783,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -68815,7 +68815,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -68847,7 +68847,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -68879,7 +68879,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -68911,7 +68911,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -68943,7 +68943,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -68975,7 +68975,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -69007,7 +69007,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -69039,7 +69039,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -69071,7 +69071,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -69103,7 +69103,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -69135,7 +69135,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -69167,7 +69167,7 @@ MonoBehaviour:
     Favour: 1
     LocalVelocity: {x: 0, y: 0, z: 0.0001}
     JointsData:
-    - Position: {x: -0.1845382, y: 0.12970525, z: 0.27592766}
+    - Position: {x: -0.18453819, y: 0.12970525, z: 0.27592766}
       Velocity: {x: 0, y: 0, z: -0.0001}
     - Position: {x: 0.16266683, y: 0.12970531, z: 0.27309048}
       Velocity: {x: 0, y: 0, z: -0.0001}
@@ -101951,531 +101951,531 @@ MonoBehaviour:
     TotalActionDuration: 0.8415497
     StartPoseId: 2032
     WindupPoseContactOffsets:
-    - Position: {x: 0.049635552, y: 0.56148624, z: -0.46694636}
+    - Position: {x: 0.02890526, y: 0.5621902, z: -0.46957073}
       RotationY: 0
-    - Position: {x: 0.049635552, y: 0.56148624, z: -0.46694636}
+    - Position: {x: 0.019588538, y: 0.5621902, z: -0.47027886}
       RotationY: 0
-    - Position: {x: 0.049635552, y: 0.56148624, z: -0.46694636}
+    - Position: {x: 0.018916816, y: 0.5621902, z: -0.4678497}
       RotationY: 0
-    - Position: {x: 0.049635552, y: 0.56148624, z: -0.46694636}
+    - Position: {x: 0.025011394, y: 0.5621902, z: -0.4545872}
       RotationY: 0
     SubEventContactOffsets: []
     RootContactOffset:
-    - Position: {x: -0.049635552, y: -0.56148624, z: 0.46694636}
+    - Position: {x: -0.02842422, y: -0.5621902, z: 0.1716159}
       RotationY: 0
     WarpingLookupTable:
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0014473889, y: 0, z: -0.29818016}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.2166662
       RemainingRotWarpTime: 1.2166662
       Time: 0.3
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0033758152, y: 0, z: -0.2984055}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.1999996
       RemainingRotWarpTime: 1.1999996
       Time: 0.3166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0049442966, y: 0, z: -0.29857412}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.1833329
       RemainingRotWarpTime: 1.1833329
       Time: 0.33333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.006512787, y: 0, z: -0.29874274}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.1666663
       RemainingRotWarpTime: 1.1666663
       Time: 0.35000002
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0076742396, y: 0, z: -0.29870287}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.1499996
       RemainingRotWarpTime: 1.1499996
       Time: 0.36666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0088356715, y: 0, z: -0.298663}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.133333
       RemainingRotWarpTime: 1.133333
       Time: 0.38333336
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.009445062, y: 0, z: -0.29851636}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.1166663
       RemainingRotWarpTime: 1.1166663
       Time: 0.4
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.010054452, y: 0, z: -0.29836974}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.0999997
       RemainingRotWarpTime: 1.0999997
       Time: 0.4166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.01008725, y: 0, z: -0.297984}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.083333
       RemainingRotWarpTime: 1.083333
       Time: 0.43333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.010120047, y: 0, z: -0.2975983}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.0666664
       RemainingRotWarpTime: 1.0666664
       Time: 0.45000002
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.009813705, y: 0, z: -0.29691604}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.0499997
       RemainingRotWarpTime: 1.0499997
       Time: 0.4666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.009507364, y: 0, z: -0.2962338}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.0333331
       RemainingRotWarpTime: 1.0333331
       Time: 0.48333335
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.00904513, y: 0, z: -0.29495132}
       relativeContactRootRotY: 0
       RemainingWarpTime: 1.0166664
       RemainingRotWarpTime: 1.0166664
       Time: 0.5
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.008582896, y: 0, z: -0.29366884}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.9999997
       RemainingRotWarpTime: 0.9999997
       Time: 0.5166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.007776033, y: 0, z: -0.2914159}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.98333305
       RemainingRotWarpTime: 0.98333305
       Time: 0.53333336
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0069691706, y: 0, z: -0.28916296}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.9666664
       RemainingRotWarpTime: 0.9666664
       Time: 0.55
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0051909704, y: 0, z: -0.2860671}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.94999975
       RemainingRotWarpTime: 0.94999975
       Time: 0.5666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0034127831, y: 0, z: -0.28297126}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.9333331
       RemainingRotWarpTime: 0.9333331
       Time: 0.5833334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: -0.0008638315, y: 0, z: -0.27933824}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.91666645
       RemainingRotWarpTime: 0.91666645
       Time: 0.6
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0016851164, y: 0, z: -0.27570522}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.8999998
       RemainingRotWarpTime: 0.8999998
       Time: 0.6166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0045442972, y: 0, z: -0.27186242}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.88333315
       RemainingRotWarpTime: 0.88333315
       Time: 0.6333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0074034547, y: 0, z: -0.26801965}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.8666665
       RemainingRotWarpTime: 0.8666665
       Time: 0.65000004
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.010504359, y: 0, z: -0.2642618}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.84999985
       RemainingRotWarpTime: 0.84999985
       Time: 0.6666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.013605264, y: 0, z: -0.26050398}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.8333332
       RemainingRotWarpTime: 0.8333332
       Time: 0.68333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.017116092, y: 0, z: -0.25701568}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.81666654
       RemainingRotWarpTime: 0.81666654
       Time: 0.70000005
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.020626932, y: 0, z: -0.25352737}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.7999999
       RemainingRotWarpTime: 0.7999999
       Time: 0.7166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.024163388, y: 0, z: -0.24981035}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.78333324
       RemainingRotWarpTime: 0.78333324
       Time: 0.73333335
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.027699843, y: 0, z: -0.24609333}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.7666666
       RemainingRotWarpTime: 0.7666666
       Time: 0.75000006
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.031394184, y: 0, z: -0.24175107}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.74999994
       RemainingRotWarpTime: 0.74999994
       Time: 0.7666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.03508853, y: 0, z: -0.23740885}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.7333333
       RemainingRotWarpTime: 0.7333333
       Time: 0.78333336
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.038683042, y: 0, z: -0.23272555}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.71666664
       RemainingRotWarpTime: 0.71666664
       Time: 0.8
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.04227756, y: 0, z: -0.22804222}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.7
       RemainingRotWarpTime: 0.7
       Time: 0.8166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.045407303, y: 0, z: -0.22321552}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.68333334
       RemainingRotWarpTime: 0.68333334
       Time: 0.8333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.04853704, y: 0, z: -0.21838877}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.6666667
       RemainingRotWarpTime: 0.6666667
       Time: 0.85
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.05098609, y: 0, z: -0.21360394}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.65000004
       RemainingRotWarpTime: 0.65000004
       Time: 0.86666673
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.05343511, y: 0, z: -0.20881914}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.6333334
       RemainingRotWarpTime: 0.6333334
       Time: 0.8833334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.054524973, y: 0, z: -0.2043001}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.61666673
       RemainingRotWarpTime: 0.61666673
       Time: 0.90000004
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.05561482, y: 0, z: -0.19978106}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.6000001
       RemainingRotWarpTime: 0.6000001
       Time: 0.9166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.056153357, y: 0, z: -0.19552413}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.58333343
       RemainingRotWarpTime: 0.58333343
       Time: 0.9333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.05669187, y: 0, z: -0.19126719}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.5666668
       RemainingRotWarpTime: 0.5666668
       Time: 0.95000005
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.05653555, y: 0, z: -0.18716952}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.55000013
       RemainingRotWarpTime: 0.55000013
       Time: 0.9666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.056379244, y: 0, z: -0.18307187}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.5333335
       RemainingRotWarpTime: 0.5333335
       Time: 0.9833334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.055507563, y: 0, z: -0.17903474}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.5166668
       RemainingRotWarpTime: 0.5166668
       Time: 1
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.054635882, y: 0, z: -0.17499763}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.5000002
       RemainingRotWarpTime: 0.5000002
       Time: 1.0166668
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.053028315, y: 0, z: -0.17092222}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.48333353
       RemainingRotWarpTime: 0.48333353
       Time: 1.0333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.05142077, y: 0, z: -0.16684687}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.46666685
       RemainingRotWarpTime: 0.46666685
       Time: 1.0500001
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.049114987, y: 0, z: -0.16262963}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.45000017
       RemainingRotWarpTime: 0.45000017
       Time: 1.0666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.04680921, y: 0, z: -0.1584124}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.4333335
       RemainingRotWarpTime: 0.4333335
       Time: 1.0833334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0441026, y: 0, z: -0.15375417}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.4166668
       RemainingRotWarpTime: 0.4166668
       Time: 1.1
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.041395992, y: 0, z: -0.14909595}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.40000013
       RemainingRotWarpTime: 0.40000013
       Time: 1.1166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.038672972, y: 0, z: -0.14378782}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.38333344
       RemainingRotWarpTime: 0.38333344
       Time: 1.1333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.03594997, y: 0, z: -0.13847971}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.36666676
       RemainingRotWarpTime: 0.36666676
       Time: 1.1500001
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.033395432, y: 0, z: -0.13255216}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.35000008
       RemainingRotWarpTime: 0.35000008
       Time: 1.1666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.030840868, y: 0, z: -0.12662455}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.3333334
       RemainingRotWarpTime: 0.3333334
       Time: 1.1833334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.02832119, y: 0, z: -0.12013446}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.31666672
       RemainingRotWarpTime: 0.31666672
       Time: 1.2
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.025801508, y: 0, z: -0.11364436}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.30000004
       RemainingRotWarpTime: 0.30000004
       Time: 1.2166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.023242012, y: 0, z: -0.106643826}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.28333336
       RemainingRotWarpTime: 0.28333336
       Time: 1.2333333
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.020682514, y: 0, z: -0.09964329}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.26666668
       RemainingRotWarpTime: 0.26666668
       Time: 1.2500001
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.018115122, y: 0, z: -0.0926093}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.25
       RemainingRotWarpTime: 0.25
       Time: 1.2666668
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.015547766, y: 0, z: -0.08557539}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.23333333
       RemainingRotWarpTime: 0.23333333
       Time: 1.2833334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.01339946, y: 0, z: -0.07887195}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.21666667
       RemainingRotWarpTime: 0.21666667
       Time: 1.3000001
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.011251141, y: 0, z: -0.07216847}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.2
       RemainingRotWarpTime: 0.2
       Time: 1.3166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0097784605, y: 0, z: -0.06569952}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.18333334
       RemainingRotWarpTime: 0.18333334
       Time: 1.3333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.008305779, y: 0, z: -0.05923055}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.16666667
       RemainingRotWarpTime: 0.16666667
       Time: 1.35
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0071774293, y: 0, z: -0.052949294}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.15
       RemainingRotWarpTime: 0.15
       Time: 1.3666668
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0060490724, y: 0, z: -0.046667963}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.13333334
       RemainingRotWarpTime: 0.13333334
       Time: 1.3833334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0050570294, y: 0, z: -0.04051721}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.11666667
       RemainingRotWarpTime: 0.11666667
       Time: 1.4000001
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0040650237, y: 0, z: -0.034366548}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.1
       RemainingRotWarpTime: 0.1
       Time: 1.4166667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0031488817, y: 0, z: -0.02827692}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.083333336
       RemainingRotWarpTime: 0.083333336
       Time: 1.4333334
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0022327378, y: 0, z: -0.022187263}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.06666667
       RemainingRotWarpTime: 0.06666667
       Time: 1.45
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.0013565551, y: 0, z: -0.016809106}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.050000004
       RemainingRotWarpTime: 0.050000004
       Time: 1.4666667
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.00048037432, y: 0, z: -0.011430949}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.033333335
       RemainingRotWarpTime: 0.033333335
       Time: 1.4833333
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.00028388016, y: 0, z: -0.007160336}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0.016666668
       RemainingRotWarpTime: 0.016666668
       Time: 1.5000001
       WarpPosThisFrame: 1
       WarpRotThisFrame: 1
-    - relativeContactRoot: {x: 0, y: 0, z: 0}
+    - relativeContactRoot: {x: 0.000087371096, y: 0, z: -0.0028897524}
       relativeContactRootRotY: 0
       RemainingWarpTime: 0
       RemainingRotWarpTime: 0

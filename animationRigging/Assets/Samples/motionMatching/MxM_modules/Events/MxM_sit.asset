@@ -34,5 +34,5 @@ MonoBehaviour:
   MaxWarpTimeScale: 1.2
   MatchRotation: 1
   RotationWeight: 0
-  RotationWarpType: 2
+  RotationWarpType: 0
   m_targetAnimData: {fileID: 11400000, guid: e9afb99017f2d904083c53519010e2d9, type: 2}

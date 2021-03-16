@@ -1433,7 +1433,8 @@ MonoBehaviour:
     m_trackId: 2
     m_trackName: Disable Warp (Position)
     m_clipLength: 4.3
-    m_tagPositions: []
+    m_tagPositions:
+    - {x: 0, y: 4.3}
   WarpRotationTrack:
     m_trackId: 3
     m_trackName: Disable Warp (Rotation)
@@ -1455,12 +1456,14 @@ MonoBehaviour:
     m_trackId: 6
     m_trackName: Disable Trajectory Warp (Angular)
     m_clipLength: 4.3
-    m_tagPositions: []
+    m_tagPositions:
+    - {x: 0, y: 4.3}
   WarpTrajLongTrack:
     m_trackId: 7
     m_trackName: Disable Trajectory Warp (Long)
     m_clipLength: 4.3
-    m_tagPositions: []
+    m_tagPositions:
+    - {x: 0, y: 4.3}
   UserBoolTracks: []
   UseSpeedMods: 0
   MotionModifier:
@@ -3526,15 +3529,15 @@ MonoBehaviour:
   m_trajectoryFoldout: 1
   m_poseFoldout: 1
   m_animationFoldout: 1
-  m_animModuleFoldout: 1
+  m_animModuleFoldout: 0
   m_compositeFoldout: 1
   m_idleSetFoldout: 1
   m_blendSpaceFoldout: 0
-  m_metaDataFoldout: 1
-  m_tagsFoldout: 1
-  m_favourTagsFoldout: 1
+  m_metaDataFoldout: 0
+  m_tagsFoldout: 0
+  m_favourTagsFoldout: 0
   m_userTagsFoldout: 0
-  m_eventsFoldout: 1
+  m_eventsFoldout: 0
   m_motionTimingFoldout: 1
   m_preProcessFoldout: 1
 --- !u!114 &253177179959691721
@@ -3573,7 +3576,7 @@ MonoBehaviour:
     FollowThrough: 0.2
     Recovery: 0.32760352
     Contacts:
-    - Position: {x: 0.049635552, y: 0.56148624, z: -0.46694636}
+    - Position: {x: 0.04962945, y: 0.5621902, z: -0.46667185}
       RotationY: 0
   LeftFootStepTrack:
     m_trackId: 0
@@ -3613,12 +3616,14 @@ MonoBehaviour:
     m_trackId: 6
     m_trackName: Disable Trajectory Warp (Angular)
     m_clipLength: 2.2
-    m_tagPositions: []
+    m_tagPositions:
+    - {x: 0, y: 2.2}
   WarpTrajLongTrack:
     m_trackId: 7
     m_trackName: Disable Trajectory Warp (Long)
     m_clipLength: 2.2
-    m_tagPositions: []
+    m_tagPositions:
+    - {x: 0, y: 2.2}
   UserBoolTracks: []
   UseSpeedMods: 0
   MotionModifier:
