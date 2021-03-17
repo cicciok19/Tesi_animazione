@@ -1000,7 +1000,7 @@ MonoBehaviour:
     m_MinLimit: -80
     m_MaxLimit: 80
     m_AimAxis: 4
-    m_MaintainOffset: 1
+    m_MaintainOffset: 0
     m_ConstrainedAxes:
       x: 1
       y: 1
