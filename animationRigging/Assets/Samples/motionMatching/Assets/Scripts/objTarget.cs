@@ -58,6 +58,16 @@ public class objTarget : MonoBehaviour
             }
             checkAngle = true;
         }
+    }
 
+    //per switchare target: 
+    //index sta per l'indice in base all'array di target
+    //target è l'oggetto
+    public void SetTarget(int index, GameObject target)
+    {
+        var data = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+        data.SetTransform(index, target.transform);
+        headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data;
+        this.GetComponent<RigBuilder>().Build();
     }
 }
