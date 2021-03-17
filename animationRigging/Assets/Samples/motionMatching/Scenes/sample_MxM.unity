@@ -1017,7 +1017,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.7039106, y: 1}
+    m_SensorSize: {x: 2.8547485, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2543,7 +2543,7 @@ MonoBehaviour:
   p_recordingFrequency: 0
   p_sampleRate: 20
   p_flattenTrajectory: 0
-  m_maxSpeed: 2
+  m_maxSpeed: 4.3
   m_posBias: 15
   m_dirBias: 10
   m_trajectoryMode: 0

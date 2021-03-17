@@ -6,6 +6,7 @@ using MxM;
 public class eventTrigger : MonoBehaviour
 {
     private MxMAnimator m_animator;
+    private MxMTrajectoryGenerator m_trajectoryGenerator;
 
     public bool sit;
 
@@ -23,6 +24,7 @@ public class eventTrigger : MonoBehaviour
     void Start()
     {
         m_animator = GetComponent<MxMAnimator>();
+        m_trajectoryGenerator = GetComponent<MxMTrajectoryGenerator>();
         m_animator.SetRequiredTag("Locomotion");
         
         sit = false;

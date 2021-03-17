@@ -15,7 +15,7 @@ public class AI_mover : MonoBehaviour
     void Start()
     {
         navAgent = GetComponent<NavMeshAgent>();
-        navAgent.autoBraking = true;nav
+        navAgent.autoBraking = true;
         navAgent.SetDestination(destinationTransform_1.position);
     }
 

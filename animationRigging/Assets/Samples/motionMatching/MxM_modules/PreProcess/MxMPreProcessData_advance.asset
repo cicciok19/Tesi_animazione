@@ -1225,8 +1225,7 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
-    type: 3}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
 --- !u!114 &-8007885099333888232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6461,7 +6460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
     type: 3}
-  m_poseInterval: 0.1
+  m_poseInterval: 0.05
   m_trajectoryTimes:
   - -0.66
   - -0.33
@@ -6580,7 +6579,7 @@ MonoBehaviour:
   - Sit
   - StandUp
   m_getBonesByName: 0
-  m_lastSaveDirectory: Assets/Samples/motionMatching/Assets/Sophie/AnimData/MxMAnimData
+  m_lastSaveDirectory: Assets/Sample_robotKyle/AnimData_robot
   m_lastCreatedAnimData: {fileID: 0}
   m_hideSubAssets: 1
   m_jointVelocityGlobal: 0
@@ -7298,7 +7297,7 @@ MonoBehaviour:
   - EventId: 2
     EventName: Sit
     EventTime: 1.5304867
-    Windup: 0.388937
+    Windup: 0.38893697
     Actions:
     - 0.8415497
     FollowThrough: 0.2
@@ -8242,8 +8241,7 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 11400000}
   m_targetAnimModule: {fileID: 0}
-  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
-    type: 3}
+  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
 --- !u!114 &3744785775725805642
 MonoBehaviour:
   m_ObjectHideFlags: 1
