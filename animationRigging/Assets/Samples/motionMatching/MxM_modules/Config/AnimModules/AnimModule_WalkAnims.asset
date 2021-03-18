@@ -45,7 +45,7 @@ MonoBehaviour:
     Extrapolate_default: 0
     FlattenTrajectory_default: 0
     RuntimeSplicing_default: 0
-    RequireTags_default: 0
+    RequireTags_default: 1
     FavourTags_default: 0
   m_animIdleSets:
   - {fileID: 114431216288818200}
@@ -75,7 +75,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -400,7 +400,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114216326796941876
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -421,7 +422,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -751,7 +752,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114231277744090704
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -805,7 +807,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -1091,7 +1093,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114252418548470736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1112,7 +1115,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -1623,7 +1626,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114256088963280608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1644,7 +1648,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -1974,7 +1978,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114259591792240982
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1995,7 +2000,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -2597,7 +2602,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114301768013509032
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2618,7 +2624,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -3220,7 +3226,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114350961197478708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3241,7 +3248,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -3443,7 +3450,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114431216288818200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3496,7 +3504,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -3751,7 +3759,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114509505560813520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3772,7 +3781,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -4027,7 +4036,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114530113342257764
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4048,7 +4058,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -4391,7 +4401,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114588631242655438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4412,7 +4423,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -4781,7 +4792,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114644053611043028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4802,7 +4814,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks: []
   FavourTagTracks: []
@@ -4939,7 +4951,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114690715652726362
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4960,7 +4973,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -5329,7 +5342,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114715881070470994
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5350,7 +5364,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -5552,7 +5566,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114771201776498350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5573,7 +5588,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -5859,7 +5874,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114861250804832656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5880,7 +5896,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -6391,7 +6407,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114925437848114778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6412,7 +6429,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -6737,7 +6754,8 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}
 --- !u!114 &114943286650735532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6758,7 +6776,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -7101,4 +7119,5 @@ MonoBehaviour:
   GeneratedUserBoolTracks: []
   m_targetPreProcessData: {fileID: 0}
   m_targetAnimModule: {fileID: 11400000}
-  m_targetPrefab: {fileID: 100096, guid: 320b1c2af77554f99a1658df4a6d3d5c, type: 3}
+  m_targetPrefab: {fileID: 919132149155446097, guid: b82f2ff86dc01d2468b088f818cde424,
+    type: 3}

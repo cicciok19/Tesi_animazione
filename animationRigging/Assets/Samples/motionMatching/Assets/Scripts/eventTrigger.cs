@@ -2,63 +2,86 @@
 using System.Collections.Generic;
 using UnityEngine;
 using MxM;
+using System;
 
 public class eventTrigger : MonoBehaviour
 {
     private MxMAnimator m_animator;
-    private MxMTrajectoryGenerator m_trajectoryGenerator;
+    private MxMTrajectoryGenerator_BasicAI trajectoryGenerator;
+
+    [SerializeField] private MxMEventDefinition sitDefinition;
+    [SerializeField] private MxMEventDefinition standUpDefinition;
+
+    [SerializeField] private Transform sitPoint;
 
     public bool sit;
-
-    [SerializeField]
-    private MxMEventDefinition m_attackDefinition;
-    [SerializeField]
-    private MxMEventDefinition m_greetingsDefinition;
-    [SerializeField]
-    private MxMEventDefinition m_sitDefinition;
-    [SerializeField]
-    private MxMEventDefinition m_standUpDefinition;
-    [SerializeField]
-    private Transform sitPoint;
+    public bool strafe;
 
     void Start()
     {
         m_animator = GetComponent<MxMAnimator>();
-        m_trajectoryGenerator = GetComponent<MxMTrajectoryGenerator>();
-        m_animator.SetRequiredTag("Locomotion");
+        trajectoryGenerator = GetComponent<MxMTrajectoryGenerator_BasicAI>();
+        //m_animator.SetRequiredTag("Locomotion");
         
         sit = false;
+        strafe = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            m_animator.BeginEvent(m_attackDefinition);
-        }
-
         if (Input.GetKeyDown(KeyCode.I))
         {
-            m_animator.BeginEvent(m_greetingsDefinition);
+            toggleSit();
         }
-
-        if (Input.GetKeyDown(KeyCode.K) && !sit)
+        if (Input.GetKeyDown(KeyCode.Tab))
         {
-            m_sitDefinition.ClearContacts();
-            m_sitDefinition.AddEventContact(sitPoint.position, this.transform.rotation.y);
-            m_animator.BeginEvent(m_sitDefinition);
-            sit = true;
-            m_animator.RemoveRequiredTag("Locomotion");
+            toggleStrafe();
+        }
+    }
+
+    private void toggleStrafe()
+    {
+        if (!strafe)
+        {
+            //setup strafing
+            m_animator.SetRequiredTag("Strafe");
+            trajectoryGenerator.TrajectoryMode = ETrajectoryMoveMode.Strafe;
+            m_animator.AngularErrorWarpMethod = EAngularErrorWarpMethod.TrajectoryHeading;
+            m_animator.AngularErrorWarpRate = 360f;
+
+            trajectoryGenerator.StrafeDirection = -sitPoint.right;
+
+            strafe = true;
+        }
+        else
+        {
+            //back to normal locomotion
+            m_animator.RemoveRequiredTag("Strafe");
+            trajectoryGenerator.TrajectoryMode = ETrajectoryMoveMode.Normal;
+            m_animator.AngularErrorWarpMethod = EAngularErrorWarpMethod.CurrentHeading;
+            m_animator.AngularErrorWarpRate = 45f;
+
+            strafe = false;
+        }
+    }
+
+    protected void toggleSit()
+    {
+        if (!sit)   //SIT
+        {
+            sitDefinition.ClearContacts();
+            sitDefinition.AddEventContact(sitPoint.position, this.transform.rotation.y);
+            m_animator.BeginEvent(sitDefinition);
+
             m_animator.SetRequiredTag("Sitting");
+            sit = true;
         }
-
-        else if(Input.GetKeyDown(KeyCode.K) && sit)
+        else        //STAND-UP
         {
-            m_animator.BeginEvent(m_standUpDefinition);
+            m_animator.BeginEvent(standUpDefinition);
+
+            m_animator.RemoveRequiredTag("Sitting");
             sit = false;
-            m_animator.SetRequiredTag("Locomotion");
         }
     }
 }

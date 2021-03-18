@@ -296,7 +296,7 @@ MonoBehaviour:
   - Sit
   - StandUp
   m_getBonesByName: 0
-  m_lastSaveDirectory: Assets/Samples/motionMatching/Assets/Sophie/AnimData/MxMAnimData_Sophie_prova_AI
+  m_lastSaveDirectory: Assets/Samples/motionMatching/Assets/Sophie/AnimData/MxMAnimData_Sophie_AI
   m_lastCreatedAnimData: {fileID: 0}
   m_hideSubAssets: 1
   m_jointVelocityGlobal: 0
@@ -318,6 +318,8 @@ MonoBehaviour:
   m_animModules:
   - {fileID: 11400000, guid: ea3bf8c9f35ee544f89d53f13610b55e, type: 2}
   - {fileID: 11400000, guid: 9cd9fa688836925468614a2522d4e42c, type: 2}
+  - {fileID: 11400000, guid: d2059f7957a38e743af92f99dea91920, type: 2}
+  - {fileID: 11400000, guid: 9b98637f9f585094695224560ec32422, type: 2}
   m_animIdleSets: []
   m_blendSpaces:
   - {fileID: -8099762531708719266}

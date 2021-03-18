@@ -18,4 +18,12 @@ public class AI_mover : MonoBehaviour
         navAgent.SetDestination(destinationTransform_1.position);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            navAgent.SetDestination(destinationTransform_2.position);
+        }
+    }
+
 }
