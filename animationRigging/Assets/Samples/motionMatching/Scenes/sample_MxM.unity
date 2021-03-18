@@ -498,6 +498,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666381410}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &789291605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6417881544570313118, guid: f64b77e24a96de745b8b091c4ac6ac75,
+    type: 3}
+  m_PrefabInstance: {fileID: 7607358814154277316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &789291613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789291605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f45bfa962215e47b32a71c7c5c0a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sit: 0
+  m_attackDefinition: {fileID: 11400000, guid: ba0222b423a3d744398b3b7a9f4cf16d, type: 2}
+  m_greetingsDefinition: {fileID: 11400000, guid: b9793c7bf33a3fc49bce739063529a10,
+    type: 2}
+  m_sitDefinition: {fileID: 11400000, guid: cb0b1c6f8632b314d9b18b3274b506a2, type: 2}
+  m_standUpDefinition: {fileID: 11400000, guid: 9342e8309b76d4b4595a8f4bcdf091b3,
+    type: 2}
+  sitPoint: {fileID: 265035074}
 --- !u!1 &877919712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1243,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834118564}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1317,7 +1343,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.6648045, y: 1}
+    m_SensorSize: {x: 2.2173913, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4188,7 +4214,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_animData.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: b5f6ccdefa508ea47bb0c08cc5370ef7,
+      objectReference: {fileID: 11400000, guid: 75baf075138e38d4ead2ac138f5dbbfa,
         type: 2}
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
@@ -4198,7 +4224,7 @@ PrefabInstance:
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_animDataFoldout
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}

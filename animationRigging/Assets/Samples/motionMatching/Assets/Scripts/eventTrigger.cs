@@ -50,7 +50,7 @@ public class eventTrigger : MonoBehaviour
             m_sitDefinition.AddEventContact(sitPoint.position, this.transform.rotation.y);
             m_animator.BeginEvent(m_sitDefinition);
             sit = true;
-            m_animator.RemoveRequiredTag("Locomotion");
+            //m_animator.RemoveRequiredTag("Locomotion");
             m_animator.SetRequiredTag("Sitting");
         }
 
@@ -58,7 +58,8 @@ public class eventTrigger : MonoBehaviour
         {
             m_animator.BeginEvent(m_standUpDefinition);
             sit = false;
-            m_animator.SetRequiredTag("Locomotion");
+            //m_animator.SetRequiredTag("Locomotion");
+            m_animator.RemoveRequiredTag("Sitting");
         }
     }
 }
