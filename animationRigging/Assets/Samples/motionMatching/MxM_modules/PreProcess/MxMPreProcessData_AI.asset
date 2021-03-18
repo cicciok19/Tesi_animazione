@@ -319,6 +319,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ea3bf8c9f35ee544f89d53f13610b55e, type: 2}
   - {fileID: 11400000, guid: 9cd9fa688836925468614a2522d4e42c, type: 2}
   - {fileID: 11400000, guid: d2059f7957a38e743af92f99dea91920, type: 2}
+  - {fileID: 11400000, guid: 9b98637f9f585094695224560ec32422, type: 2}
   m_animIdleSets: []
   m_blendSpaces:
   - {fileID: -8099762531708719266}

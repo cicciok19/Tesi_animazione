@@ -45,7 +45,7 @@ MonoBehaviour:
     Extrapolate_default: 0
     FlattenTrajectory_default: 0
     RuntimeSplicing_default: 0
-    RequireTags_default: 0
+    RequireTags_default: 1
     FavourTags_default: 0
   m_animIdleSets:
   - {fileID: 114431216288818200}
@@ -75,7 +75,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -422,7 +422,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -807,7 +807,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -1648,7 +1648,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -2000,7 +2000,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -2624,7 +2624,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -3248,7 +3248,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -3504,7 +3504,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -3781,7 +3781,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -4058,7 +4058,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -4423,7 +4423,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -4814,7 +4814,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks: []
   FavourTagTracks: []
@@ -4973,7 +4973,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -5364,7 +5364,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -5588,7 +5588,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -5896,7 +5896,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -6429,7 +6429,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
@@ -6776,7 +6776,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 0
   FlattenTrajectory: 0
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1
   GlobalFavourTags: 0
   TagTracks:
   - m_tagId: 1073741824
