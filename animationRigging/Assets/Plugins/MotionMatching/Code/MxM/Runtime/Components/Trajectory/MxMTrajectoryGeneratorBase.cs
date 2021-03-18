@@ -649,5 +649,10 @@ namespace MxM
             return p_goal;
         }
 
+        public void setSampleRate(float sampleRate)
+        {
+            p_sampleRate = sampleRate;
+        }
+
     }//End of class: MxMTrajectoryGeneratorBase
 }//End of namespace: MxM

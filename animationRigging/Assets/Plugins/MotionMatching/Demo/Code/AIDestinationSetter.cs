@@ -8,7 +8,7 @@ namespace MxMGameplay
     public class AIDestinationSetter : MonoBehaviour
     {
         [SerializeField] private Transform m_destinationTransform = null;
-        [SerializeField] private float m_timeToChangeTarget = 5f;
+        [SerializeField] private float m_timeToChangeTarget = 20f;
         [SerializeField] private float m_patrolRadius = 30f;
 
 

@@ -104,7 +104,7 @@ MonoBehaviour:
   - {fileID: 114080601445660902}
   m_moduleFoldout: 1
   m_compositeFoldout: 1
-  m_idleSetFoldout: 0
+  m_idleSetFoldout: 1
   m_blendSpaceFoldout: 1
 --- !u!114 &114023024784801532
 MonoBehaviour:
