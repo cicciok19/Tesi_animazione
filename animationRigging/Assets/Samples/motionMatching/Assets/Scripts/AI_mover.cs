@@ -8,10 +8,9 @@ public class AI_mover : MonoBehaviour
     [SerializeField] private Transform destinationTransform_1;
     [SerializeField] private Transform destinationTransform_2;
     [SerializeField] private Transform destinationTransform_3;
-    private NavMeshAgent navAgent;
-    private NavMeshPath path;
 
-    // Start is called before the first frame update
+    private NavMeshAgent navAgent;
+
     void Start()
     {
         navAgent = GetComponent<NavMeshAgent>();
@@ -19,13 +18,4 @@ public class AI_mover : MonoBehaviour
         navAgent.SetDestination(destinationTransform_1.position);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        Debug.Log(navAgent.pathStatus);
-        if(navAgent.pathStatus == NavMeshPathStatus.PathComplete)
-        {
-
-        }
-    }
 }

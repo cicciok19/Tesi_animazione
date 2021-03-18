@@ -145,7 +145,7 @@ MonoBehaviour:
   p_DIYPlayableGraph: 0
   m_autoCreateAnimatorController: 0
   m_generalFoldout: 0
-  m_animDataFoldout: 0
+  m_animDataFoldout: 1
   m_optionsFoldout: 1
   m_warpingFoldout: 1
   m_debugFoldout: 0
