@@ -9,6 +9,7 @@ public class objTarget : MonoBehaviour
 
     private GameObject rig;
     private GameObject headAim;
+    private GameObject spineAim;
 
     float angle;
     float a;
@@ -16,15 +17,22 @@ public class objTarget : MonoBehaviour
     bool checkAngle;
     bool zeroValue;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         rig = this.transform.Find("Rig").gameObject;
         headAim = rig.transform.Find("HeadAim").gameObject;
-        var data = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
-        data.SetWeight(0,1f);
-        headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data;
+        spineAim= rig.transform.Find("SpineAim").gameObject;
+
+        //weight head
+        var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+        data_h.SetWeight(0,1f);
+        headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_h;
+
+        //weight spine
+        var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+        data_s.SetWeight(0, 1f);
+        spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
+
         this.GetComponent<RigBuilder>().Build();
 
         checkAngle = true;
@@ -40,20 +48,33 @@ public class objTarget : MonoBehaviour
             angle = Vector3.Angle(this.transform.forward, target.transform.position - this.transform.position);
             if (Mathf.Abs(angle) > 110 && !zeroValue)
             {
-                //this.GetComponentInChildren<MultiAimConstraintData> ();
-                var data = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
-                data.SetWeight(0, 0f);
-                headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data;
+                //set weight head
+                var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+                data_h.SetWeight(0, 0f);
+                headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_h;
+
+                //set weight spine
+                var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+                data_s.SetWeight(0, 0f);
+                spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
+
                 this.GetComponent<RigBuilder>().Build();
+
                 print(angle);
                 zeroValue = true;
             }
             else if(Mathf.Abs(angle) < 110 && zeroValue)
             {
-                var data = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
-                data.SetWeight(0, 1f);
-                headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data;
+                var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+                data_h.SetWeight(0, 1f);
+                headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_h;
+
+                var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+                data_s.SetWeight(0, 1f);
+                spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
+
                 this.GetComponent<RigBuilder>().Build();
+
                 zeroValue = false;
             }
             checkAngle = true;
@@ -65,9 +86,14 @@ public class objTarget : MonoBehaviour
     //target è l'oggetto
     public void SetTarget(int index, GameObject target)
     {
-        var data = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
-        data.SetTransform(index, target.transform);
-        headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data;
+        var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+        data_h.SetTransform(index, target.transform);
+        headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_h;
+
+        var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+        data_s.SetTransform(index, target.transform);
+        spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
+
         this.GetComponent<RigBuilder>().Build();
     }
 }
