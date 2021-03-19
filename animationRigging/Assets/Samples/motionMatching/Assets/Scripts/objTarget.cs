@@ -16,6 +16,7 @@ public class objTarget : MonoBehaviour
 
     bool checkAngle;
     bool zeroValue;
+    bool coroutine;
 
     void Start()
     {
@@ -37,6 +38,7 @@ public class objTarget : MonoBehaviour
 
         checkAngle = true;
         zeroValue = false;
+        coroutine = false;
     }
 
     // Update is called once per frame
@@ -48,32 +50,20 @@ public class objTarget : MonoBehaviour
             angle = Vector3.Angle(this.transform.forward, target.transform.position - this.transform.position);
             if (Mathf.Abs(angle) > 110 && !zeroValue)
             {
-                //set weight head
-                var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
-                data_h.SetWeight(0, 0f);
-                headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_h;
+                if (!coroutine)
+                {
+                    coroutine = true;
+                    StartCoroutine(setWeightToZero());
+                }
 
-                //set weight spine
-                var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
-                data_s.SetWeight(0, 0f);
-                spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
-
-                this.GetComponent<RigBuilder>().Build();
-
-                print(angle);
                 zeroValue = true;
             }
             else if(Mathf.Abs(angle) < 110 && zeroValue)
             {
-                var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
-                data_h.SetWeight(0, 1f);
-                headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_h;
-
-                var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
-                data_s.SetWeight(0, 1f);
-                spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
-
-                this.GetComponent<RigBuilder>().Build();
+                if (!coroutine) {
+                    coroutine = true;
+                    StartCoroutine(setWeightToOne()); 
+                }
 
                 zeroValue = false;
             }
@@ -95,5 +85,55 @@ public class objTarget : MonoBehaviour
         spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
 
         this.GetComponent<RigBuilder>().Build();
+    }
+
+    IEnumerator setWeightToZero()
+    {
+        float w = 1f;
+
+        while (w > 0)
+        {
+            w -= .01f;
+            //set weight head
+            var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+            data_h.SetWeight(0, w);
+            headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_h;
+
+            //set weight spine
+            var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+            data_s.SetWeight(0, w);
+            spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
+
+            //this.GetComponent<RigBuilder>().Build();
+
+            yield return new WaitForSeconds(.0001f);
+        }
+
+        this.GetComponent<RigBuilder>().Build();
+        coroutine = false;
+    }
+
+    IEnumerator setWeightToOne()
+    {
+        float w = 0f;
+
+        while (w < 1f)
+        {
+            w += .01f;
+            //set weight head
+            var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+            data_h.SetWeight(0, w);
+            headAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_h;
+
+            //set weight spine
+            var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
+            data_s.SetWeight(0, w);
+            spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
+
+            yield return new WaitForSeconds(.0001f);
+        }
+
+        this.GetComponent<RigBuilder>().Build();
+        coroutine = false;
     }
 }
