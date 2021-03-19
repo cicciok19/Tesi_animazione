@@ -17,7 +17,7 @@ public class eventTrigger : MonoBehaviour
     public bool sit;
     public bool strafe;
 
-    private bool oneTime;
+    public bool oneTime;
 
     void Start()
     {
@@ -47,7 +47,7 @@ public class eventTrigger : MonoBehaviour
         }
     }
 
-    private void setSittingTag()
+    protected void setSittingTag()
     {
         if (m_animator.IsEventComplete)
         {
@@ -57,7 +57,7 @@ public class eventTrigger : MonoBehaviour
         }
     }
 
-    private void toggleStrafe()
+    protected void toggleStrafe()
     {
         if (!strafe)
         {

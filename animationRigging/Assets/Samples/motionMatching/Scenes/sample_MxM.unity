@@ -778,6 +778,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1798115945}
+--- !u!136 &789291608
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789291605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.5586853
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9882692, z: 0}
+--- !u!54 &789291609
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789291605}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &789291612 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5934396232189756196, guid: f64b77e24a96de745b8b091c4ac6ac75,
@@ -801,6 +831,7 @@ MonoBehaviour:
   sitPoint: {fileID: 265035074}
   sit: 0
   strafe: 0
+  oneTime: 0
 --- !u!1 &877919712
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,7 +1658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834118564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.98, y: 0.07, z: 0.2}
+  m_LocalPosition: {x: 2.299, y: 0.07, z: 0.2}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1679,7 +1710,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.6660516, y: 1}
+    m_SensorSize: {x: 2.980198, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3328,6 +3359,7 @@ MonoBehaviour:
   sitPoint: {fileID: 0}
   sit: 0
   strafe: 0
+  oneTime: 0
 --- !u!1 &3973007895123528526
 GameObject:
   m_ObjectHideFlags: 0
@@ -4321,6 +4353,8 @@ GameObject:
   - component: {fileID: 8556279729855777918}
   - component: {fileID: 9120229462180708750}
   - component: {fileID: 3480834447896729508}
+  - component: {fileID: 7090638457049381676}
+  - component: {fileID: 7090638457049381677}
   m_Layer: 0
   m_Name: Cover
   m_TagString: Untagged
@@ -4328,6 +4362,31 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &7090638457049381676
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7090638457049381675}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 203.84402, y: 6.088292, z: 287.96484}
+  m_Center: {x: 700.2063, y: 123.457664, z: -60.677525}
+--- !u!114 &7090638457049381677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7090638457049381675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a05e2ebaf91198547b8bf187ff8da3f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7151156936417053287
 Transform:
   m_ObjectHideFlags: 0
@@ -4537,6 +4596,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6417881544570313118, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: m_TagString
+      value: AI
+      objectReference: {fileID: 0}
     - target: {fileID: 7607358814114831481, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: destinationTransform_1
@@ -4552,6 +4616,23 @@ PrefabInstance:
       propertyPath: destinationTransform_2
       value: 
       objectReference: {fileID: 239793067}
+    - target: {fileID: 7607358814114831481, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: sitPoint
+      value: 
+      objectReference: {fileID: 265035074}
+    - target: {fileID: 7607358814114831481, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: sitDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: cb0b1c6f8632b314d9b18b3274b506a2,
+        type: 2}
+    - target: {fileID: 7607358814114831481, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: standUpDefinition
+      value: 
+      objectReference: {fileID: 11400000, guid: 9342e8309b76d4b4595a8f4bcdf091b3,
+        type: 2}
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_animData.Array.data[0]
