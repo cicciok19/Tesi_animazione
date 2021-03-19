@@ -21,7 +21,7 @@ MonoBehaviour:
   ExtrapolateTrajectory: 1
   FlattenTrajectory: 1
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1073741824
   GlobalFavourTags: 0
   TagTracks: []
   FavourTagTracks: []
@@ -233,9 +233,9 @@ MonoBehaviour:
   Looping: 0
   IgnoreEdges: 0
   ExtrapolateTrajectory: 1
-  FlattenTrajectory: 0
+  FlattenTrajectory: 1
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1073741824
   GlobalFavourTags: 0
   TagTracks: []
   FavourTagTracks: []
