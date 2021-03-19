@@ -17,7 +17,6 @@ public class AI_mover : MonoBehaviour
         navAgent.autoBraking = true;
         navAgent.SetDestination(destinationTransform_1.position);
     }
-
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.O))

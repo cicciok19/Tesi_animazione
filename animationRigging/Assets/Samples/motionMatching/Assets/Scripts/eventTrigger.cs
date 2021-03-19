@@ -17,6 +17,8 @@ public class eventTrigger : MonoBehaviour
     public bool sit;
     public bool strafe;
 
+    private bool oneTime;
+
     void Start()
     {
         m_animator = GetComponent<MxMAnimator>();
@@ -25,6 +27,7 @@ public class eventTrigger : MonoBehaviour
         
         sit = false;
         strafe = false;
+        oneTime = false;
     }
 
     void Update()
@@ -37,13 +40,29 @@ public class eventTrigger : MonoBehaviour
         {
             toggleStrafe();
         }
+
+        if (sit && !oneTime)
+        {
+            setSittingTag();
+        }
+    }
+
+    private void setSittingTag()
+    {
+        if (m_animator.IsEventComplete)
+        {
+            oneTime = true;
+            m_animator.ClearRequiredTags();
+            m_animator.SetRequiredTag("Sitting");
+        }
     }
 
     private void toggleStrafe()
     {
         if (!strafe)
         {
-            //setup strafing
+                //setup strafing
+            m_animator.ClearRequiredTags();
             m_animator.SetRequiredTag("Strafe");
             trajectoryGenerator.TrajectoryMode = ETrajectoryMoveMode.Strafe;
             m_animator.AngularErrorWarpMethod = EAngularErrorWarpMethod.TrajectoryHeading;
@@ -55,8 +74,9 @@ public class eventTrigger : MonoBehaviour
         }
         else
         {
-            //back to normal locomotion
-            m_animator.RemoveRequiredTag("Strafe");
+                //back to normal locomotion
+            m_animator.ClearRequiredTags();
+            //m_animator.RemoveRequiredTag("Strafe");
             trajectoryGenerator.TrajectoryMode = ETrajectoryMoveMode.Normal;
             m_animator.AngularErrorWarpMethod = EAngularErrorWarpMethod.CurrentHeading;
             m_animator.AngularErrorWarpRate = 45f;
@@ -73,15 +93,20 @@ public class eventTrigger : MonoBehaviour
             sitDefinition.AddEventContact(sitPoint.position, this.transform.rotation.y);
             m_animator.BeginEvent(sitDefinition);
 
-            m_animator.SetRequiredTag("Sitting");
+            //m_animator.ClearRequiredTags();
+            //m_animator.SetRequiredTag("Sitting");
+
             sit = true;
         }
         else        //STAND-UP
         {
             m_animator.BeginEvent(standUpDefinition);
 
-            m_animator.RemoveRequiredTag("Sitting");
+            m_animator.ClearRequiredTags();
+            //m_animator.RemoveRequiredTag("Sitting");
+
             sit = false;
+            oneTime = false;
         }
     }
 }
