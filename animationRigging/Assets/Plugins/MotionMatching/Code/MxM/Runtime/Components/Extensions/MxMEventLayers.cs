@@ -5,6 +5,7 @@ using UnityEngine.Animations;
 
 namespace MxM
 {
+    [System.Serializable]
     public struct EventLayerData
     {
         public int SlotId;

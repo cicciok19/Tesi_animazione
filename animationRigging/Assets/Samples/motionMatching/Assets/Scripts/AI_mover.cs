@@ -52,15 +52,15 @@ public class AI_mover : MonoBehaviour
     {
         if(navAgent.remainingDistance <= .35f && destinationReached[counterDestination])
             destinationReached[counterDestination] = true;
-        
-        if (Input.GetKeyDown(KeyCode.O))
-            navAgent.SetDestination(destinationTransform_2.position);
-
-        if (chair) {
+        else if (chair)
+        {
             chair = false;
             StartCoroutine(Sitting());
             StartCoroutine(StandUp());
         }
+
+        if (Input.GetKeyDown(KeyCode.O))
+            navAgent.SetDestination(destinationTransform_2.position);
 
         if (sit && !oneTime)
         {

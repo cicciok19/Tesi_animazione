@@ -11,11 +11,18 @@ public class eventTrigger : MonoBehaviour
 
     [SerializeField] private MxMEventDefinition sitDefinition;
     [SerializeField] private MxMEventDefinition standUpDefinition;
+    [SerializeField] private MxMEventDefinition pointingDefinition;
+
+    [SerializeField] private MxMEventLayers eventLayer;
 
     [SerializeField] private Transform sitPoint;
 
+    [SerializeField] AvatarMask fullBody;
+    [SerializeField] AvatarMask upperBody;
+
     public bool sit;
     public bool strafe;
+    public bool point;
 
     public bool oneTime;
 
@@ -24,9 +31,13 @@ public class eventTrigger : MonoBehaviour
         m_animator = GetComponent<MxMAnimator>();
         trajectoryGenerator = GetComponent<MxMTrajectoryGenerator_BasicAI>();
         //m_animator.SetRequiredTag("Locomotion");
-        
+
+        eventLayer = GetComponent<MxMEventLayers>();
+
         sit = false;
         strafe = false;
+        point = false;
+
         oneTime = false;
     }
 
@@ -44,6 +55,11 @@ public class eventTrigger : MonoBehaviour
         if (sit && !oneTime)
         {
             setSittingTag();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            togglePoint();
         }
     }
 
@@ -107,6 +123,15 @@ public class eventTrigger : MonoBehaviour
 
             sit = false;
             oneTime = false;
+        }
+    }
+
+    protected void togglePoint()
+    {
+        if (!point)
+        {
+            eventLayer.BeginEvent(pointingDefinition, upperBody, 1);
+            point = false;
         }
     }
 }
