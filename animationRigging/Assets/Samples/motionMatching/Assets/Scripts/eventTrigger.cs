@@ -15,7 +15,10 @@ public class eventTrigger : MonoBehaviour
 
     [SerializeField] private MxMEventLayers eventLayer;
 
-    [SerializeField] private Transform sitPoint;
+    [SerializeField] private Transform sitPoint_1;
+
+    [SerializeField] private Transform sitPoint_2;
+
 
     [SerializeField] AvatarMask fullBody;
     [SerializeField] AvatarMask upperBody;
@@ -84,7 +87,7 @@ public class eventTrigger : MonoBehaviour
             m_animator.AngularErrorWarpMethod = EAngularErrorWarpMethod.TrajectoryHeading;
             m_animator.AngularErrorWarpRate = 360f;
 
-            trajectoryGenerator.StrafeDirection = -sitPoint.right;
+            trajectoryGenerator.StrafeDirection = -sitPoint_1.right;
 
             strafe = true;
         }
@@ -106,7 +109,8 @@ public class eventTrigger : MonoBehaviour
         if (!sit)   //SIT
         {
             sitDefinition.ClearContacts();
-            sitDefinition.AddEventContact(sitPoint.position, this.transform.rotation.y);
+            sitDefinition.AddEventContact(sitPoint_1.position, this.transform.rotation.y);
+            sitPoint_1 = sitPoint_2;
             m_animator.BeginEvent(sitDefinition);
 
             //m_animator.ClearRequiredTags();

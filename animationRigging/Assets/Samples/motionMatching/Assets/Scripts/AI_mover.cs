@@ -29,6 +29,7 @@ public class AI_mover : MonoBehaviour
     private int counterDestination;
 
     private NavMeshAgent navAgent;
+    private int i;
 
     void Start()
     {
