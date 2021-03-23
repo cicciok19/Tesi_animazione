@@ -13,9 +13,7 @@ public class eventTrigger : MonoBehaviour
     [SerializeField] private MxMEventDefinition standUpDefinition;
 
     [SerializeField] private Transform sitPoint_1;
-
     [SerializeField] private Transform sitPoint_2;
-
 
     public bool sit;
     public bool strafe;
@@ -27,6 +25,9 @@ public class eventTrigger : MonoBehaviour
         m_animator = GetComponent<MxMAnimator>();
         trajectoryGenerator = GetComponent<MxMTrajectoryGenerator_BasicAI>();
         //m_animator.SetRequiredTag("Locomotion");
+
+        
+
         
         sit = false;
         strafe = false;

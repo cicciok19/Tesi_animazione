@@ -11,12 +11,12 @@ public class objTarget : MonoBehaviour
     private GameObject headAim;
     private GameObject spineAim;
 
-    float angle;
-    float a;
+    private float angle;
+    private float a;
 
-    bool checkAngle;
-    bool zeroValue;
-    bool coroutine;
+    private bool checkAngle;
+    private bool zeroValue;
+    private bool coroutine;
 
     void Start()
     {

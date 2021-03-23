@@ -49,6 +49,7 @@ public class AI_mover : MonoBehaviour
         strafe = false;
         oneTime = false;
     }
+
     private void Update()
     {
         if(navAgent.remainingDistance <= .35f && destinationReached[counterDestination])
