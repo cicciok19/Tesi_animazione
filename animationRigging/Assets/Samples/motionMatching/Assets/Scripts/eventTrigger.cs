@@ -134,7 +134,7 @@ public class eventTrigger : MonoBehaviour
     {
         if (!point)
         {
-            eventLayer.BeginEvent(pointingDefinition, upperBody, 1);
+            eventLayer.BeginEvent(pointingDefinition, upperBody, .8f);
             point = false;
         }
     }

@@ -245,14 +245,14 @@ MonoBehaviour:
   ExtrapolateTrajectory: 1
   FlattenTrajectory: 1
   RuntimeSplicing: 0
-  GlobalTags: 0
+  GlobalTags: 1073741824
   GlobalFavourTags: 0
   TagTracks: []
   FavourTagTracks: []
   Events:
   - EventId: 4
     EventName: Pointing
-    EventTime: 1.0745826
+    EventTime: 1.9681634
     Windup: 0.38307342
     Actions:
     - 0.2915091

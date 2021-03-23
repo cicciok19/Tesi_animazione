@@ -1012,7 +1012,8 @@ MonoBehaviour:
   standUpDefinition: {fileID: 11400000, guid: 9342e8309b76d4b4595a8f4bcdf091b3, type: 2}
   pointingDefinition: {fileID: 11400000, guid: 68ef7439330e9dd469cef9d37c90ec1c, type: 2}
   eventLayer: {fileID: 0}
-  sitPoint: {fileID: 265035074}
+  sitPoint_1: {fileID: 0}
+  sitPoint_2: {fileID: 0}
   fullBody: {fileID: 31900000, guid: 019fbddc3d67ce748923884a0a25db55, type: 2}
   upperBody: {fileID: 31900000, guid: fae5419721fd8d24f8cf2e5fba58a661, type: 2}
   sit: 0
@@ -2004,7 +2005,7 @@ Transform:
   m_LocalScale: {x: 0.31457, y: 0.31457, z: 0.31457}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1802186693 stripped
 Transform:
@@ -2149,7 +2150,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.980198, y: 1}
+    m_SensorSize: {x: 3.8671095, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3561,7 +3562,7 @@ Transform:
   - {fileID: 8996093094449627848}
   - {fileID: 215894492}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3596905297642495997
 Transform:
@@ -3845,7 +3846,8 @@ MonoBehaviour:
   standUpDefinition: {fileID: 0}
   pointingDefinition: {fileID: 0}
   eventLayer: {fileID: 0}
-  sitPoint: {fileID: 0}
+  sitPoint_1: {fileID: 0}
+  sitPoint_2: {fileID: 0}
   fullBody: {fileID: 0}
   upperBody: {fileID: 0}
   sit: 0
@@ -5061,7 +5063,7 @@ PrefabInstance:
     - target: {fileID: 5934396232189756196, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5934396232189756196, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
@@ -5101,7 +5103,7 @@ PrefabInstance:
     - target: {fileID: 7607358814114831481, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7607358814114831481, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
