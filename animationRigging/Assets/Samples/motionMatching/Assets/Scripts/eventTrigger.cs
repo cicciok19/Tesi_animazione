@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using MxM;
 using System;
+using UnityEngine.Animations.Rigging;
 
 public class eventTrigger : MonoBehaviour
 {
@@ -24,6 +25,9 @@ public class eventTrigger : MonoBehaviour
     [SerializeField] AvatarMask fullBody;
     [SerializeField] AvatarMask upperBody;
 
+    private GameObject rig;
+    private GameObject handAim;
+
     public bool sit;
     public bool strafe;
     public bool point;
@@ -37,6 +41,9 @@ public class eventTrigger : MonoBehaviour
         //m_animator.SetRequiredTag("Locomotion");
 
         eventLayer = GetComponent<MxMEventLayers>();
+
+        rig = this.transform.Find("Rig").gameObject;
+        handAim = rig.transform.Find("HandAim").gameObject;
 
         sit = false;
         strafe = false;
@@ -136,6 +143,11 @@ public class eventTrigger : MonoBehaviour
         if (!point)
         {
             eventLayer.BeginEvent(pointingUpDefinition, upperBody, .8f);
+            var data_h = handAim.GetComponent<TwoBoneIKConstraint>().data;
+            data_h.targetPositionWeight = 1;
+            data_h.targetRotationWeight = 1;
+            handAim.GetComponent<TwoBoneIKConstraint>().data = data_h;
+            this.GetComponent<RigBuilder>().Build();
             point = false;
         }
     }

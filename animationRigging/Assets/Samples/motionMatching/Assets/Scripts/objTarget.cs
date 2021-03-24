@@ -54,7 +54,7 @@ public class objTarget : MonoBehaviour
         {
             checkAngle = false;
             angle = Vector3.Angle(this.transform.forward, target.transform.position - this.transform.position);
-            print(Mathf.Abs(angle));
+            //print(Mathf.Abs(angle));
             if (Mathf.Abs(angle) > 100 && !zeroValue)
             {
                 nAngleZero += 1;
