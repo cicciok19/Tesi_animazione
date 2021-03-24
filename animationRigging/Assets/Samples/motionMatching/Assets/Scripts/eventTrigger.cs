@@ -12,6 +12,7 @@ public class eventTrigger : MonoBehaviour
     [SerializeField] private MxMEventDefinition sitDefinition;
     [SerializeField] private MxMEventDefinition standUpDefinition;
     [SerializeField] private MxMEventDefinition pointingDefinition;
+    [SerializeField] private MxMEventDefinition pointingUpDefinition;
 
     [SerializeField] private MxMEventLayers eventLayer;
 
@@ -134,7 +135,7 @@ public class eventTrigger : MonoBehaviour
     {
         if (!point)
         {
-            eventLayer.BeginEvent(pointingDefinition, upperBody, .8f);
+            eventLayer.BeginEvent(pointingUpDefinition, upperBody, .8f);
             point = false;
         }
     }

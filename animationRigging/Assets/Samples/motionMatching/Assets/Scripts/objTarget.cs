@@ -18,6 +18,9 @@ public class objTarget : MonoBehaviour
     bool zeroValue;
     bool coroutine;
 
+    int nAngleZero;
+    int nAngleOne;
+
     void Start()
     {
         rig = this.transform.Find("Rig").gameObject;
@@ -39,6 +42,9 @@ public class objTarget : MonoBehaviour
         checkAngle = true;
         zeroValue = false;
         coroutine = false;
+
+        nAngleOne = 0;
+        nAngleZero = 1;
     }
 
     // Update is called once per frame
@@ -48,24 +54,40 @@ public class objTarget : MonoBehaviour
         {
             checkAngle = false;
             angle = Vector3.Angle(this.transform.forward, target.transform.position - this.transform.position);
-            if (Mathf.Abs(angle) > 110 && !zeroValue)
+            print(Mathf.Abs(angle));
+            if (Mathf.Abs(angle) > 100 && !zeroValue)
             {
-                if (!coroutine)
+                nAngleZero += 1;
+                if (nAngleZero == 25)
                 {
-                    coroutine = true;
-                    StartCoroutine(setWeightToZero());
-                }
+                    nAngleZero = 0;
+                    nAngleOne = 0;
 
-                zeroValue = true;
+                    if (!coroutine)
+                    {
+                        coroutine = true;
+                        StartCoroutine(setWeightToZero());
+                    }
+
+                    zeroValue = true;
+                }
             }
-            else if(Mathf.Abs(angle) < 110 && zeroValue)
+            else if(Mathf.Abs(angle) < 100 && zeroValue)
             {
-                if (!coroutine) {
-                    coroutine = true;
-                    StartCoroutine(setWeightToOne()); 
-                }
+                nAngleOne += 1;
+                if (nAngleOne == 25)
+                {
+                    nAngleOne = 0;
+                    nAngleZero = 0;
 
-                zeroValue = false;
+                    if (!coroutine)
+                    {
+                        coroutine = true;
+                        StartCoroutine(setWeightToOne());
+                    }
+
+                    zeroValue = false;
+                }
             }
             checkAngle = true;
         }
@@ -93,7 +115,7 @@ public class objTarget : MonoBehaviour
 
         while (w > 0)
         {
-            w -= .01f;
+            w = 0f;
             //set weight head
             var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
             data_h.SetWeight(0, w);
@@ -104,12 +126,11 @@ public class objTarget : MonoBehaviour
             data_s.SetWeight(0, w);
             spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
 
-            //this.GetComponent<RigBuilder>().Build();
+            this.GetComponent<RigBuilder>().Build();
 
             yield return new WaitForSeconds(.0001f);
         }
 
-        this.GetComponent<RigBuilder>().Build();
         coroutine = false;
     }
 
@@ -119,7 +140,7 @@ public class objTarget : MonoBehaviour
 
         while (w < 1f)
         {
-            w += .01f;
+            w = 1f;
             //set weight head
             var data_h = headAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
             data_h.SetWeight(0, w);
@@ -129,11 +150,12 @@ public class objTarget : MonoBehaviour
             var data_s = spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects;
             data_s.SetWeight(0, w);
             spineAim.GetComponent<MultiAimConstraint>().data.sourceObjects = data_s;
+            this.GetComponent<RigBuilder>().Build();
 
             yield return new WaitForSeconds(.0001f);
         }
 
-        this.GetComponent<RigBuilder>().Build();
+        //this.GetComponent<RigBuilder>().Build();
         coroutine = false;
     }
 }
