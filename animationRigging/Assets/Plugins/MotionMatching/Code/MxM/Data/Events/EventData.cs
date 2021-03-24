@@ -39,6 +39,11 @@ namespace MxM
 
         //Event warping lookup table
         public EventFrameData[] WarpingLookupTable;
+
+        public int getID()
+        {
+            return EventId;
+        }
         
         //============================================================================================
         /**

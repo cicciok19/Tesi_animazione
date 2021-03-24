@@ -34,6 +34,8 @@ namespace MxM
         public bool DoUpdatePhase2 { get { return true; } }
         public bool DoUpdatePost { get { return false; } }
 
+        public string eventName;
+
         public void Initialize()
         {
             m_eventLayers = new List<EventLayerData>(4);
@@ -120,6 +122,7 @@ namespace MxM
             }
 
             MxMAnimData currentAnimData = m_mxmAnimator.CurrentAnimData;
+            eventName = a_eventDefinition.EventName;
 
             float bestCost = float.MaxValue;
             int bestWindupPoseId = 0;

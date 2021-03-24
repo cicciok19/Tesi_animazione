@@ -18,12 +18,12 @@ public class eventTrigger : MonoBehaviour
     [SerializeField] private MxMEventLayers eventLayer;
 
     [SerializeField] private Transform sitPoint_1;
-
     [SerializeField] private Transform sitPoint_2;
-
 
     [SerializeField] AvatarMask fullBody;
     [SerializeField] AvatarMask upperBody;
+
+    private EventData currentEvent;
 
     private GameObject rig;
     private GameObject handAim;
@@ -143,12 +143,19 @@ public class eventTrigger : MonoBehaviour
         if (!point)
         {
             eventLayer.BeginEvent(pointingUpDefinition, upperBody, .8f);
-            var data_h = handAim.GetComponent<TwoBoneIKConstraint>().data;
+            /*var data_h = handAim.GetComponent<TwoBoneIKConstraint>().data;
             data_h.targetPositionWeight = 1;
             data_h.targetRotationWeight = 1;
             handAim.GetComponent<TwoBoneIKConstraint>().data = data_h;
-            this.GetComponent<RigBuilder>().Build();
-            point = false;
+            this.GetComponent<RigBuilder>().Build();*/
+            point = true;
         }
+    }
+
+    public void pointing(string nameEvent)
+    {
+        //if(eventLayer.)
+        currentEvent = m_animator.CurrentEvent;
+        print(currentEvent.getID());
     }
 }
