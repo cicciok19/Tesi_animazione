@@ -11,14 +11,19 @@ public class eventTrigger : MonoBehaviour
 
     [SerializeField] private MxMEventDefinition sitDefinition;
     [SerializeField] private MxMEventDefinition standUpDefinition;
+    [SerializeField] private MxMEventDefinition pickUpDefinition;
 
     [SerializeField] private Transform sitPoint_1;
     [SerializeField] private Transform sitPoint_2;
+    [SerializeField] private Transform objToPick;
+
+    [SerializeField] private Transform handEmpty;
 
     public bool sit;
     public bool strafe;
+    public bool picked;
 
-    public bool oneTime;
+    private bool oneTime;
 
     void Start()
     {
@@ -26,11 +31,10 @@ public class eventTrigger : MonoBehaviour
         trajectoryGenerator = GetComponent<MxMTrajectoryGenerator_BasicAI>();
         //m_animator.SetRequiredTag("Locomotion");
 
-        
-
-        
         sit = false;
         strafe = false;
+        picked = false;
+
         oneTime = false;
     }
 
@@ -43,6 +47,10 @@ public class eventTrigger : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             toggleStrafe();
+        }
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            togglePickUp();
         }
 
         if (sit && !oneTime)
@@ -112,6 +120,22 @@ public class eventTrigger : MonoBehaviour
 
             sit = false;
             oneTime = false;
+        }
+    }
+
+    protected void togglePickUp()
+    {
+        if (!picked)
+        {
+            pickUpDefinition.ClearContacts();
+            pickUpDefinition.AddEventContact(objToPick.position, this.transform.rotation.y);
+            m_animator.BeginEvent(pickUpDefinition);
+
+            //picked = true;
+        }
+        else
+        {
+
         }
     }
 }
