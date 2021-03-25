@@ -12,6 +12,7 @@ public class eventTrigger : MonoBehaviour
     [SerializeField] private MxMEventDefinition sitDefinition;
     [SerializeField] private MxMEventDefinition standUpDefinition;
     [SerializeField] private MxMEventDefinition pickUpDefinition;
+    [SerializeField] private MxMEventDefinition pickDownDefinition;
 
     [SerializeField] private Transform sitPoint_1;
     [SerializeField] private Transform sitPoint_2;
@@ -24,6 +25,7 @@ public class eventTrigger : MonoBehaviour
     public bool picked;
 
     private bool oneTime;
+    private bool pickChecked;
 
     void Start()
     {
@@ -36,6 +38,7 @@ public class eventTrigger : MonoBehaviour
         picked = false;
 
         oneTime = false;
+        pickChecked = false;
     }
 
     void Update()
@@ -57,6 +60,9 @@ public class eventTrigger : MonoBehaviour
         {
             setSittingTag();
         }
+
+
+        checkPickContact();
     }
 
     protected void setSittingTag()
@@ -131,11 +137,35 @@ public class eventTrigger : MonoBehaviour
             pickUpDefinition.AddEventContact(objToPick.position, this.transform.rotation.y);
             m_animator.BeginEvent(pickUpDefinition);
 
-            //picked = true;
+            picked = true;
         }
         else
         {
+            m_animator.BeginEvent(pickDownDefinition);
 
+            picked = false;
+        }
+    }
+
+    protected void checkPickContact()
+    {
+        if (m_animator.CheckEventPlaying("PickUp"))
+        {
+            if (m_animator.CurrentEventState == EEventState.Action && !pickChecked)
+            {
+                pickChecked = true;
+                objToPick.SetParent(handEmpty);
+                objToPick.localPosition = new Vector3(0, 0, 0);
+            }
+        }
+        else if (m_animator.CheckEventPlaying("PickDown"))
+        {
+            if (m_animator.CurrentEventState == EEventState.Action && pickChecked)
+            {
+                pickChecked = false;
+                handEmpty.DetachChildren();
+                objToPick.position = new Vector3(objToPick.position.x, 0.5f, objToPick.position.z);
+            }
         }
     }
 }
