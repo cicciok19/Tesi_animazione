@@ -164,7 +164,7 @@ public class eventTrigger : MonoBehaviour
             {
                 pickChecked = false;
                 handEmpty.DetachChildren();
-                objToPick.position = new Vector3(objToPick.position.x, 0.5f, objToPick.position.z);
+                objToPick.position = new Vector3(objToPick.position.x, 0.05f, objToPick.position.z);
             }
         }
     }
