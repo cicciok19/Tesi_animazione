@@ -32,6 +32,8 @@ public class eventTrigger : MonoBehaviour
     public bool strafe;
     public bool point;
 
+    public bool endPoint;
+
     public bool oneTime;
 
     void Start()
@@ -48,6 +50,7 @@ public class eventTrigger : MonoBehaviour
         sit = false;
         strafe = false;
         point = false;
+        endPoint = false;
 
         oneTime = false;
     }
@@ -72,6 +75,18 @@ public class eventTrigger : MonoBehaviour
         {
             togglePoint();
         }
+
+        if (m_animator.GetLayer(10) != null)
+        {
+            endPoint = m_animator.GetLayer(10).IsDone;
+            if (endPoint)
+            {
+                print("sono dentro");
+            }
+        }
+        
+
+ 
     }
 
     protected void setSittingTag()
@@ -154,7 +169,6 @@ public class eventTrigger : MonoBehaviour
 
     public void pointing(string nameEvent)
     {
-        //if(eventLayer.)
         currentEvent = m_animator.CurrentEvent;
         print(currentEvent.getID());
     }

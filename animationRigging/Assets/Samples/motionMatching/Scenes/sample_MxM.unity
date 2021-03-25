@@ -990,6 +990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a980f520514b744488b4976f8acc713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_eventLayers: []
   eventName: 
 --- !u!4 &789291612 stripped
 Transform:
@@ -1022,6 +1023,7 @@ MonoBehaviour:
   sit: 0
   strafe: 0
   point: 0
+  endPoint: 0
   oneTime: 0
 --- !u!114 &789291617 stripped
 MonoBehaviour:
@@ -2223,7 +2225,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.8671095, y: 1}
+    m_SensorSize: {x: 2.0516605, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3927,6 +3929,7 @@ MonoBehaviour:
   sit: 0
   strafe: 0
   point: 0
+  endPoint: 0
   oneTime: 0
 --- !u!1 &3973007895123528526
 GameObject:
@@ -5204,12 +5207,12 @@ PrefabInstance:
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_onEventComplete.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_onEventContactReached.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
@@ -5280,7 +5283,7 @@ PrefabInstance:
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_onEventComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Ciao
+      value: ciao
       objectReference: {fileID: 0}
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}

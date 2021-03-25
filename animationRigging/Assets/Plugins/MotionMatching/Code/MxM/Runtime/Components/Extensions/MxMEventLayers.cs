@@ -25,7 +25,7 @@ namespace MxM
     {
         private AnimationLayerMixerPlayable m_layerMixer;
         private MxMLayer m_baseLayer;
-        private List<EventLayerData> m_eventLayers;
+        public List<EventLayerData> m_eventLayers;
         private MxMAnimator m_mxmAnimator;
 
         private int m_layerId = 2;
