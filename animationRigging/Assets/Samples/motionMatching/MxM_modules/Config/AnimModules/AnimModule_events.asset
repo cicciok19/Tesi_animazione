@@ -29,7 +29,7 @@ MonoBehaviour:
   - EventId: 5
     EventName: PointingUp
     EventTime: 1.0853333
-    Windup: 0.18533345
+    Windup: 0.1853335
     Actions:
     - 0.2
     FollowThrough: 0.48133337
@@ -561,7 +561,7 @@ MonoBehaviour:
   - EventId: 4
     EventName: Pointing
     EventTime: 1.6333334
-    Windup: 0.3918247
+    Windup: 0.39182475
     Actions:
     - 0.2915091
     FollowThrough: 0
@@ -705,15 +705,15 @@ MonoBehaviour:
   Events:
   - EventId: 2
     EventName: Sit
-    EventTime: 1.5304867
-    Windup: 0.38893697
+    EventTime: 1.9762747
+    Windup: 0.38472524
     Actions:
     - 0.8415497
     FollowThrough: 0.2
-    Recovery: 0.32760352
+    Recovery: 0.023725271
     Contacts:
-    - Position: {x: 0.04962945, y: 0.5621902, z: -0.46667185}
-      RotationY: 0
+    - Position: {x: 0.04065849, y: 0.55880374, z: -0.18248595}
+      RotationY: 270
   LeftFootStepTrack:
     m_trackId: 0
     m_trackName: Footstep Left

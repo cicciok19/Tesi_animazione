@@ -29,10 +29,9 @@ public class eventTrigger : MonoBehaviour
     public GameObject targetShoulder;
     public GameObject targetHead;
 
-    private AimIK[] aimIKs = new AimIK[3];
+    private AimIK[] aimIKs = new AimIK[2];
     private AimIK aimIKShoulder;
     private AimIK aimIKHead;
-    private AimIK aimIKHand;
 
     public bool sit;
     public bool strafe;
@@ -67,7 +66,6 @@ public class eventTrigger : MonoBehaviour
         aimIKs = GetComponents <AimIK>();
         aimIKShoulder = aimIKs[0];
         aimIKHead = aimIKs[1];
-        aimIKHand = aimIKs[2];
 
         targetShoulder = aimIKShoulder.solver.target.gameObject;
         targetHead = aimIKHead.solver.target.gameObject;     
@@ -217,7 +215,7 @@ public class eventTrigger : MonoBehaviour
         if (!sit)   //SIT
         {
             sitDefinition.ClearContacts();
-            sitDefinition.AddEventContact(sitPoint_1.position, this.transform.rotation.y);
+            sitDefinition.AddEventContact(sitPoint_1);
             sitPoint_1 = sitPoint_2;
             m_animator.BeginEvent(sitDefinition);
 
