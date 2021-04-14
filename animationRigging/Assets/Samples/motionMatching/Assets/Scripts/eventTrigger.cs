@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using MxM;
+using RootMotion.FinalIK;
 using System;
 using UnityEngine.Animations.Rigging;
 
@@ -26,7 +27,14 @@ public class eventTrigger : MonoBehaviour
     private EventData currentEvent;
 
     private GameObject rig;
-    private GameObject handAim;
+
+    public GameObject targetShoulder;
+    public GameObject targetHead;
+
+    private AimIK[] aimIKs = new AimIK[3];
+    private AimIK aimIKShoulder;
+    private AimIK aimIKHead;
+    private AimIK aimIKHand;
 
     public bool sit;
     public bool strafe;
@@ -36,6 +44,20 @@ public class eventTrigger : MonoBehaviour
 
     public bool oneTime;
 
+    private bool checkAngleHead;
+    private bool zeroValueHead;
+    private bool coroutineHead;
+    private float angleHead;
+    private int nAngleZeroHead;
+    private int nAngleOneHead;
+
+    private bool checkAngleShoulder;
+    private bool zeroValueShoulder;
+    private bool coroutineShoulder;
+    private float angleShoulder;
+    private int nAngleZeroShoulder;
+    private int nAngleOneShoulder;
+
     void Start()
     {
         m_animator = GetComponent<MxMAnimator>();
@@ -44,19 +66,87 @@ public class eventTrigger : MonoBehaviour
 
         eventLayer = GetComponent<MxMEventLayers>();
 
+        aimIKs = GetComponents <AimIK>();
+        aimIKShoulder = aimIKs[0];
+        aimIKHead = aimIKs[1];
+        aimIKHand = aimIKs[2];
+
+        targetShoulder = aimIKShoulder.solver.target.gameObject;
+        targetHead = aimIKHead.solver.target.gameObject;
+
         rig = this.transform.Find("Rig").gameObject;
-        handAim = rig.transform.Find("HandAim").gameObject;
+        
 
         sit = false;
         strafe = false;
         point = false;
+
         endPoint = false;
 
         oneTime = false;
+
+        checkAngleHead = true;
+        zeroValueHead = false;
+        coroutineHead = false;
+
+        checkAngleShoulder = true;
+        zeroValueHead = false;
+        coroutineShoulder = false;
     }
 
     void Update()
     {
+        if (aimIKShoulder.solver.target.gameObject != targetShoulder)
+            targetShoulder = aimIKShoulder.solver.target.gameObject;
+
+        if (aimIKHead.solver.target.gameObject != targetHead)
+            targetHead = aimIKHead.solver.target.gameObject;
+
+        //controllo se l'oggetto è all'interno di un angolo tale da non fare IK strane
+        //come testa che si gira di 360 gradi
+
+        if (checkAngleHead)
+        {
+            checkAngleHead = false;
+            angleHead = Vector3.Angle(this.transform.forward, targetHead.transform.position - this.transform.position);
+            //print(Mathf.Abs(angle));
+            if (Mathf.Abs(angleHead) > 80 && !zeroValueHead)
+            {
+                nAngleZeroHead += 1;
+                if (nAngleZeroHead == 25)
+                {
+                    nAngleZeroHead = 0;
+                    nAngleOneHead = 0;
+
+                    if (!coroutineHead)
+                    {
+                        coroutineHead = true;
+                        StartCoroutine(notWatchTarget());
+                    }
+
+                    zeroValueHead = true;
+                }
+            }
+            else if (Mathf.Abs(angleHead) < 80 && zeroValueHead)
+            {
+                nAngleOneHead += 1;
+                if (nAngleOneHead == 25)
+                {
+                    nAngleOneHead = 0;
+                    nAngleZeroHead = 0;
+
+                    if (!coroutineHead)
+                    {
+                        coroutineHead = true;
+                        StartCoroutine(watchTarget());
+                    }
+
+                    zeroValueHead = false;
+                }
+            }
+            checkAngleHead = true;
+        }
+
         if (Input.GetKeyDown(KeyCode.I))
         {
             toggleSit();
@@ -157,7 +247,7 @@ public class eventTrigger : MonoBehaviour
     {
         if (!point)
         {
-            eventLayer.BeginEvent(pointingUpDefinition, upperBody, .8f);
+            StartCoroutine(pointHand());
             /*var data_h = handAim.GetComponent<TwoBoneIKConstraint>().data;
             data_h.targetPositionWeight = 1;
             data_h.targetRotationWeight = 1;
@@ -171,5 +261,45 @@ public class eventTrigger : MonoBehaviour
     {
         currentEvent = m_animator.CurrentEvent;
         print(currentEvent.getID());
+    }
+
+    IEnumerator pointHand()
+    {
+        float var = 0f;
+
+        while(var < 1f)
+        {
+            aimIKShoulder.solver.SetIKPositionWeight(var);
+            yield return new WaitForSeconds(.01f);
+            var += .01f;
+        }
+    }
+
+    IEnumerator watchTarget()
+    {
+        float var = aimIKHead.solver.IKPositionWeight;
+
+        while (var < 1f)
+        {
+            aimIKHead.solver.SetIKPositionWeight(var);
+            yield return new WaitForSeconds(.01f);
+            var += .01f;
+        }
+
+        coroutineHead = false;
+    }
+
+    IEnumerator notWatchTarget()
+    {
+        float var = aimIKHead.solver.IKPositionWeight;
+
+        while (var > 0f)
+        {
+            aimIKHead.solver.SetIKPositionWeight(var);
+            yield return new WaitForSeconds(.01f);
+            var -= .01f;
+        }
+
+        coroutineHead = false;
     }
 }
