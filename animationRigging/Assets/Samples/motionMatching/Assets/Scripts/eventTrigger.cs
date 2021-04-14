@@ -14,7 +14,7 @@ public class eventTrigger : MonoBehaviour
     [SerializeField] private MxMEventDefinition sitDefinition;
     [SerializeField] private MxMEventDefinition standUpDefinition;
     [SerializeField] private MxMEventDefinition pointingDefinition;
-    [SerializeField] private MxMEventDefinition pointingUpDefinition;
+    [SerializeField] private MxMEventDefinition pointingLoopDefinition;
 
     [SerializeField] private MxMEventLayers eventLayer;
 
@@ -25,8 +25,6 @@ public class eventTrigger : MonoBehaviour
     [SerializeField] AvatarMask upperBody;
 
     private EventData currentEvent;
-
-    private GameObject rig;
 
     public GameObject targetShoulder;
     public GameObject targetHead;
@@ -72,10 +70,7 @@ public class eventTrigger : MonoBehaviour
         aimIKHand = aimIKs[2];
 
         targetShoulder = aimIKShoulder.solver.target.gameObject;
-        targetHead = aimIKHead.solver.target.gameObject;
-
-        rig = this.transform.Find("Rig").gameObject;
-        
+        targetHead = aimIKHead.solver.target.gameObject;     
 
         sit = false;
         strafe = false;
@@ -248,12 +243,18 @@ public class eventTrigger : MonoBehaviour
         if (!point)
         {
             StartCoroutine(pointHand());
+            //m_animator.AnimatorControllerMask = upperBody;
+            m_animator.BlendInController(1f);
             /*var data_h = handAim.GetComponent<TwoBoneIKConstraint>().data;
             data_h.targetPositionWeight = 1;
             data_h.targetRotationWeight = 1;
             handAim.GetComponent<TwoBoneIKConstraint>().data = data_h;
             this.GetComponent<RigBuilder>().Build();*/
             point = true;
+        }
+        else if (point)
+        {
+            //m_animator.BlendOutController(1f);
         }
     }
 
@@ -273,6 +274,7 @@ public class eventTrigger : MonoBehaviour
             yield return new WaitForSeconds(.01f);
             var += .01f;
         }
+        //eventLayer.BeginEvent(pointingLoopDefinition, upperBody, 0f);
     }
 
     IEnumerator watchTarget()

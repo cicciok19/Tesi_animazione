@@ -1080,7 +1080,7 @@ MonoBehaviour:
   sitDefinition: {fileID: 11400000, guid: cb0b1c6f8632b314d9b18b3274b506a2, type: 2}
   standUpDefinition: {fileID: 11400000, guid: 9342e8309b76d4b4595a8f4bcdf091b3, type: 2}
   pointingDefinition: {fileID: 11400000, guid: 68ef7439330e9dd469cef9d37c90ec1c, type: 2}
-  pointingUpDefinition: {fileID: 11400000, guid: 996394f53a0b2274d8161268192c0216,
+  pointingLoopDefinition: {fileID: 11400000, guid: 9796cf8a890e68146b3125086212d5e8,
     type: 2}
   eventLayer: {fileID: 0}
   sitPoint_1: {fileID: 0}
@@ -1246,8 +1246,8 @@ MonoBehaviour:
   solver:
     IKPosition: {x: 0, y: 0, z: 0}
     IKPositionWeight: 1
-    root: {fileID: 0}
-    target: {fileID: 0}
+    root: {fileID: 789291612}
+    target: {fileID: 901547512}
     tolerance: 0
     maxIterations: 4
     useRotationLimits: 1
@@ -2365,7 +2365,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.0625, y: 1}
+    m_SensorSize: {x: 2.5298328, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4060,7 +4060,7 @@ MonoBehaviour:
   sitDefinition: {fileID: 0}
   standUpDefinition: {fileID: 0}
   pointingDefinition: {fileID: 0}
-  pointingUpDefinition: {fileID: 0}
+  pointingLoopDefinition: {fileID: 0}
   eventLayer: {fileID: 0}
   sitPoint_1: {fileID: 0}
   sitPoint_2: {fileID: 0}
@@ -5244,6 +5244,11 @@ PrefabInstance:
       propertyPath: m_faceDirectionOnIdle
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 340893937812871518, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 479d7b90accaffd4ebabc07f6ed2cbe5, type: 2}
     - target: {fileID: 3676851518814362166, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -5416,11 +5421,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_animatorControllerMask
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 31900000, guid: fae5419721fd8d24f8cf2e5fba58a661,
+        type: 2}
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_onEventComplete.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7607358814114831483, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
@@ -5497,6 +5503,26 @@ PrefabInstance:
       propertyPath: m_onEventContactReached.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8432340947180995861, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98353887
+      objectReference: {fileID: 0}
+    - target: {fileID: 8432340947180995861, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000020674427
+      objectReference: {fileID: 0}
+    - target: {fileID: 8432340947180995861, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00024246844
+      objectReference: {fileID: 0}
+    - target: {fileID: 8432340947180995861, guid: f64b77e24a96de745b8b091c4ac6ac75,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.18069649
+      objectReference: {fileID: 0}
     - target: {fileID: 8521604868506079591, guid: f64b77e24a96de745b8b091c4ac6ac75,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -5527,7 +5553,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.98100007
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1068119347, guid: f64b77e24a96de745b8b091c4ac6ac75, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f64b77e24a96de745b8b091c4ac6ac75, type: 3}
 --- !u!4 &7625951408251248541
 Transform:
