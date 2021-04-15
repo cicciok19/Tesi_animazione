@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using MxM;
+using RootMotion.FinalIK;
 using System;
 
 public class AI_mover : MonoBehaviour
@@ -19,6 +20,8 @@ public class AI_mover : MonoBehaviour
     [SerializeField] private MxMEventDefinition standUpDefinition;
 
     private bool[] destinationReached= new bool[3];
+
+    private FullBodyBipedIK FullBodyBipedIK;
 
     public bool chair;
     public bool sit;
@@ -43,6 +46,8 @@ public class AI_mover : MonoBehaviour
         counterDestination = 0;
 
         destinationReached[counterDestination] = false;
+
+        FullBodyBipedIK = GetComponent<FullBodyBipedIK>();
 
         chair = false;
         sit = false;
@@ -135,8 +140,11 @@ public class AI_mover : MonoBehaviour
             sitDefinition.AddEventContact(sitPoint.position, this.transform.rotation.y);
             m_animator.BeginEvent(sitDefinition);
 
-            //m_animator.ClearRequiredTags();
-            //m_animator.SetRequiredTag("Sitting");
+            StartCoroutine(hipsEffectorOn());
+            StartCoroutine(footsEffectorOn());
+
+            m_animator.ClearRequiredTags();
+            m_animator.SetRequiredTag("Sitting");
 
             sit = true;
         }
@@ -144,11 +152,68 @@ public class AI_mover : MonoBehaviour
         {
             m_animator.BeginEvent(standUpDefinition);
 
+            StartCoroutine(hipsEffectorOff());
+            StartCoroutine(footsEffectorOff());
+
             m_animator.ClearRequiredTags();
             //m_animator.RemoveRequiredTag("Sitting");
 
             sit = false;
             oneTime = false;
+        }
+    }
+
+    IEnumerator hipsEffectorOn()
+    {
+        float var = FullBodyBipedIK.solver.bodyEffector.positionWeight;
+
+        while (var < 1)
+        {
+            var += .01f;
+            FullBodyBipedIK.solver.bodyEffector.positionWeight = var;
+            yield return new WaitForSeconds(.02f);
+        }
+    }
+
+    IEnumerator hipsEffectorOff()
+    {
+        float var = FullBodyBipedIK.solver.bodyEffector.positionWeight;
+
+        while (var > 0)
+        {
+            var -= .01f;
+            FullBodyBipedIK.solver.bodyEffector.positionWeight = var;
+            yield return new WaitForSeconds(.01f);
+        }
+    }
+
+    IEnumerator footsEffectorOn()
+    {
+        float varL = FullBodyBipedIK.solver.leftFootEffector.positionWeight;
+        float varR = FullBodyBipedIK.solver.rightFootEffector.positionWeight;
+
+        while (varL < 1 || varR < 1)
+        {
+            varL += .01f;
+            varR += .01f;
+            FullBodyBipedIK.solver.leftFootEffector.positionWeight = varL;
+            FullBodyBipedIK.solver.rightFootEffector.positionWeight = varR;
+            yield return new WaitForSeconds(.01f);
+        }
+    }
+
+    IEnumerator footsEffectorOff()
+    {
+        float varL = FullBodyBipedIK.solver.leftFootEffector.positionWeight;
+        float varR = FullBodyBipedIK.solver.rightFootEffector.positionWeight;
+
+        while (varL > 0 || varR > 0)
+        {
+            varL -= .01f;
+            varR -= .01f;
+            FullBodyBipedIK.solver.leftFootEffector.positionWeight = varL;
+            FullBodyBipedIK.solver.rightFootEffector.positionWeight = varR;
+            yield return new WaitForSeconds(.01f);
         }
     }
 
