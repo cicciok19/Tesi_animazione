@@ -142,6 +142,7 @@ public class AI_mover : MonoBehaviour
 
             StartCoroutine(hipsEffectorOn());
             StartCoroutine(footsEffectorOn());
+            StartCoroutine(handsEffectorOn()); //non so quanto possa andare bene, in caso di animazioni le braccia non si muovono
 
             m_animator.ClearRequiredTags();
             m_animator.SetRequiredTag("Sitting");
@@ -154,6 +155,7 @@ public class AI_mover : MonoBehaviour
 
             StartCoroutine(hipsEffectorOff());
             StartCoroutine(footsEffectorOff());
+            StartCoroutine(handsEffectorOff());
 
             m_animator.ClearRequiredTags();
             //m_animator.RemoveRequiredTag("Sitting");
@@ -217,4 +219,33 @@ public class AI_mover : MonoBehaviour
         }
     }
 
+    IEnumerator handsEffectorOn()
+    {
+        float varL = FullBodyBipedIK.solver.leftHandEffector.positionWeight;
+        float varR = FullBodyBipedIK.solver.rightHandEffector.positionWeight;
+
+        while (varL < .8f || varR < .8f)
+        {
+            varL += .01f;
+            varR += .01f;
+            FullBodyBipedIK.solver.leftHandEffector.positionWeight = varL;
+            FullBodyBipedIK.solver.rightHandEffector.positionWeight = varR;
+            yield return new WaitForSeconds(.01f);
+        }
+    }
+
+    IEnumerator handsEffectorOff()
+    {
+        float varL = FullBodyBipedIK.solver.leftHandEffector.positionWeight;
+        float varR = FullBodyBipedIK.solver.rightHandEffector.positionWeight;
+
+        while (varL > 0 || varR > 0)
+        {
+            varL -= .01f;
+            varR -= .01f;
+            FullBodyBipedIK.solver.leftHandEffector.positionWeight = varL;
+            FullBodyBipedIK.solver.rightHandEffector.positionWeight = varR;
+            yield return new WaitForSeconds(.01f);
+        }
+    }
 }

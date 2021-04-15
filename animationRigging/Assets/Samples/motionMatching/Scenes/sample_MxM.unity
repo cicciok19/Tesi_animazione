@@ -1483,28 +1483,28 @@ MonoBehaviour:
       planeBone3: {fileID: 0}
       planeRotationOffset: {x: 0, y: 0, z: 0, w: 1}
     - bone: {fileID: 901547512}
-      target: {fileID: 0}
+      target: {fileID: 975524314}
       positionWeight: 0
       rotationWeight: 0
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       positionOffset: {x: 0, y: 0, z: 0}
       effectChildNodes: 1
-      maintainRelativePositionWeight: 0
+      maintainRelativePositionWeight: 1
       childBones: []
       planeBone1: {fileID: 1841592475}
       planeBone2: {fileID: 105936018}
       planeBone3: {fileID: 1177212738}
       planeRotationOffset: {x: 0, y: 0, z: 0, w: 1}
     - bone: {fileID: 1172893989}
-      target: {fileID: 0}
+      target: {fileID: 60807563}
       positionWeight: 0
       rotationWeight: 0
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       positionOffset: {x: 0, y: 0, z: 0}
       effectChildNodes: 1
-      maintainRelativePositionWeight: 0
+      maintainRelativePositionWeight: 1
       childBones: []
       planeBone1: {fileID: 105936018}
       planeBone2: {fileID: 1841592475}
