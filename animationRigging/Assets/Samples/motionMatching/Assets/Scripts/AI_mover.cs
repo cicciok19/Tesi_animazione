@@ -21,6 +21,8 @@ public class AI_mover : MonoBehaviour
 
     private bool[] destinationReached= new bool[3];
 
+    private Grabbable[] grabbableObjects;
+
     private FullBodyBipedIK FullBodyBipedIK;
 
     public bool chair;
@@ -48,6 +50,8 @@ public class AI_mover : MonoBehaviour
         destinationReached[counterDestination] = false;
 
         FullBodyBipedIK = GetComponent<FullBodyBipedIK>();
+
+        grabbableObjects = FindObjectsOfType<Grabbable>();
 
         chair = false;
         sit = false;

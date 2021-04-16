@@ -32,6 +32,7 @@ public class eventTrigger : MonoBehaviour
     private AimIK[] aimIKs = new AimIK[2];
     private AimIK aimIKShoulder;
     private AimIK aimIKHead;
+    private AimIK aimIKRight;
 
     public bool sit;
     public bool strafe;
@@ -65,7 +66,7 @@ public class eventTrigger : MonoBehaviour
 
         aimIKs = GetComponents <AimIK>();
         aimIKShoulder = aimIKs[0];
-        aimIKHead = aimIKs[1];
+        aimIKHead = this.GetComponent<IKECA>().HeadIK;
 
         targetShoulder = aimIKShoulder.solver.target.gameObject;
         targetHead = aimIKHead.solver.target.gameObject;     
@@ -159,6 +160,11 @@ public class eventTrigger : MonoBehaviour
             togglePoint();
         }
 
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            togglePick();
+        }
+
         if (m_animator.GetLayer(10) != null)
         {
             endPoint = m_animator.GetLayer(10).IsDone;
@@ -180,6 +186,11 @@ public class eventTrigger : MonoBehaviour
             m_animator.ClearRequiredTags();
             m_animator.SetRequiredTag("Sitting");
         }
+    }
+
+    protected void togglePick()
+    {
+
     }
 
     protected void toggleStrafe()
