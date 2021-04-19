@@ -8,6 +8,7 @@ public class IKECA : IKSetter
     public AimIK HeadIK;
     public AimIK RightHandIK;
     public AimIK LeftHandIK;
+    public FullBodyBipedIK FullBodyBipedIK;
 
     [SerializeField] private Transform HeadBone;
     [SerializeField] private Transform NeckBone;
@@ -19,6 +20,7 @@ public class IKECA : IKSetter
     [SerializeField] private Transform LeftForeArm;
     [SerializeField] private Transform LeftArm;
     [SerializeField] private Transform LeftShoulder;
+    [SerializeField] private Transform RootNode;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +29,7 @@ public class IKECA : IKSetter
         HeadIK = SetIKHead(HeadBone, NeckBone);
         RightHandIK = SetIKRightHand(RightHandBone, RightForeArm, RightArm, RightShoulder);
         LeftHandIK = SetIKLeftHand(LeftHandBone, LeftForeArm, LeftArm, LeftShoulder);
+        FullBodyBipedIK = SetFullBodyIK(RootNode);
     }
 
     // Update is called once per frame
